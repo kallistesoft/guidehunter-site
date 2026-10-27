@@ -1,0 +1,24 @@
+# Copied to site/.htaccess by tools/build.mjs (Apache on the GoDaddy hosting).
+ErrorDocument 404 /404.html
+Options -Indexes
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(woff2|svg|png)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  # site.css and site.js are linked with ?v=<hash>, so they can be cached for long too.
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/xml text/plain
+</IfModule>
+
+AddType font/woff2 .woff2
