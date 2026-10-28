@@ -340,7 +340,7 @@
         {
           "h": "Finding a BC guide with {app}",
           "p": [
-            "In {app}, zoom the map on British Columbia and filter by hunting or fishing, then choose a species such as mountain goat, elk, Pacific salmon or sturgeon. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request, and the guide's contact details appear after a short optional video ad."
+            "In {app}, zoom the map on British Columbia and filter by hunting or fishing, then choose a species such as mountain goat, elk, Pacific salmon or sturgeon. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request, and after a short optional video ad you can send the guide a request."
           ]
         }
       ],
@@ -402,7 +402,7 @@
         {
           "h": "Trouver un guide avec {app}",
           "p": [
-            "Dans {app}, zoomez la carte sur la Colombie-Britannique, filtrez par chasse ou par pêche, puis choisissez une espèce : chèvre de montagne, wapiti, saumon du Pacifique ou esturgeon. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Ses coordonnées s'affichent après une courte publicité vidéo facultative."
+            "Dans {app}, zoomez la carte sur la Colombie-Britannique, filtrez par chasse ou par pêche, puis choisissez une espèce : chèvre de montagne, wapiti, saumon du Pacifique ou esturgeon. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Après une courte publicité vidéo facultative, vous pouvez lui envoyer une demande."
           ]
         }
       ],
@@ -899,7 +899,7 @@
         {
           "h": "Finding a New Brunswick guide with {app}",
           "p": [
-            "In {app}, zoom the map on New Brunswick and filter by hunting or fishing, then choose a species such as Atlantic salmon, black bear or white-tailed deer. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request. The guide's phone, email and website appear after a short optional video ad."
+            "In {app}, zoom the map on New Brunswick and filter by hunting or fishing, then choose a species such as Atlantic salmon, black bear or white-tailed deer. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request. After a short optional video ad, \"I'm interested\" sends the guide your request, and once they accept you see their phone, email and website."
           ]
         }
       ],
@@ -962,7 +962,7 @@
         {
           "h": "Trouver un guide au Nouveau-Brunswick avec {app}",
           "p": [
-            "Dans {app}, zoomez la carte sur le Nouveau-Brunswick, filtrez par chasse ou par pêche, puis choisissez une espèce : saumon atlantique, ours noir ou chevreuil. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Son téléphone, son courriel et son site Web s'affichent après une courte publicité vidéo facultative."
+            "Dans {app}, zoomez la carte sur le Nouveau-Brunswick, filtrez par chasse ou par pêche, puis choisissez une espèce : saumon atlantique, ours noir ou chevreuil. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Après une courte publicité vidéo facultative, « Je suis intéressé » lui envoie votre demande, et s'il l'accepte, vous voyez son téléphone, son courriel et son site Web."
           ]
         }
       ],

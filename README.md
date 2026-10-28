@@ -23,6 +23,7 @@ Plain Node 22, no dependencies:
 | `data/provinces.json` | The province pages, with the species each one is known for (linked both ways) |
 | `data/articles.json` | The tips articles and the app FAQ |
 | `data/BRIEF.md` | The rules the content follows (what the app does and doesn't do, no invented facts, Québec French) |
+| `assets/app/` | Screenshots of the app (EN, and FR in `fr/`), 540 px wide WebP, dark theme, test data only (dev Firebase mock guides, or the app's screens rendered with its test fakes); no real person's name, email or location |
 | `assets/` | `site.css` (the app's theme: palette from `core/designsystem` Color.kt, Barlow fonts), `site.js` (theme toggle, menu), logo, fonts, share images |
 | `tools/htaccess` | Copied to `site/.htaccess`: 404 page, caching |
 
