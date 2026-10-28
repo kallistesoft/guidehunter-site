@@ -388,26 +388,36 @@ export const FAQ_PAGE = {
 export const PRIVACY = {
   fr: {
     title: 'Politique de confidentialité de {app}',
-    description: "Ce que l'application {app} recueille, pourquoi, avec qui c'est partagé, et comment les guides suppriment leurs données.",
+    description: "Ce que l'application {app} recueille, pourquoi, avec qui c'est partagé, et comment supprimer votre compte et vos données.",
     h1: 'Politique de confidentialité',
-    updated: 'Mise à jour le 27 octobre 2026',
+    updated: 'Mise à jour le 28 octobre 2026',
     sections: [
       { h: 'Qui sommes-nous', p: ["{app} est une application de Kallistesoft, au Québec (Canada). Pour toute question sur vos données : {contact}."] },
-      { h: 'Chasseurs et pêcheurs : sans compte', p: [
-        "Vous n'avez pas de compte et nous ne vous demandons ni nom ni courriel.",
+      { h: 'Votre compte', p: [
+        "**Facultatif.** Vous pouvez parcourir la carte et les offres sans compte : nous ne vous demandons alors ni nom ni courriel.",
+        "**Compte Google.** Tout le monde peut se connecter avec Google, pas seulement les guides. Un même compte sert à chercher un guide, à être guide, ou les deux. Nous conservons votre nom, l'adresse courriel de votre compte Google et un identifiant d'utilisateur Firebase.",
+      ] },
+      { h: 'Demandes aux guides', p: [
+        "Après une publicité vidéo que vous choisissez de regarder sur une offre, vous pouvez toucher « Je suis intéressé » si vous êtes connecté. Une demande est alors envoyée au guide de cette offre, avec votre nom, l'adresse courriel de votre compte Google, votre numéro de téléphone si vous l'avez entré dans « Mes coordonnées », l'offre et les dates de séjour choisies.",
+        "Le guide voit ces renseignements pour vous contacter, et accepte ou refuse la demande. Vous voyez où en est votre demande et pouvez l'annuler. Si le guide accepte, vous voyez le nom de son entreprise et ses coordonnées (téléphone, courriel, site Web).",
+        "Vos coordonnées et vos demandes sont conservées dans Google Cloud Firestore. Elles ne sont partagées qu'avec le guide de l'offre visée, et les coordonnées d'un guide ne sont montrées qu'aux personnes dont il a accepté la demande. Elles ne sont ni vendues ni utilisées pour la publicité.",
+      ] },
+      { h: 'Sur votre téléphone seulement', p: [
         "**Position approximative.** Si vous l'autorisez, l'application lit votre position approximative pour afficher la distance de chaque guide. Elle est utilisée sur votre téléphone seulement et ne nous est jamais envoyée.",
+        "**Réglages de l'application.** Le fait d'avoir terminé l'accueil, le mode choisi (chercher un guide ou être guide) et les espèces affichées sur la carte sont gardés sur votre téléphone et ne nous sont pas envoyés.",
       ] },
       { h: 'Publicité', p: [
-        "Les coordonnées d'un guide s'affichent après une publicité vidéo que vous choisissez de regarder. Elle est servie par Google AdMob, qui peut recueillir l'identifiant publicitaire de l'appareil, une position approximative et des données d'interaction avec les annonces, à des fins de publicité, de mesure et de prévention de la fraude. Là où la loi l'exige, l'application vous demande votre consentement d'abord, et « Options de confidentialité » permet de le changer.",
+        "L'application affiche deux sortes de publicités : une publicité vidéo que vous choisissez de regarder sur une offre, avant d'envoyer une demande au guide, et des publicités natives dans les listes. Elles sont servies par Google AdMob, qui peut recueillir l'identifiant publicitaire de l'appareil, une position approximative et des données d'interaction avec les annonces, à des fins de publicité, de mesure et de prévention de la fraude. Là où la loi l'exige, l'application vous demande votre consentement d'abord, et « Options de confidentialité » permet de le changer.",
         "Voir comment Google utilise ces données : policies.google.com/technologies/partner-sites.",
       ] },
-      { h: 'Guides : compte et offres', p: [
-        "**Compte Google.** Pour publier des offres, un guide se connecte avec Google. Nous conservons son adresse courriel et un identifiant d'utilisateur Firebase, pour savoir quelles offres sont les siennes.",
-        "**Profil et offres.** Ce que le guide écrit (nom d'entreprise, courriel, téléphone, site Web, description, région, coordonnées du repère, prix) est conservé dans Google Cloud Firestore. Chaque nouvelle offre nous est envoyée par courriel pour vérification. Une fois publiée, l'offre est publique sur la carte; le nom et les coordonnées du guide s'affichent après la publicité.",
+      { h: 'Guides : profil et offres', p: [
+        "**Profil et offres.** Ce que le guide écrit (nom d'entreprise, courriel, téléphone, site Web, description, région, coordonnées du repère, prix) est conservé dans Google Cloud Firestore. Chaque nouvelle offre nous est envoyée par courriel pour vérification. Une fois publiée, l'offre est publique sur la carte; le nom de l'entreprise et les coordonnées du guide ne sont montrés qu'aux personnes dont il accepte la demande.",
+        "**Demandes reçues.** Le guide voit les demandes envoyées pour ses offres, avec le nom, le courriel et, s'il a été donné, le téléphone de la personne, pour la contacter.",
       ] },
       { h: 'Nos fournisseurs', list: ['Google Firebase (authentification, base de données Firestore, envoi des courriels)', 'Google AdMob et sa plateforme de consentement (publicité)', 'Google Maps (la carte)'], p: ['Nous ne vendons aucune donnée.'] },
       { h: 'Conservation et suppression', p: [
-        "Les offres et le profil d'un guide sont conservés tant que son compte existe. Un guide peut supprimer une offre ou tout son compte depuis l'application; voir [Supprimer mon compte]({deletion}).",
+        "Vos coordonnées et vos demandes, et pour un guide son profil et ses offres, sont conservés tant que le compte existe. Vous pouvez annuler une demande, et un guide peut supprimer une offre.",
+        "Supprimer votre compte depuis l'application (Paramètres → Supprimer mon compte) supprime vos coordonnées et les demandes que vous avez envoyées, et pour un guide son profil et ses offres. Les demandes reçues pour une offre supprimée sont fermées et indiquent « Offre retirée ». Voir [Supprimer mon compte]({deletion}).",
       ] },
       { h: 'Enfants', p: ["{app} ne s'adresse pas aux enfants de moins de 13 ans."] },
       { h: 'Changements', p: ['Si cette politique change, la nouvelle version est publiée sur cette page avec sa date.'] },
@@ -415,26 +425,36 @@ export const PRIVACY = {
   },
   en: {
     title: '{app} privacy policy',
-    description: 'What the {app} app collects, why, who it is shared with, and how guides delete their data.',
+    description: 'What the {app} app collects, why, who it is shared with, and how to delete your account and data.',
     h1: 'Privacy policy',
-    updated: 'Updated October 27, 2026',
+    updated: 'Updated October 28, 2026',
     sections: [
       { h: 'Who we are', p: ['{app} is an app by Kallistesoft, in Québec (Canada). For any question about your data: {contact}.'] },
-      { h: 'Hunters and anglers: no account', p: [
-        "You don't have an account and we don't ask for your name or email.",
+      { h: 'Your account', p: [
+        "**Optional.** You can browse the map and the offers without an account: we then don't ask for your name or email.",
+        "**Google account.** Anyone can sign in with Google, not only guides. One account can be used to look for a guide, to be a guide, or both. We keep your name, your Google account's email address and a Firebase user ID.",
+      ] },
+      { h: 'Requests to guides', p: [
+        "After a video ad you choose to watch on an offer, you can tap \"I'm interested\" if you are signed in. This sends a request to that offer's guide, with your name, your Google account's email address, your phone number if you entered it in \"My contact info\", the offer and the trip dates you chose.",
+        "The guide sees these details to contact you, and accepts or declines the request. You see your request's status and can cancel it. If the guide accepts, you see their business name and contact (phone, email, website).",
+        "Your contact info and your requests are stored in Google Cloud Firestore. They are shared only with the guide of that offer, and a guide's contact is shown only to people whose request they accepted. They are not sold and not used for advertising.",
+      ] },
+      { h: 'On your phone only', p: [
         "**Approximate location.** If you allow it, the app reads your approximate location to show how far each guide is. It is used on your phone only and is never sent to us.",
+        "**App settings.** Whether you finished the welcome screens, the mode you chose (looking for a guide or being a guide) and the species shown on the map are kept on your phone and not sent to us.",
       ] },
       { h: 'Ads', p: [
-        "A guide's contact shows after a video ad you choose to watch. It is served by Google AdMob, which may collect the device's advertising ID, an approximate location and ad interaction data, for advertising, measurement and fraud prevention. Where the law requires it, the app asks for your consent first, and \"Privacy options\" lets you change it.",
+        "The app shows two kinds of ads: a video ad you choose to watch on an offer, before you send the guide a request, and native ads in lists. They are served by Google AdMob, which may collect the device's advertising ID, an approximate location and ad interaction data, for advertising, measurement and fraud prevention. Where the law requires it, the app asks for your consent first, and \"Privacy options\" lets you change it.",
         'See how Google uses this data: policies.google.com/technologies/partner-sites.',
       ] },
-      { h: 'Guides: account and offers', p: [
-        '**Google account.** To publish offers, a guide signs in with Google. We keep their email address and a Firebase user ID, to know which offers are theirs.',
-        "**Profile and offers.** What the guide writes (business name, email, phone, website, description, region, the pin's coordinates, price) is stored in Google Cloud Firestore. Each new offer is emailed to us for review. Once published, the offer is public on the map; the guide's name and contact show after the ad.",
+      { h: 'Guides: profile and offers', p: [
+        "**Profile and offers.** What the guide writes (business name, email, phone, website, description, region, the pin's coordinates, price) is stored in Google Cloud Firestore. Each new offer is emailed to us for review. Once published, the offer is public on the map; the guide's business name and contact are shown only to people whose request they accept.",
+        "**Requests received.** The guide sees the requests sent for their offers, with the person's name, email and, if given, phone number, to contact them.",
       ] },
       { h: 'Our providers', list: ['Google Firebase (authentication, Firestore database, sending emails)', 'Google AdMob and its consent platform (ads)', 'Google Maps (the map)'], p: ["We don't sell any data."] },
       { h: 'Retention and deletion', p: [
-        "A guide's offers and profile are kept as long as their account exists. A guide can delete an offer or their whole account from the app; see [Delete my account]({deletion}).",
+        "Your contact info and your requests, and for a guide their profile and offers, are kept as long as the account exists. You can cancel a request, and a guide can delete an offer.",
+        "Deleting your account in the app (Settings → Delete my account) deletes your contact info and the requests you sent, and for a guide their profile and offers. Requests for a deleted offer are closed and show \"Offer removed\". See [Delete my account]({deletion}).",
       ] },
       { h: 'Children', p: ['{app} is not directed at children under 13.'] },
       { h: 'Changes', p: ['If this policy changes, the new version is posted on this page with its date.'] },
@@ -445,32 +465,46 @@ export const PRIVACY = {
 export const DELETION = {
   fr: {
     title: 'Supprimer votre compte {app}',
-    description: "Comment un guide supprime son compte {app}, ses offres et son profil, depuis l'application ou par courriel.",
+    description: "Comment supprimer votre compte {app} et vos données (coordonnées, demandes, et pour un guide son profil et ses offres), depuis l'application ou par courriel.",
     h1: 'Supprimer votre compte',
+    updated: 'Mise à jour le 28 octobre 2026',
     sections: [
-      { h: "Les chasseurs et les pêcheurs n'ont pas de compte", p: ["Rien à supprimer : l'application ne vous demande ni compte ni coordonnées. Pour retirer votre consentement publicitaire, touchez « Options de confidentialité » dans l'application."] },
-      { h: "Guides : depuis l'application", steps: [
-        ["Ouvrez {app} et touchez « Devenir guide »", 'Vous arrivez à « Mes offres ».'],
-        ['Touchez le menu « Compte », puis « Supprimer mon compte »', 'Google vous demande de confirmer votre compte.'],
-        ["C'est fait", 'Vos offres quittent la carte, puis vos offres, votre profil et votre compte sont supprimés. C’est définitif.'],
+      { h: 'Sans compte, rien à supprimer', p: ["Le compte est facultatif. Si vous parcourez la carte sans vous connecter, nous ne gardons ni compte ni coordonnées à votre sujet. Pour retirer votre consentement publicitaire, touchez « Options de confidentialité » dans l'application."] },
+      { h: "Depuis l'application", steps: [
+        ['Ouvrez {app} et touchez « Paramètres »', 'Vous devez être connecté avec votre compte Google.'],
+        ['Touchez « Supprimer mon compte »', 'Google vous demande de confirmer votre compte.'],
+        ["C'est fait", "Vos coordonnées et les demandes que vous avez envoyées sont supprimées. Si vous êtes guide, vos offres quittent la carte, puis vos offres et votre profil sont supprimés. Votre compte est supprimé lui aussi. C’est définitif."],
       ] },
-      { h: "Guides : sans l'application", p: ["Écrivez à {contact} depuis l'adresse de votre compte Google, avec pour objet « Supprimer mon compte ». Nous supprimons vos offres, votre profil et votre compte dans les 30 jours et vous le confirmons par courriel."] },
-      { h: 'Ce qui est supprimé', list: ['Vos offres (elles quittent la carte)', 'Votre profil : nom, courriel, téléphone, site Web', 'Votre compte : adresse courriel et identifiant Firebase'] },
+      { h: "Sans l'application", p: ["Écrivez à {contact} depuis l'adresse de votre compte Google, avec pour objet « Supprimer mon compte ». Nous supprimons votre compte et vos données (coordonnées, demandes, et pour un guide son profil et ses offres) dans les 30 jours et vous le confirmons par courriel."] },
+      { h: 'Ce qui est supprimé', list: [
+        'Vos coordonnées (« Mes coordonnées ») : nom, courriel, téléphone',
+        'Les demandes que vous avez envoyées aux guides',
+        'Guides : vos offres (elles quittent la carte) et votre profil : nom, courriel, téléphone, site Web',
+        'Guides : les demandes reçues pour vos offres sont fermées et indiquent « Offre retirée » à la personne qui les a envoyées',
+        'Votre compte : adresse courriel et identifiant Firebase',
+      ] },
     ],
   },
   en: {
     title: 'Delete your {app} account',
-    description: 'How a guide deletes their {app} account, offers and profile, in the app or by email.',
+    description: 'How to delete your {app} account and data (contact info, requests, and for a guide their profile and offers), in the app or by email.',
     h1: 'Delete your account',
+    updated: 'Updated October 28, 2026',
     sections: [
-      { h: "Hunters and anglers don't have an account", p: ["Nothing to delete: the app asks you for no account and no contact details. To withdraw your ad consent, tap \"Privacy options\" in the app."] },
-      { h: 'Guides: in the app', steps: [
-        ['Open {app} and tap "Become a guide"', 'You land on "My offers".'],
-        ['Tap the "Account" menu, then "Delete my account"', 'Google asks you to confirm your account.'],
-        ["That's it", "Your offers come off the map, then your offers, profile and account are deleted. This can't be undone."],
+      { h: 'No account, nothing to delete', p: ["An account is optional. If you browse the map without signing in, we keep no account and no contact details about you. To withdraw your ad consent, tap \"Privacy options\" in the app."] },
+      { h: 'In the app', steps: [
+        ['Open {app} and tap "Settings"', 'You need to be signed in with your Google account.'],
+        ['Tap "Delete my account"', 'Google asks you to confirm your account.'],
+        ["That's it", "Your contact info and the requests you sent are deleted. If you are a guide, your offers come off the map, then your offers and profile are deleted. Your account is deleted too. This can't be undone."],
       ] },
-      { h: 'Guides: without the app', p: ['Email {contact} from your Google account\'s address, with the subject "Delete my account". We delete your offers, profile and account within 30 days and confirm by email.'] },
-      { h: 'What is deleted', list: ['Your offers (they leave the map)', 'Your profile: name, email, phone, website', 'Your account: email address and Firebase ID'] },
+      { h: 'Without the app', p: ['Email {contact} from your Google account\'s address, with the subject "Delete my account". We delete your account and data (contact info, requests, and for a guide their profile and offers) within 30 days and confirm by email.'] },
+      { h: 'What is deleted', list: [
+        'Your contact info ("My contact info"): name, email, phone',
+        'The requests you sent to guides',
+        'Guides: your offers (they leave the map) and your profile: name, email, phone, website',
+        'Guides: requests received for your offers are closed and show "Offer removed" to the person who sent them',
+        'Your account: email address and Firebase ID',
+      ] },
     ],
   },
 };
