@@ -208,7 +208,7 @@ p { margin: 0 0 1em; }
 .crumbs li + li::before { content: '›'; margin-right: 6px; }
 .crumbs a { color: var(--muted); }
 .with-aside { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 48px; align-items: start; }
-@media (max-width: 960px) { .with-aside { grid-template-columns: 1fr; } }
+@media (max-width: 960px) { .with-aside { grid-template-columns: minmax(0, 1fr); } }
 .prose { max-width: 720px; }
 .prose section h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); }
 .aside { position: sticky; top: 92px; }
@@ -242,3 +242,10 @@ p { margin: 0 0 1em; }
 .foot li a:hover { color: var(--green); }
 .foot-brand p { color: var(--muted); }
 .fine { color: var(--muted); font-size: .85rem; margin-top: 16px; }
+
+/* App screenshots: a row of phones that scrolls sideways on a narrow screen */
+.shots { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 8px 2px 16px; margin: 8px 0 0; }
+.shot { flex: 0 0 200px; margin: 0; scroll-snap-align: start; }
+.shot img { display: block; width: 100%; height: auto; border-radius: 22px; border: 6px solid #0A0F0C; box-shadow: var(--shadow); background: #0E1611; }
+.shot figcaption { font-size: .9rem; color: var(--muted); margin-top: 8px; text-align: center; }
+

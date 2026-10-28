@@ -204,6 +204,11 @@ function section(lang, s) {
   for (const para of s.p ?? []) h += `<p>${inline(para, lang)}</p>`;
   if (s.list) h += `<ul class="ticks">${s.list.map((li) => `<li>${inline(li, lang)}</li>`).join('')}</ul>`;
   if (s.steps) h += `<ol class="steps">${s.steps.map(([a, b]) => `<li><strong>${inline(a, lang)}</strong><span>${inline(b, lang)}</span></li>`).join('')}</ol>`;
+  // Screenshots of the app: [file in assets/app, caption, height at 540 wide]; the caption is the alt text too.
+  if (s.shots) {
+    h += `<div class="shots">${s.shots.map(([file, caption, height = 1087]) => `<figure class="shot"><img src="/assets/app/${file}" alt="${esc(text(caption, lang))}" width="540" height="${height}" loading="lazy" decoding="async"><figcaption>${inline(caption, lang)}</figcaption></figure>`).join('')}</div>`;
+    if (s.shotsNote) h += `<p class="small">${inline(s.shotsNote, lang)}</p>`;
+  }
   return `<section>${h}</section>`;
 }
 
@@ -227,7 +232,7 @@ const articleCard = (a, lang) => `<a class="art-card" href="${articlePath(a, lan
 // The phone in the hero: the app's map screen, drawn in HTML (sample guides, labelled as such).
 function phone(lang) {
   const c = HOME[lang].phone;
-  const pins = [[22, 30, 'hunt'], [58, 22, 'fish'], [40, 48, 'both'], [72, 44, 'hunt'], [30, 64, 'fish'], [64, 66, 'fish']];
+  const pins = [[22, 30, 'hunt'], [58, 22, 'fish'], [40, 48, 'hunt'], [72, 44, 'hunt'], [30, 64, 'fish'], [64, 66, 'fish']];
   return `<div class="phone" aria-hidden="true">
   <div class="screen">
     <div class="ph-bar"><span class="ph-loc"></span><b>${config.app}</b><span class="ph-plus">+</span></div>
@@ -281,7 +286,7 @@ for (const lang of LANGS) {
 <section class="wrap block" id="how">
   <h2 class="center">${inline(h.howTitle, lang)}</h2>
   <ol class="how">${h.how.map(([a, b], i) => `<li><span class="num">${i + 1}</span><h3>${inline(a, lang)}</h3><p>${inline(b, lang)}</p></li>`).join('')}</ol>
-  <p class="legend">${dot('hunt')} ${t.nav.hunting} ${dot('fish')} ${t.nav.fishing} ${dot('both')} ${lang === 'fr' ? 'Les deux' : 'Both'}</p>
+  <p class="legend">${dot('hunt')} ${t.nav.hunting} ${dot('fish')} ${t.nav.fishing}</p>
 </section>
 <section class="band">
   <div class="wrap">
