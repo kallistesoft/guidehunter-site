@@ -1,4 +1,4 @@
-// The site's own words (navigation, home, hubs, guides, legal), in French (Québec) and English.
+// The site's own words (navigation, home, hubs, guides, legal), in French and English, for all of Canada.
 // Species pages and articles come from data/*.json. {app} is replaced by config.app.
 
 export const LANGS = ['fr', 'en'];
@@ -14,32 +14,46 @@ export const PATHS = {
   faq: { fr: '/faq/', en: '/en/faq/' },
   privacy: { fr: '/confidentialite/', en: '/en/privacy/' },
   deletion: { fr: '/supprimer-mon-compte/', en: '/en/delete-account/' },
+  provinces: { fr: '/provinces/', en: '/en/provinces/' },
 };
 
 // Species: discipline, URL slug and name per language, in the app's order (core/model Species.kt).
 export const SPECIES = [
-  { id: 'black-bear', d: 'hunting', fr: ['ours-noir', 'Ours noir'], en: ['black-bear', 'Black bear'] },
-  { id: 'moose', d: 'hunting', fr: ['orignal', 'Orignal'], en: ['moose', 'Moose'] },
-  { id: 'white-tailed-deer', d: 'hunting', fr: ['cerf-de-virginie', 'Cerf de Virginie'], en: ['white-tailed-deer', 'White-tailed deer'] },
-  { id: 'caribou', d: 'hunting', fr: ['caribou', 'Caribou'], en: ['caribou', 'Caribou'] },
-  { id: 'wild-turkey', d: 'hunting', fr: ['dindon-sauvage', 'Dindon sauvage'], en: ['wild-turkey', 'Wild turkey'] },
-  { id: 'waterfowl', d: 'hunting', fr: ['canards-et-oies', 'Canards et oies'], en: ['ducks-and-geese', 'Ducks and geese'] },
-  { id: 'upland-birds', d: 'hunting', fr: ['gelinottes-et-petit-gibier', 'Gélinottes et petit gibier à plumes'], en: ['grouse-and-upland-birds', 'Grouse and upland birds'] },
-  { id: 'predators', d: 'hunting', fr: ['loup-et-coyote', 'Loup et coyote'], en: ['wolf-and-coyote', 'Wolf and coyote'] },
-  { id: 'walleye', d: 'fishing', fr: ['dore', 'Doré'], en: ['walleye', 'Walleye'] },
-  { id: 'northern-pike', d: 'fishing', fr: ['grand-brochet', 'Grand brochet'], en: ['northern-pike', 'Northern pike'] },
-  { id: 'brook-trout', d: 'fishing', fr: ['omble-de-fontaine', 'Omble de fontaine'], en: ['brook-trout', 'Brook trout'] },
-  { id: 'lake-trout', d: 'fishing', fr: ['touladi', 'Touladi'], en: ['lake-trout', 'Lake trout'] },
-  { id: 'atlantic-salmon', d: 'fishing', fr: ['saumon-atlantique', 'Saumon atlantique'], en: ['atlantic-salmon', 'Atlantic salmon'] },
-  { id: 'smallmouth-bass', d: 'fishing', fr: ['achigan', 'Achigan à petite bouche'], en: ['smallmouth-bass', 'Smallmouth bass'] },
-  { id: 'muskellunge', d: 'fishing', fr: ['maskinonge', 'Maskinongé'], en: ['muskellunge', 'Muskellunge'] },
-  { id: 'ice-fishing', d: 'fishing', fr: ['peche-blanche', 'Pêche blanche'], en: ['ice-fishing', 'Ice fishing'] },
+  { id: 'black-bear', d: 'hunting', fr: ["ours-noir", "Ours noir"], en: ["black-bear", "Black bear"] },
+  { id: 'moose', d: 'hunting', fr: ["orignal", "Orignal"], en: ["moose", "Moose"] },
+  { id: 'white-tailed-deer', d: 'hunting', fr: ["cerf-de-virginie", "Cerf de Virginie"], en: ["white-tailed-deer", "White-tailed deer"] },
+  { id: 'mule-deer', d: 'hunting', fr: ["cerf-mulet", "Cerf mulet"], en: ["mule-deer", "Mule deer"] },
+  { id: 'elk', d: 'hunting', fr: ["wapiti", "Wapiti"], en: ["elk", "Elk"] },
+  { id: 'caribou', d: 'hunting', fr: ["caribou", "Caribou"], en: ["caribou", "Caribou"] },
+  { id: 'pronghorn', d: 'hunting', fr: ["antilope-d-amerique", "Antilope d'Am\u00e9rique"], en: ["pronghorn", "Pronghorn"] },
+  { id: 'bighorn-sheep', d: 'hunting', fr: ["mouflon-d-amerique", "Mouflon d'Am\u00e9rique"], en: ["bighorn-sheep", "Bighorn sheep"] },
+  { id: 'mountain-goat', d: 'hunting', fr: ["chevre-de-montagne", "Ch\u00e8vre de montagne"], en: ["mountain-goat", "Mountain goat"] },
+  { id: 'wild-turkey', d: 'hunting', fr: ["dindon-sauvage", "Dindon sauvage"], en: ["wild-turkey", "Wild turkey"] },
+  { id: 'waterfowl', d: 'hunting', fr: ["canards-et-oies", "Canards et oies"], en: ["ducks-and-geese", "Ducks and geese"] },
+  { id: 'upland-birds', d: 'hunting', fr: ["gelinottes-et-petit-gibier", "G\u00e9linottes et petit gibier \u00e0 plumes"], en: ["grouse-and-upland-birds", "Grouse and upland birds"] },
+  { id: 'sharp-tailed-grouse', d: 'hunting', fr: ["tetras-a-queue-fine", "T\u00e9tras \u00e0 queue fine"], en: ["sharp-tailed-grouse", "Sharp-tailed grouse"] },
+  { id: 'pheasant', d: 'hunting', fr: ["faisan", "Faisan"], en: ["pheasant", "Pheasant"] },
+  { id: 'predators', d: 'hunting', fr: ["loup-et-coyote", "Loup et coyote"], en: ["wolf-and-coyote", "Wolf and coyote"] },
+  { id: 'walleye', d: 'fishing', fr: ["dore", "Dor\u00e9"], en: ["walleye", "Walleye"] },
+  { id: 'yellow-perch', d: 'fishing', fr: ["perchaude", "Perchaude"], en: ["yellow-perch", "Yellow perch"] },
+  { id: 'northern-pike', d: 'fishing', fr: ["grand-brochet", "Grand brochet"], en: ["northern-pike", "Northern pike"] },
+  { id: 'brook-trout', d: 'fishing', fr: ["omble-de-fontaine", "Omble de fontaine"], en: ["brook-trout", "Brook trout"] },
+  { id: 'rainbow-trout', d: 'fishing', fr: ["truite-arc-en-ciel", "Truite arc-en-ciel"], en: ["rainbow-trout", "Rainbow trout"] },
+  { id: 'lake-trout', d: 'fishing', fr: ["touladi", "Touladi"], en: ["lake-trout", "Lake trout"] },
+  { id: 'arctic-char', d: 'fishing', fr: ["omble-chevalier", "Omble chevalier"], en: ["arctic-char", "Arctic char"] },
+  { id: 'atlantic-salmon', d: 'fishing', fr: ["saumon-atlantique", "Saumon atlantique"], en: ["atlantic-salmon", "Atlantic salmon"] },
+  { id: 'pacific-salmon', d: 'fishing', fr: ["saumon-du-pacifique", "Saumon du Pacifique"], en: ["pacific-salmon", "Pacific salmon"] },
+  { id: 'smallmouth-bass', d: 'fishing', fr: ["achigan", "Achigan \u00e0 petite bouche"], en: ["smallmouth-bass", "Smallmouth bass"] },
+  { id: 'largemouth-bass', d: 'fishing', fr: ["achigan-a-grande-bouche", "Achigan \u00e0 grande bouche"], en: ["largemouth-bass", "Largemouth bass"] },
+  { id: 'muskellunge', d: 'fishing', fr: ["maskinonge", "Maskinong\u00e9"], en: ["muskellunge", "Muskellunge"] },
+  { id: 'sturgeon', d: 'fishing', fr: ["esturgeon", "Esturgeon"], en: ["sturgeon", "Sturgeon"] },
+  { id: 'ice-fishing', d: 'fishing', fr: ["peche-blanche", "P\u00eache blanche"], en: ["ice-fishing", "Ice fishing"] },
 ];
 
 export const T = {
   fr: {
     skip: 'Aller au contenu',
-    nav: { hunting: 'Chasse', fishing: 'Pêche', guides: 'Devenir guide', tips: 'Conseils', faq: 'FAQ' },
+    nav: { hunting: 'Chasse', fishing: 'Pêche', provinces: 'Provinces', guides: 'Devenir guide', tips: 'Conseils', faq: 'FAQ' },
     menu: 'Menu',
     otherLang: 'English',
     otherLangLabel: 'Read this page in English',
@@ -68,7 +82,7 @@ export const T = {
   },
   en: {
     skip: 'Skip to content',
-    nav: { hunting: 'Hunting', fishing: 'Fishing', guides: 'Become a guide', tips: 'Tips', faq: 'FAQ' },
+    nav: { hunting: 'Hunting', fishing: 'Fishing', provinces: 'Provinces', guides: 'Become a guide', tips: 'Tips', faq: 'FAQ' },
     menu: 'Menu',
     otherLang: 'Français',
     otherLangLabel: 'Lire cette page en français',
@@ -103,8 +117,8 @@ export const T = {
 export const HOME = {
   fr: {
     title: '{app} · Trouvez un guide de chasse ou de pêche près de vous',
-    description: "{app} est la carte des guides de chasse et de pêche et des pourvoiries au Québec et au Canada. Choisissez une espèce, comparez les offres, contactez le guide.",
-    eyebrow: 'Chasse et pêche · Québec et Canada',
+    description: "{app} est la carte des guides de chasse et de pêche et des pourvoiries partout au Canada. Choisissez une espèce, comparez les offres, contactez le guide.",
+    eyebrow: 'Chasse et pêche · Partout au Canada',
     h1: 'Trouvez votre guide de chasse ou de pêche',
     lead: "{app} met sur une carte les guides et les pourvoiries, près de chez vous ou là où vous rêvez d'aller. Choisissez une espèce, comparez les offres et contactez le guide directement.",
     secondary: 'Je suis guide',
@@ -112,7 +126,7 @@ export const HOME = {
     who: [
       ['La personne de la ville', "Vous voulez essayer la chasse ou la pêche, mais vous ne connaissez ni les territoires ni les gens. Un guide s'occupe du terrain, de l'équipement et de la sécurité."],
       ['Le nouveau chasseur de la famille', "Vous avez votre permis, pas encore d'expérience. Une première chasse avec un guide, c'est apprendre au bon endroit, avec quelqu'un qui connaît le gibier."],
-      ["Le visiteur de l'étranger", "De France, d'Europe ou des États-Unis, vous rêvez d'un ours noir ou d'un doré au Québec. Trouvez qui offre ce séjour, où, et à quel prix, avant d'acheter votre billet."],
+      ["Le visiteur de l'étranger", "De France, d'Europe ou des États-Unis, vous rêvez d'un ours noir au Québec, d'un wapiti en Alberta ou d'un saumon en Colombie-Britannique. Trouvez qui offre ce séjour, où, et à quel prix, avant d'acheter votre billet."],
     ],
     howTitle: 'Comment ça marche',
     how: [
@@ -123,6 +137,8 @@ export const HOME = {
     ],
     speciesTitle: 'Un guide pour chaque espèce',
     speciesLead: 'Chaque page explique comment se passe un séjour guidé, ce qui est habituellement inclus et quoi demander avant de réserver.',
+    provincesTitle: 'Partout au Canada',
+    provincesLead: 'Des pourvoiries du Québec aux guides-pourvoyeurs des Rocheuses : comment se passent la chasse et la pêche guidées dans chaque province.',
     guidesTitle: 'Vous êtes guide ou pourvoyeur?',
     guidesBody: "Mettez vos séjours sur la carte, gratuitement. Des chasseurs et des pêcheurs d'ici et d'ailleurs vous trouvent par espèce et par région, et vous contactent directement.",
     guidesCta: 'Devenir guide',
@@ -133,16 +149,16 @@ export const HOME = {
     endBody: "{app} arrive bientôt sur Google Play. Laissez-nous votre courriel et nous vous écrirons une seule fois, le jour du lancement.",
     phone: {
       all: 'Tout', hunt: 'Chasse', fish: 'Pêche', count: '6 guides',
-      card1: ['Ours noir au printemps', 'Haute-Mauricie · Chasse', 'À partir de 1 450 $'],
-      card2: ['Doré et brochet en chaloupe', 'Abitibi · Pêche', 'À partir de 320 $'],
+      card1: ['Wapiti à l’appel en automne', 'Alberta · Chasse', 'À partir de 2 900 $'],
+      card2: ['Doré et brochet en chaloupe', 'Nord de l’Ontario · Pêche', 'À partir de 320 $'],
       contact: 'Voir une pub pour les coordonnées',
       sample: 'Exemples, pas de vrais guides',
     },
   },
   en: {
     title: '{app} · Find a hunting or fishing guide near you',
-    description: '{app} is the map of hunting and fishing guides and outfitters in Québec and Canada. Pick a species, compare offers, contact the guide directly.',
-    eyebrow: 'Hunting and fishing · Québec and Canada',
+    description: '{app} is the map of hunting and fishing guides and outfitters across Canada. Pick a species, compare the offers, and contact the guide directly.',
+    eyebrow: 'Hunting and fishing · Across Canada',
     h1: 'Find your hunting or fishing guide',
     lead: "{app} puts guides and outfitters on a map, close to home or wherever you dream of going. Pick a species, compare the offers and contact the guide directly.",
     secondary: "I'm a guide",
@@ -150,7 +166,7 @@ export const HOME = {
     who: [
       ['Someone from the city', "You want to try hunting or fishing but don't know the land or the people. A guide takes care of the ground, the gear and the safety."],
       ['The new hunter in the family', 'You have your licence, not the experience yet. A first hunt with a guide means learning in the right place, with someone who knows the game.'],
-      ['The visitor from abroad', 'From France, Europe or the US, you dream of a black bear or a walleye in Québec. Find who offers that trip, where, and at what price, before you buy your ticket.'],
+      ['The visitor from abroad', 'From France, Europe or the US, you dream of a black bear in Québec, an elk in Alberta or a salmon in British Columbia. Find who offers that trip, where, and at what price, before you buy your ticket.'],
     ],
     howTitle: 'How it works',
     how: [
@@ -161,6 +177,8 @@ export const HOME = {
     ],
     speciesTitle: 'A guide for every species',
     speciesLead: "Each page explains how a guided trip goes, what's usually included and what to ask before you book.",
+    provincesTitle: 'Across Canada',
+    provincesLead: 'From Québec pourvoiries to Rocky Mountain guide-outfitters: how guided hunting and fishing work in each province.',
     guidesTitle: 'Are you a guide or an outfitter?',
     guidesBody: 'Put your trips on the map, for free. Hunters and anglers from here and abroad find you by species and region, and contact you directly.',
     guidesCta: 'Become a guide',
@@ -171,8 +189,8 @@ export const HOME = {
     endBody: "{app} is coming soon to Google Play. Leave us your email and we'll write once, on launch day.",
     phone: {
       all: 'All', hunt: 'Hunting', fish: 'Fishing', count: '6 guides',
-      card1: ['Spring black bear', 'Upper Mauricie · Hunting', 'From $1,450'],
-      card2: ['Walleye and pike by boat', 'Abitibi · Fishing', 'From $320'],
+      card1: ['Fall elk calling', 'Alberta · Hunting', 'From $2,900'],
+      card2: ['Walleye and pike by boat', 'Northern Ontario · Fishing', 'From $320'],
       contact: 'Watch an ad to see the contact',
       sample: 'Examples, not real guides',
     },
@@ -186,7 +204,7 @@ export const HUBS = {
   hunting: {
     fr: {
       title: 'Chasse guidée : trouvez un guide de chasse ou une pourvoirie',
-      description: "Orignal, ours noir, chevreuil, dindon sauvage, sauvagine : trouvez un guide de chasse ou une pourvoirie au Québec et au Canada avec {app}.",
+      description: "Orignal, wapiti, ours noir, cerf mulet, mouflon, sauvagine : trouvez un guide de chasse ou une pourvoirie partout au Canada avec {app}.",
       h1: 'Chasse guidée : un guide pour chaque gibier',
       lead: "Un bon guide connaît le territoire, les habitudes du gibier et les règlements. Il vous place au bon endroit au bon moment, et il s'occupe de ce que vous ne savez pas encore faire.",
       body: [
@@ -197,7 +215,7 @@ export const HUBS = {
     },
     en: {
       title: 'Guided hunts: find a hunting guide or outfitter',
-      description: 'Moose, black bear, white-tailed deer, wild turkey, waterfowl: find a hunting guide or outfitter in Québec and across Canada with {app}.',
+      description: 'Moose, elk, black bear, mule deer, bighorn sheep, waterfowl: find a hunting guide or outfitter anywhere in Canada with {app}.',
       h1: 'Guided hunts: a guide for every game species',
       lead: "A good guide knows the land, the game's habits and the rules. They put you in the right place at the right time, and handle what you don't know how to do yet.",
       body: [
@@ -210,7 +228,7 @@ export const HUBS = {
   fishing: {
     fr: {
       title: 'Pêche guidée : trouvez un guide de pêche ou une pourvoirie',
-      description: 'Doré, brochet, omble de fontaine, touladi, saumon, maskinongé, pêche blanche : trouvez un guide de pêche ou une pourvoirie avec {app}.',
+      description: 'Doré, brochet, truite, saumon du Pacifique ou atlantique, omble chevalier, pêche blanche : trouvez un guide de pêche partout au Canada avec {app}.',
       h1: 'Pêche guidée : un guide pour chaque poisson',
       lead: "Le guide sait où le poisson se tient selon la saison, l'heure et la météo. Il fournit souvent l'embarcation et l'équipement, et vous fait gagner des jours de recherche.",
       body: [
@@ -221,7 +239,7 @@ export const HUBS = {
     },
     en: {
       title: 'Guided fishing: find a fishing guide or outfitter',
-      description: 'Walleye, pike, brook trout, lake trout, salmon, musky, ice fishing: find a fishing guide or outfitter in Québec and Canada with {app}.',
+      description: 'Walleye, pike, trout, Pacific and Atlantic salmon, Arctic char, ice fishing: find a fishing guide or outfitter anywhere in Canada with {app}.',
       h1: 'Guided fishing: a guide for every fish',
       lead: 'A guide knows where the fish hold for the season, the hour and the weather. They often supply the boat and the gear, and save you days of searching.',
       body: [
@@ -413,4 +431,12 @@ export const DELETION = {
       { h: 'What is deleted', list: ['Your offers (they leave the map)', 'Your profile: name, email, phone, website', 'Your account: email address and Firebase ID'] },
     ],
   },
+};
+
+// ---------------------------------------------------------------------------------------------------------------
+// Provinces index (the pages come from data/provinces.json)
+
+export const PROVINCES_PAGE = {
+  fr: { title: 'Chasse et pêche guidées par province', description: "Québec, Ontario, Colombie-Britannique, Alberta, Prairies, Maritimes : trouvez un guide de chasse ou de pêche dans chaque province avec {app}.", h1: 'Guides de chasse et de pêche par province', lead: "Chaque province a ses espèces, ses territoires et ses règles. Choisissez la vôtre pour voir comment s'y passent les séjours guidés.", speciesTitle: 'Reconnue pour' },
+  en: { title: 'Guided hunting and fishing by province', description: 'Québec, Ontario, British Columbia, Alberta, the Prairies, the Maritimes: find a hunting or fishing guide in every province with {app}.', h1: 'Hunting and fishing guides by province', lead: 'Each province has its own species, land and rules. Pick yours to see how guided trips work there.', speciesTitle: 'Known for' },
 };

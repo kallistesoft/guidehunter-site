@@ -1,7 +1,7 @@
 # Content brief (for writers)
 
 The site promotes a free Android app (iOS later) that is a **map of hunting and fishing guides and outfitters**
-(pourvoiries), "like Airbnb for hunting and fishing trips". Made in Québec, Canada-first, bilingual. Audience: people
+(pourvoiries), "like Airbnb for hunting and fishing trips". Made in Québec, for all of Canada, bilingual (FR/EN). Write for a Canada-wide audience: examples from several provinces, never as if the reader were in Québec (Québec stays one strong region among others). Audience: people
 who search the web for a guided hunt or fishing trip and have nobody to show them the way (a city person, a new hunter,
 a visitor from France or the US who wants a black bear hunt in Québec).
 
@@ -26,6 +26,12 @@ fishing: walleye: Walleye / Doré · northern-pike: Northern pike / Grand broche
 fontaine (truite mouchetée) · lake-trout: Lake trout / Touladi · atlantic-salmon: Atlantic salmon / Saumon atlantique
 · smallmouth-bass: Smallmouth bass / Achigan à petite bouche · muskellunge: Muskellunge / Maskinongé · ice-fishing:
 Ice fishing / Pêche blanche
+hunting (new): elk: Elk / Wapiti · mule-deer: Mule deer / Cerf mulet · pronghorn: Pronghorn / Antilope d'Amérique ·
+bighorn-sheep: Bighorn sheep / Mouflon d'Amérique · mountain-goat: Mountain goat / Chèvre de montagne · pheasant:
+Pheasant / Faisan · sharp-tailed-grouse: Sharp-tailed grouse / Tétras à queue fine
+fishing (new): largemouth-bass: Largemouth bass / Achigan à grande bouche · rainbow-trout: Rainbow trout / Truite arc-en-ciel ·
+pacific-salmon: Pacific salmon / Saumon du Pacifique · arctic-char: Arctic char / Omble chevalier · sturgeon: Sturgeon /
+Esturgeon · yellow-perch: Yellow perch / Perchaude
 
 ## Rules
 

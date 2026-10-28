@@ -1,0 +1,895 @@
+[
+ {
+  "id": "elk",
+  "en": {
+   "title": "Guided elk hunts in western Canada: find a guide",
+   "description": "Planning a guided elk hunt in Alberta, BC, Saskatchewan or Manitoba? Learn how bugling, horse camps and meat packing work and what to ask a guide.",
+   "h1": "Guided elk hunts in western Canada",
+   "lead": "Elk hunting means early mornings in the foothills, a bull bugling across a valley and a very big animal to pack out. A guide brings the country, the calling and the plan for getting the meat home.",
+   "sections": [
+    {
+     "h": "What a guided elk hunt looks like",
+     "p": [
+      "Elk live in the mountains, foothills, aspen parkland and river valleys of Alberta and British Columbia, and in parts of Saskatchewan and Manitoba. Hunts are usually in the fall. Early in the season, many guides hunt the rut, when bulls bugle and answer calls; later hunts rely more on glassing, tracking and still-hunting through timber.",
+      "Depending on the outfitter, you may stay in a lodge and drive out each morning, or ride into a backcountry tent camp on horseback. Days are long and involve a lot of walking, often at elevation, so ask how much hiking a typical day involves before you book."
+     ]
+    },
+    {
+     "h": "Why hunt elk with a guide",
+     "p": [
+      "Elk cover a lot of ground and can leave an area overnight when pressured. A guide who hunts the same drainages every year knows where herds bed, feed and travel, and can read a bugle to tell whether a bull is coming in or moving off.",
+      "Rules matter here too. In several provinces, some elk licences are allocated by draw, and non-residents are often required to hunt big game with a licensed guide-outfitter. This varies by province, zone and year, so check the official regulations and ask the outfitter what applies to you."
+     ]
+    },
+    {
+     "h": "Meat, packing and what is usually included",
+     "p": [
+      "A mature elk is a large animal, and getting it out of steep or wooded country is serious work. Good outfitters have a plan: horses, mules, ATVs where allowed, or a crew with pack frames, plus game bags and a cool place to hang quarters.",
+      "Packages differ, but often include:"
+     ],
+     "list": [
+      "Lodge, cabin or wall-tent accommodation with meals",
+      "Guiding, often one guide for one or two hunters",
+      "Horses or other transport into the hunting area",
+      "Field dressing, quartering and packing out the animal",
+      "Help arranging meat processing and cape care for a mount"
+     ]
+    },
+    {
+     "h": "Questions to ask before booking",
+     "p": [
+      "Ask whether the hunt targets the rut or later in the season, what the terrain and daily distances are like, and how many hunters are in camp at once. Ask if a licence or tag comes with the hunt or must be won in a draw, and what happens if you do not fill your tag.",
+      "Bring broken-in boots, layered clothing for cold mornings and warm afternoons, good binoculars, and a rifle or bow you can shoot well from field positions, not just from a bench."
+     ]
+    },
+    {
+     "h": "Finding an elk outfitter with {app}",
+     "p": [
+      "In {app}, choose hunting, then elk, and the map shows guides who offer it, each with the region, what is included and a price per person from, or on request. Compare a few offers, then contact the outfitters directly to talk about dates, terrain and licences."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Where can I hunt elk in Canada?",
+     "a": "Most elk hunting happens in Alberta and British Columbia, with opportunities in parts of Saskatchewan and Manitoba as well. Open areas, licence types and seasons vary by province and zone, so check the official regulations for the area you want to hunt."
+    },
+    {
+     "q": "Do I need to enter a draw for an elk licence?",
+     "a": "Sometimes. In several provinces, some elk licences are allocated by draw while others may be available more generally, depending on the zone, the type of animal and whether you are a resident. Check the current regulations and ask your outfitter how they handle licences."
+    },
+    {
+     "q": "How fit do I need to be for a guided elk hunt?",
+     "a": "It depends on the outfitter and the country. Some hunts involve long days walking or riding in the mountains, while others are closer to roads in farmland or parkland. Be honest with the guide about your fitness, and train with a pack before the trip."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse au wapiti avec guide dans l'Ouest canadien",
+   "description": "Une chasse au wapiti guidée en Alberta, en C.-B., en Saskatchewan ou au Manitoba? Brame, camps à cheval, sortie de la viande et quoi demander au guide.",
+   "h1": "Chasse au wapiti avec guide dans l'Ouest canadien",
+   "lead": "Chasser le wapiti, c'est partir avant l'aube dans les contreforts, entendre un mâle bramer de l'autre côté de la vallée, puis sortir une très grosse bête du bois. Le guide apporte le territoire, l'appel et un plan pour rapporter la viande.",
+   "sections": [
+    {
+     "h": "À quoi ressemble une chasse au wapiti guidée",
+     "p": [
+      "Le wapiti vit dans les montagnes, les contreforts, la forêt-parc et les vallées de l'Alberta et de la Colombie-Britannique, ainsi que dans certaines régions de la Saskatchewan et du Manitoba. La chasse se fait surtout à l'automne. En début de saison, plusieurs guides chassent pendant le rut, quand les mâles brament et répondent à l'appel; plus tard, on mise davantage sur l'observation aux jumelles, le pistage et l'approche en forêt.",
+      "Selon le pourvoyeur, vous logez dans un lodge et partez en camion chaque matin, ou vous montez à cheval jusqu'à un camp de tentes en arrière-pays. Les journées sont longues et on marche beaucoup, souvent en altitude : demandez combien de marche une journée type demande avant de réserver."
+     ]
+    },
+    {
+     "h": "Pourquoi chasser le wapiti avec un guide",
+     "p": [
+      "Le wapiti se déplace sur de grandes distances et peut quitter un secteur en une nuit s'il est dérangé. Un guide qui chasse les mêmes vallées chaque année sait où les hardes se couchent, mangent et passent, et sait lire un brame pour savoir si le mâle s'approche ou s'éloigne.",
+      "Les règles comptent aussi. Dans plusieurs provinces, une partie des permis de wapiti est attribuée par tirage au sort, et les non-résidents doivent souvent chasser le gros gibier avec un pourvoyeur-guide autorisé. Ça varie selon la province, la zone et l'année : consultez la réglementation officielle et demandez au pourvoyeur ce qui s'applique à vous."
+     ]
+    },
+    {
+     "h": "La viande, la sortie du bois et ce qui est inclus",
+     "p": [
+      "Un wapiti adulte est une grosse bête, et le sortir d'un terrain abrupt ou boisé, c'est du sérieux. Un bon pourvoyeur a tout prévu : chevaux, mules, VTT là où c'est permis ou une équipe avec sacs à dos de portage, en plus de sacs à gibier et d'un endroit frais pour suspendre les quartiers.",
+      "Les forfaits varient, mais incluent souvent :"
+     ],
+     "list": [
+      "L'hébergement en lodge, en chalet ou sous la tente prospecteur, avec repas",
+      "Le guidage, souvent un guide pour un ou deux chasseurs",
+      "Les chevaux ou un autre moyen de transport jusqu'au territoire",
+      "L'éviscération, la découpe en quartiers et la sortie de la bête",
+      "L'aide pour la boucherie et le soin de la cape pour la naturalisation"
+     ]
+    },
+    {
+     "h": "Quoi demander avant de réserver",
+     "p": [
+      "Demandez si la chasse vise le rut ou la fin de saison, à quoi ressemblent le terrain et les distances quotidiennes, et combien de chasseurs se trouvent au camp en même temps. Vérifiez si le permis est compris dans le forfait ou s'il faut le gagner au tirage, et ce qui arrive si vous ne récoltez rien.",
+      "Apportez des bottes bien rodées, des vêtements en couches pour les matins froids et les après-midi doux, de bonnes jumelles, et une carabine ou un arc avec lequel vous tirez bien en position de terrain, pas seulement sur un banc de tir."
+     ]
+    },
+    {
+     "h": "Trouver un pourvoyeur de wapiti avec {app}",
+     "p": [
+      "Dans {app}, choisissez chasse, puis wapiti : la carte affiche les guides qui l'offrent, chacun avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Comparez quelques offres, puis joignez directement les pourvoyeurs pour parler des dates, du terrain et des permis."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Où peut-on chasser le wapiti au Canada?",
+     "a": "La plus grande partie de la chasse au wapiti se fait en Alberta et en Colombie-Britannique, avec des possibilités dans certaines régions de la Saskatchewan et du Manitoba. Les zones ouvertes, les types de permis et les saisons varient selon la province : consultez la réglementation officielle du secteur visé."
+    },
+    {
+     "q": "Faut-il participer à un tirage pour un permis de wapiti?",
+     "a": "Parfois. Dans plusieurs provinces, certains permis de wapiti sont attribués par tirage, alors que d'autres sont plus accessibles, selon la zone, le type de bête et votre statut de résident ou non. Vérifiez la réglementation en vigueur et demandez à votre pourvoyeur comment il gère les permis."
+    },
+    {
+     "q": "Faut-il être en forme pour une chasse au wapiti guidée?",
+     "a": "Ça dépend du pourvoyeur et du terrain. Certaines chasses demandent de longues journées à pied ou à cheval en montagne, d'autres se font près des chemins, en terres agricoles ou en forêt-parc. Soyez honnête avec le guide sur votre forme physique et entraînez-vous avec un sac à dos avant de partir."
+    }
+   ]
+  }
+ },
+ {
+  "id": "mule-deer",
+  "en": {
+   "title": "Guided mule deer hunts in western Canada",
+   "description": "Looking for a guided mule deer hunt on the prairies or in the mountains? See how spot-and-stalk works, what a guide includes and what to ask first.",
+   "h1": "Guided mule deer hunts in western Canada",
+   "lead": "Mule deer are hunted with your eyes as much as your rifle: long hours glassing coulees, breaks and open slopes, then a careful stalk. A guide knows where to look and how to close the distance without being seen.",
+   "sections": [
+    {
+     "h": "How mule deer are hunted",
+     "p": [
+      "Mule deer are recognisable by their large ears, black-tipped tail and antlers that fork rather than branching off a single beam. In Canada they are found mostly in Alberta, Saskatchewan and British Columbia, from prairie river breaks and badlands to foothills and mountain slopes.",
+      "The classic method is spot and stalk. You set up on a high point at first light, glass the country for a long time, and once a good buck is spotted the guide plans a route using the wind and the terrain to get within range. Some guides also hunt the late-fall rut, when bucks move more during the day."
+     ]
+    },
+    {
+     "h": "What a guide adds",
+     "p": [
+      "Open country looks easy to hunt, but mule deer blend into it remarkably well. Experienced guides know which draws hold deer at different times of day and how to judge a buck before committing to a stalk. On the prairies, much of the good ground is private land, and outfitters often have arrangements with landowners.",
+      "In some provinces, certain mule deer licences are allocated by draw, and non-residents are often required to hunt big game with a licensed guide-outfitter. Check the province's official regulations and confirm with the outfitter."
+     ]
+    },
+    {
+     "h": "What is usually included",
+     "p": [
+      "Mule deer hunts range from farm-based lodges in the prairies to mountain camps in British Columbia. Offers commonly include:"
+     ],
+     "list": [
+      "Accommodation and meals at a lodge, ranch house or camp",
+      "Access to private land or a guiding territory",
+      "Daily guiding and transport by truck or ATV",
+      "Field dressing and help getting the deer back to camp",
+      "Cooler space and advice on meat processing and trophy care"
+     ]
+    },
+    {
+     "h": "Choosing a guide and getting ready",
+     "p": [
+      "Ask what the terrain is like, how far shots typically are, and whether you will hunt private land, public land or both. Ask how many hunters share the area and whether the hunt is for bucks only.",
+      "Because shots in open country can be longer than in the eastern woods, practise at realistic distances and from field rests, and know your limits. Bring quality binoculars, a bipod or shooting sticks, warm layers and comfortable boots for walking."
+     ]
+    },
+    {
+     "h": "Finding a mule deer hunt with {app}",
+     "p": [
+      "Open {app}, select hunting and pick mule deer to see guides who offer it on the map, with their region, what is included and a price per person from, or on request. Contact the ones that fit your plans and ask about land, terrain and licences."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "What is the difference between a mule deer and a white-tailed deer?",
+     "a": "Mule deer have larger ears, a narrow tail with a black tip and antlers that split into forks. White-tailed deer have a broad tail that flashes white and antler tines that grow from a main beam. Ranges overlap in parts of the West, so a guide helps you be sure before you shoot."
+    },
+    {
+     "q": "Can a non-resident hunt mule deer in Canada?",
+     "a": "Often yes, but rules vary. In western provinces non-residents are often required to hunt big game with a licensed guide-outfitter, and licence availability may depend on draws or allocations. Check the official regulations of the province and confirm with the outfitter."
+    },
+    {
+     "q": "How long are shots on a mule deer hunt?",
+     "a": "It depends on the terrain and how close the stalk gets you. In open prairie or mountain country, shots can be longer than in thick bush. A good guide tries to get you to a distance you are comfortable with, so practise ahead of time and be honest about your range."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse au cerf mulet avec guide dans l'Ouest",
+   "description": "Une chasse au cerf mulet guidée dans les Prairies ou en montagne? L'approche à vue, ce que le guide inclut et les questions à poser avant de réserver.",
+   "h1": "Chasse au cerf mulet avec guide dans l'Ouest canadien",
+   "lead": "Le cerf mulet se chasse autant avec les yeux qu'avec la carabine : de longues heures à scruter les coulées et les pentes ouvertes, puis une approche soignée. Le guide sait où regarder et comment s'approcher sans se faire voir.",
+   "sections": [
+    {
+     "h": "Comment on chasse le cerf mulet",
+     "p": [
+      "On reconnaît le cerf mulet à ses grandes oreilles, à sa queue mince au bout noir et à ses bois qui se divisent en fourches plutôt que de partir d'un seul merrain. Au Canada, on le trouve surtout en Alberta, en Saskatchewan et en Colombie-Britannique, des ravins des rivières des Prairies et des badlands jusqu'aux contreforts et aux pentes de montagne.",
+      "La méthode classique, c'est l'approche à vue. On s'installe sur un point haut à l'aube, on observe longtemps aux jumelles, et quand un beau mâle est repéré, le guide planifie un trajet en fonction du vent et du relief pour arriver à portée. Certains guides chassent aussi pendant le rut, en fin d'automne, quand les mâles bougent davantage de jour."
+     ]
+    },
+    {
+     "h": "Ce qu'un guide apporte",
+     "p": [
+      "Un terrain ouvert paraît facile à chasser, mais le cerf mulet s'y fond étonnamment bien. Un guide d'expérience sait quelles coulées abritent des cerfs selon l'heure et comment évaluer un mâle avant de lancer l'approche. Dans les Prairies, une bonne partie des meilleurs secteurs sont des terres privées, et les pourvoyeurs ont souvent des ententes avec les propriétaires.",
+      "Dans certaines provinces, des permis de cerf mulet sont attribués par tirage, et les non-résidents doivent souvent chasser le gros gibier avec un pourvoyeur-guide autorisé. Consultez la réglementation officielle de la province et confirmez avec le pourvoyeur."
+     ]
+    },
+    {
+     "h": "Ce qui est généralement inclus",
+     "p": [
+      "Les chasses au cerf mulet vont du lodge sur une ferme des Prairies au camp de montagne en Colombie-Britannique. Les forfaits incluent souvent :"
+     ],
+     "list": [
+      "L'hébergement et les repas en lodge, au ranch ou au camp",
+      "L'accès à des terres privées ou à un territoire de pourvoirie",
+      "Le guidage quotidien et le transport en camion ou en VTT",
+      "L'éviscération et l'aide pour ramener le cerf au camp",
+      "Une chambre froide et des conseils pour la boucherie et le trophée"
+     ]
+    },
+    {
+     "h": "Choisir son guide et se préparer",
+     "p": [
+      "Demandez à quoi ressemble le terrain, à quelle distance on tire habituellement et si vous chasserez sur des terres privées, publiques ou les deux. Demandez aussi combien de chasseurs partagent le secteur et si la chasse vise seulement les mâles.",
+      "En terrain ouvert, les tirs peuvent être plus longs que dans les bois de l'Est : pratiquez-vous à des distances réalistes, avec un appui de terrain, et connaissez vos limites. Apportez de bonnes jumelles, un bipied ou des bâtons de tir, des couches chaudes et des bottes confortables pour marcher."
+     ]
+    },
+    {
+     "h": "Trouver une chasse au cerf mulet avec {app}",
+     "p": [
+      "Ouvrez {app}, sélectionnez chasse et choisissez cerf mulet pour voir sur la carte les guides qui l'offrent, avec leur région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Communiquez avec ceux qui correspondent à vos plans pour parler des terres, du terrain et des permis."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Quelle est la différence entre le cerf mulet et le chevreuil?",
+     "a": "Le cerf mulet a de plus grandes oreilles, une queue mince au bout noir et des bois qui se divisent en fourches. Le chevreuil (cerf de Virginie) a une large queue qui montre du blanc et des andouillers qui poussent d'un merrain principal. Les deux se côtoient dans certaines régions de l'Ouest : le guide vous aide à être certain avant de tirer."
+    },
+    {
+     "q": "Un non-résident peut-il chasser le cerf mulet au Canada?",
+     "a": "Souvent, oui, mais les règles varient. Dans les provinces de l'Ouest, les non-résidents doivent souvent chasser le gros gibier avec un pourvoyeur-guide autorisé, et l'accès aux permis peut dépendre de tirages ou d'allocations. Consultez la réglementation de la province et confirmez avec le pourvoyeur."
+    },
+    {
+     "q": "À quelle distance tire-t-on à la chasse au cerf mulet?",
+     "a": "Ça dépend du terrain et de la réussite de l'approche. Dans les Prairies ou en montagne, les tirs peuvent être plus longs qu'en forêt dense. Un bon guide essaie de vous amener à une distance où vous êtes à l'aise : pratiquez-vous avant et soyez franc sur votre portée."
+    }
+   ]
+  }
+ },
+ {
+  "id": "pronghorn",
+  "en": {
+   "title": "Guided pronghorn hunts in Alberta and Saskatchewan",
+   "description": "Curious about a guided pronghorn hunt on the Canadian prairies? Learn how draws, private land, stalking and long-range shooting work, and what to ask.",
+   "h1": "Guided pronghorn hunts on the Canadian prairies",
+   "lead": "Pronghorn live on the open short-grass prairie, see a long way and run faster than any other animal on the continent. Hunting them is a game of patience, terrain and precise shooting, and a guide makes the most of a hard-won tag.",
+   "sections": [
+    {
+     "h": "Where and how pronghorn are hunted",
+     "p": [
+      "In Canada, pronghorn are found mainly in the dry grasslands of southeastern Alberta and southwestern Saskatchewan. The country is wide open, with rolling hills, coulees and sage flats, and the animals rely on their eyesight and speed rather than cover.",
+      "Most hunts are spot and stalk. The guide glasses from a vehicle or a rise, picks out a buck, then uses every fold in the land to approach, often crawling the last stretch. Some outfitters also hunt from blinds near water or along fence lines where pronghorn travel. Either way, expect to spend more time watching than walking."
+     ]
+    },
+    {
+     "h": "Draws, landowners and why a guide helps",
+     "p": [
+      "Pronghorn licences are limited, and in the provinces where they are hunted they are often allocated by draw. Rules for residents and non-residents differ, and non-residents are often required to hunt big game with a licensed guide-outfitter. Check the official regulations before you plan the trip.",
+      "Much of pronghorn range is private ranch land or grazing leases, so permission matters. Outfitters usually have long-standing relationships with ranchers, which gives you access to good ground and avoids wasting precious days knocking on doors."
+     ]
+    },
+    {
+     "h": "What a pronghorn package usually includes",
+     "p": [
+      "Pronghorn hunts are often short, and some outfitters combine them with mule deer or upland birds. Typical inclusions are:"
+     ],
+     "list": [
+      "Lodging and meals near the hunting area",
+      "Access to private ranch land arranged by the outfitter",
+      "Guiding and transport by truck across the prairie",
+      "Field care of the animal, which needs to be cooled quickly in warm weather",
+      "Help with caping and arranging a taxidermist if you want a mount"
+     ]
+    },
+    {
+     "h": "Preparing for the prairie",
+     "p": [
+      "Shots on pronghorn can be longer than most hunters are used to, and wind is a constant factor on the prairie. Practise from prone and from shooting sticks at realistic distances, and know exactly where your rifle hits. A guide would rather you pass on a shot than wound an animal.",
+      "Pack sunscreen, a hat, water, knee pads or gloves for crawling, and clothing that blends with dry grass. Ask the outfitter about likely weather, cell coverage and how far the lodge is from the hunting area."
+     ]
+    },
+    {
+     "h": "Finding a pronghorn guide with {app}",
+     "p": [
+      "In {app}, filter for hunting and choose pronghorn to see outfitters offering it, with the region, what is included and a price per person from, or on request. Reach out early, since the timing of draws often decides when you can book."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Where can I hunt pronghorn in Canada?",
+     "a": "Pronghorn hunting in Canada happens mainly in the prairie grasslands of southeastern Alberta and southwestern Saskatchewan. Licences are limited and areas are defined in each province's regulations, so check the current official rules before planning a hunt."
+    },
+    {
+     "q": "Is pronghorn hunting by draw only?",
+     "a": "In the provinces where pronghorn are hunted, licences are often allocated by draw, with different rules for residents and non-residents. The system can change from year to year, so read the official regulations and ask the outfitter how they handle licences for their clients."
+    },
+    {
+     "q": "Is a pronghorn the same as an antelope?",
+     "a": "Pronghorn are often called antelope, but they are not true antelopes. They are the only surviving member of their own family, native to the grasslands of North America. Their horns have a sheath that is shed each year, which is unusual among horned animals."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse à l'antilope d'Amérique avec guide",
+   "description": "Une chasse guidée à l'antilope d'Amérique dans les Prairies? Tirages, terres privées, approche et tir à longue distance, et quoi demander au pourvoyeur.",
+   "h1": "Chasse à l'antilope d'Amérique avec guide dans les Prairies",
+   "lead": "L'antilope d'Amérique vit dans la prairie rase et ouverte, voit très loin et court plus vite que tout autre animal du continent. La chasser demande de la patience, une lecture fine du terrain et un tir précis, et le guide aide à tirer le maximum d'un permis difficile à obtenir.",
+   "sections": [
+    {
+     "h": "Où et comment on la chasse",
+     "p": [
+      "Au Canada, l'antilope d'Amérique vit surtout dans les prairies sèches du sud-est de l'Alberta et du sud-ouest de la Saskatchewan. Le paysage est grand ouvert, avec des collines douces, des coulées et des plaines d'armoise, et l'animal compte sur sa vue et sa vitesse plutôt que sur le couvert.",
+      "La plupart des chasses se font à l'approche à vue. Le guide observe d'un véhicule ou d'une butte, repère un mâle, puis profite de chaque repli du terrain pour s'en approcher, souvent à quatre pattes sur la fin. Certains pourvoyeurs chassent aussi à l'affût près des points d'eau ou le long des clôtures où passent les bêtes."
+     ]
+    },
+    {
+     "h": "Tirages, propriétaires et utilité du guide",
+     "p": [
+      "Les permis d'antilope sont limités et, dans les provinces où on la chasse, souvent attribués par tirage. Les règles diffèrent pour les résidents et les non-résidents, et ces derniers doivent souvent chasser le gros gibier avec un pourvoyeur-guide autorisé. Consultez la réglementation officielle avant de planifier le voyage.",
+      "Une grande partie de l'habitat de l'antilope est constituée de ranchs privés et de pâturages loués : la permission compte. Les pourvoyeurs entretiennent souvent des liens de longue date avec les éleveurs, ce qui vous donne accès à de bons secteurs sans perdre de précieuses journées à cogner aux portes."
+     ]
+    },
+    {
+     "h": "Ce que comprend habituellement un forfait",
+     "p": [
+      "Les chasses à l'antilope sont souvent courtes, et certains pourvoyeurs les combinent avec le cerf mulet ou le petit gibier à plumes. On y trouve généralement :"
+     ],
+     "list": [
+      "L'hébergement et les repas près du secteur de chasse",
+      "L'accès à des ranchs privés négocié par le pourvoyeur",
+      "Le guidage et les déplacements en camion dans la prairie",
+      "Le soin de la bête au champ, qu'il faut refroidir vite par temps chaud",
+      "L'aide pour la cape et un taxidermiste si vous voulez la faire naturaliser"
+     ]
+    },
+    {
+     "h": "Se préparer pour la prairie",
+     "p": [
+      "Les tirs sur l'antilope peuvent être plus longs que ce dont la plupart des chasseurs ont l'habitude, et le vent ne lâche jamais dans la prairie. Pratiquez-vous couché et sur bâtons de tir à des distances réalistes, et sachez exactement où frappe votre carabine. Un guide préfère que vous renonciez à un tir plutôt que de blesser une bête.",
+      "Apportez de la crème solaire, une casquette, de l'eau, des genouillères ou des gants pour ramper et des vêtements qui se fondent dans l'herbe sèche. Renseignez-vous sur la météo probable, la couverture cellulaire et la distance entre le lodge et le territoire."
+     ]
+    },
+    {
+     "h": "Trouver un guide pour l'antilope avec {app}",
+     "p": [
+      "Dans {app}, filtrez par chasse et choisissez antilope d'Amérique pour voir les pourvoyeurs qui l'offrent, avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Communiquez avec eux tôt, puisque le calendrier des tirages détermine souvent quand vous pourrez réserver."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Où peut-on chasser l'antilope d'Amérique au Canada?",
+     "a": "Au Canada, la chasse à l'antilope d'Amérique se fait surtout dans les prairies du sud-est de l'Alberta et du sud-ouest de la Saskatchewan. Les permis sont limités et les secteurs sont définis dans la réglementation de chaque province : vérifiez les règles officielles en vigueur avant de planifier."
+    },
+    {
+     "q": "La chasse à l'antilope se fait-elle seulement par tirage?",
+     "a": "Dans les provinces où elle est chassée, les permis sont souvent attribués par tirage, avec des règles différentes pour les résidents et les non-résidents. Le système peut changer d'une année à l'autre : lisez la réglementation officielle et demandez au pourvoyeur comment il gère les permis de ses clients."
+    },
+    {
+     "q": "L'antilope d'Amérique est-elle vraiment une antilope?",
+     "a": "Non, malgré son nom. C'est le seul représentant encore vivant de sa propre famille, originaire des prairies d'Amérique du Nord. Ses cornes ont un étui qui tombe chaque année, ce qui est rare chez les animaux à cornes."
+    }
+   ]
+  }
+ },
+ {
+  "id": "bighorn-sheep",
+  "en": {
+   "title": "Guided bighorn sheep hunts in Alberta and BC",
+   "description": "Thinking about a guided bighorn sheep hunt in the Rockies? See what a mountain hunt demands, how licences and draws work and what to ask an outfitter.",
+   "h1": "Guided bighorn sheep hunts in the Canadian Rockies",
+   "lead": "A bighorn sheep hunt is a mountain hunt in the full sense: steep climbs, long days glassing high basins and careful judgement of every ram. Many hunters train for it for months, and the right outfitter is a big part of the experience.",
+   "sections": [
+    {
+     "h": "What a sheep hunt involves",
+     "p": [
+      "Bighorn sheep live in the Rocky Mountains and other ranges of Alberta and British Columbia, on steep slopes, alpine meadows and rocky ridges close to escape terrain. Many hunts start with a horseback ride into a backcountry camp, followed by days of climbing, glassing and waiting for the right ram to show up.",
+      "Hunts are often booked for a week or more, because weather in the mountains can stop everything for days. Expect to sleep in a tent or a basic cabin, to carry a pack, and to spend hours behind a spotting scope."
+     ]
+    },
+    {
+     "h": "Physical demands and safety",
+     "p": [
+      "This is one of the most physically demanding hunts in Canada. You climb and descend steep, loose ground, sometimes at altitude, often in cold or wet weather. Arriving in good condition makes the hunt safer and more enjoyable, and it widens what the guide can attempt with you.",
+      "Talk openly with the outfitter about your fitness, any health issues and your experience in the mountains. Train with a loaded pack on hills or stairs for several months, and break in your boots well before the trip."
+     ]
+    },
+    {
+     "h": "Licences, legal rams and why a guide matters",
+     "p": [
+      "Sheep regulations are among the strictest in hunting. In several provinces, many sheep licences are allocated by draw, and only rams meeting specific legal criteria may be taken in many areas. Non-residents are often required to hunt with a licensed guide-outfitter, and harvested sheep may need to be reported or inspected. Check the province's official regulations.",
+      "Judging whether a ram is legal at a distance takes experience. A good sheep guide studies horns and age carefully before you ever take a shot, which protects you and the herd."
+     ]
+    },
+    {
+     "h": "What is usually included",
+     "p": [
+      "Sheep hunts are typically fully outfitted. Ask what the package covers, which often includes:"
+     ],
+     "list": [
+      "Horses or other transport into the backcountry",
+      "Camp, cook and meals for the length of the hunt",
+      "One guide per hunter in many cases",
+      "Field care, caping and packing out the ram and meat",
+      "Help with the required reporting or inspection after harvest"
+     ]
+    },
+    {
+     "h": "Finding a sheep outfitter with {app}",
+     "p": [
+      "Choose hunting, then bighorn sheep, in {app} to see outfitters who offer it, each with the region, what is included and a price per person from, or on request. Contact several, ask about their success with legal rams, the terrain and the fitness they expect, and plan well ahead."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Can anyone hunt bighorn sheep in Canada?",
+     "a": "Licences are limited. Depending on the province and zone, they may be allocated by draw or under other restrictions, and non-residents are often required to hunt with a licensed guide-outfitter. Read the official regulations of the province you want to hunt and confirm details with the outfitter."
+    },
+    {
+     "q": "How fit do I need to be for a sheep hunt?",
+     "a": "Very fit, in most cases. Sheep hunts usually involve steep climbs, long days and a loaded pack in changing mountain weather. Start training months in advance with hills, stairs and a heavy pack, and discuss your condition honestly with the outfitter."
+    },
+    {
+     "q": "What makes a ram legal to harvest?",
+     "a": "Many areas only allow rams that meet specific criteria, often based on horn size or age. The exact rules depend on the province and zone, so check the official regulations. Your guide's experience in judging rams at a distance is a key part of the hunt."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse au mouflon d'Amérique avec guide",
+   "description": "Une chasse guidée au mouflon d'Amérique dans les Rocheuses? Ce qu'exige la montagne, permis et tirages, et quoi demander au pourvoyeur avant de réserver.",
+   "h1": "Chasse au mouflon d'Amérique avec guide dans les Rocheuses",
+   "lead": "Chasser le mouflon d'Amérique, c'est chasser en montagne au sens propre : montées abruptes, longues journées à scruter les cirques et évaluation soignée de chaque bélier. Bien des chasseurs s'y préparent pendant des mois, et le bon pourvoyeur compte pour beaucoup dans l'expérience.",
+   "sections": [
+    {
+     "h": "En quoi consiste une chasse au mouflon",
+     "p": [
+      "Le mouflon d'Amérique vit dans les Rocheuses et d'autres chaînes de l'Alberta et de la Colombie-Britannique, sur des pentes raides, des prés alpins et des crêtes rocheuses près des escarpements où il se réfugie. Bien des chasses commencent par une montée à cheval jusqu'à un camp en arrière-pays, suivie de journées à grimper, à observer et à attendre que le bon bélier se montre.",
+      "On réserve souvent une semaine ou plus, parce que la météo en montagne peut tout arrêter pendant quelques jours. Attendez-vous à dormir sous la tente ou dans un chalet rustique, à porter un sac à dos et à passer des heures derrière une longue-vue."
+     ]
+    },
+    {
+     "h": "Exigences physiques et sécurité",
+     "p": [
+      "C'est l'une des chasses les plus exigeantes physiquement au Canada. On monte et on descend des pentes raides et instables, parfois en altitude, souvent dans le froid ou la pluie. Arriver en bonne forme rend la chasse plus sûre et plus agréable, et permet au guide d'en tenter davantage avec vous.",
+      "Parlez franchement au pourvoyeur de votre condition physique, de vos problèmes de santé et de votre expérience en montagne. Entraînez-vous plusieurs mois avec un sac chargé dans des côtes ou des escaliers, et rodez vos bottes bien avant le départ."
+     ]
+    },
+    {
+     "h": "Permis, béliers légaux et rôle du guide",
+     "p": [
+      "Les règles sur le mouflon sont parmi les plus strictes à la chasse. Dans plusieurs provinces, une bonne partie des permis est attribuée par tirage, et seuls les béliers qui répondent à des critères précis peuvent être récoltés dans bien des secteurs. Les non-résidents doivent souvent chasser avec un pourvoyeur-guide autorisé, et une bête récoltée peut devoir être déclarée ou inspectée. Consultez la réglementation officielle de la province.",
+      "Juger à distance si un bélier est légal demande de l'expérience. Un bon guide étudie attentivement les cornes et l'âge de la bête avant même que vous épauliez, ce qui vous protège, vous et le troupeau."
+     ]
+    },
+    {
+     "h": "Ce qui est généralement inclus",
+     "p": [
+      "Les chasses au mouflon sont habituellement tout compris. Demandez ce que couvre le forfait, qui comprend souvent :"
+     ],
+     "list": [
+      "Les chevaux ou un autre transport jusqu'en arrière-pays",
+      "Le camp, le cuisinier et les repas pour toute la durée",
+      "Un guide par chasseur dans bien des cas",
+      "Le soin au champ, la cape et la sortie du bélier et de la viande",
+      "L'aide pour la déclaration ou l'inspection exigée après la récolte"
+     ]
+    },
+    {
+     "h": "Trouver un pourvoyeur de mouflon avec {app}",
+     "p": [
+      "Dans {app}, choisissez chasse, puis mouflon d'Amérique, pour voir les pourvoyeurs qui l'offrent, chacun avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Communiquez avec plusieurs d'entre eux, posez des questions sur les béliers légaux, le terrain et la forme physique attendue, et planifiez longtemps d'avance."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Tout le monde peut-il chasser le mouflon au Canada?",
+     "a": "Les permis sont limités. Selon la province et la zone, ils peuvent être attribués par tirage ou assortis d'autres restrictions, et les non-résidents doivent souvent chasser avec un pourvoyeur-guide autorisé. Lisez la réglementation officielle de la province visée et confirmez les détails avec le pourvoyeur."
+    },
+    {
+     "q": "Quelle forme physique faut-il pour chasser le mouflon?",
+     "a": "Une très bonne forme, dans la plupart des cas. La chasse au mouflon demande des montées raides, de longues journées et un sac chargé, dans une météo de montagne changeante. Commencez à vous entraîner des mois d'avance avec des côtes, des escaliers et un sac lourd, et parlez franchement de votre condition au pourvoyeur."
+    },
+    {
+     "q": "Qu'est-ce qui rend un bélier légal à récolter?",
+     "a": "Dans bien des secteurs, seuls les béliers qui répondent à des critères précis, souvent liés à la taille des cornes ou à l'âge, peuvent être récoltés. Les règles exactes dépendent de la province et de la zone : consultez la réglementation officielle. L'expérience du guide pour juger un bélier à distance est essentielle."
+    }
+   ]
+  }
+ },
+ {
+  "id": "mountain-goat",
+  "en": {
+   "title": "Guided mountain goat hunts in BC and the West",
+   "description": "Considering a guided mountain goat hunt? Learn what steep-country hunting demands, why telling billies from nannies matters and what to ask a guide.",
+   "h1": "Guided mountain goat hunts in western Canada",
+   "lead": "Mountain goats live where few other animals go: cliffs, ledges and broken rock high above the treeline. A goat hunt asks for good legs, a steady head for heights and a guide who knows how to get you, and the animal, down safely.",
+   "sections": [
+    {
+     "h": "Where mountain goats are hunted",
+     "p": [
+      "In Canada, mountain goats are found mainly in the mountains of British Columbia, with smaller populations in Alberta and the northern territories. They live on very steep terrain, often near cliffs that protect them from predators, and are hunted in the fall when their white coats are thick.",
+      "A typical hunt involves glassing rock faces from a distance, sometimes for hours, then planning a climb that puts you above or level with the goat. Many outfitters reach their camps by horse, boat or small plane, especially on the coast and in the northern ranges."
+     ]
+    },
+    {
+     "h": "Why a goat hunt needs a guide",
+     "p": [
+      "Goat country is dangerous. Loose rock, wet ledges and sudden drops are part of every day, and an animal shot in the wrong spot can fall a long way or end up somewhere unreachable. Experienced guides choose shots with recovery in mind, not just distance.",
+      "Telling a billy from a nanny is difficult at a distance, and it matters: populations are sensitive and good practice, and in many areas the rules, favour taking males. In several provinces, goat licences are limited or allocated by draw, and non-residents are often required to hunt with a licensed guide-outfitter. Check the province's official regulations."
+     ]
+    },
+    {
+     "h": "What is usually included",
+     "p": [
+      "Goat hunts are usually fully outfitted backcountry trips, sometimes combined with other species. Ask what is covered, which often includes:"
+     ],
+     "list": [
+      "Transport into the hunting area by horse, boat or aircraft",
+      "Camp, meals and equipment for the length of the hunt",
+      "Guiding, frequently one guide per hunter",
+      "Help with caping, meat care and packing out",
+      "Assistance with any reporting or inspection required after harvest"
+     ]
+    },
+    {
+     "h": "How to prepare",
+     "p": [
+      "Prepare as you would for any serious mountain trip. Build leg strength and endurance with a loaded pack, practise on steep ground, and make sure you are comfortable with exposure. Ask the guide how steep the terrain is and whether any sections require scrambling.",
+      "Bring stiff mountain boots, a reliable pack, rain gear, warm layers and trekking poles. Practise shooting from awkward angles, uphill and downhill, since goat shots are rarely on flat ground."
+     ]
+    },
+    {
+     "h": "Finding a mountain goat outfitter with {app}",
+     "p": [
+      "Filter {app} for hunting and choose mountain goat to see outfitters offering it, with the region, what is included and a price per person from, or on request. Contact them early, ask how they judge billies and how they handle recovery in steep terrain."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Where can I hunt mountain goats in Canada?",
+     "a": "Most mountain goat hunting in Canada takes place in British Columbia, with limited opportunities elsewhere in the West and North. Licences are often limited or allocated by draw, so check the official regulations of the province or territory before planning."
+    },
+    {
+     "q": "Why do guides stress taking a billy?",
+     "a": "Mountain goat populations are sensitive, and losing breeding females has a strong effect on a herd. Good practice, and in many areas the rules, favour harvesting males. Billies and nannies look alike at a distance, so an experienced guide spends time studying the animal before any shot."
+    },
+    {
+     "q": "Is a mountain goat hunt dangerous?",
+     "a": "It takes place in steep, rocky terrain where falls are a real risk, so it demands fitness, good boots and caution. A qualified guide chooses routes and shots with safety and recovery in mind. Discuss your experience and comfort with heights honestly before booking."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse à la chèvre de montagne avec guide",
+   "description": "Une chasse guidée à la chèvre de montagne? Ce qu'exige le terrain escarpé, pourquoi distinguer mâle et femelle compte et quoi demander au pourvoyeur.",
+   "h1": "Chasse à la chèvre de montagne avec guide dans l'Ouest",
+   "lead": "La chèvre de montagne vit là où peu d'animaux s'aventurent : falaises, corniches et éboulis bien au-dessus de la limite des arbres. Cette chasse demande de bonnes jambes, de l'aplomb en hauteur et un guide qui sait vous faire redescendre en sécurité, vous et la bête.",
+   "sections": [
+    {
+     "h": "Où on chasse la chèvre de montagne",
+     "p": [
+      "Au Canada, la chèvre de montagne se trouve surtout dans les montagnes de la Colombie-Britannique, avec de plus petites populations en Alberta et dans les territoires du Nord. Elle vit en terrain très abrupt, souvent près des falaises qui la protègent des prédateurs, et on la chasse à l'automne, quand son pelage blanc est épais.",
+      "Une chasse type consiste à observer les parois rocheuses à distance, parfois pendant des heures, puis à planifier une montée qui vous place au-dessus de la chèvre ou à sa hauteur. Plusieurs pourvoyeurs rejoignent leurs camps à cheval, en bateau ou en petit avion, surtout sur la côte et dans les chaînes du Nord."
+     ]
+    },
+    {
+     "h": "Pourquoi un guide est indispensable",
+     "p": [
+      "Le territoire de la chèvre est dangereux. Roches instables, corniches mouillées et précipices font partie de chaque journée, et une bête abattue au mauvais endroit peut chuter loin ou aboutir dans un coin inaccessible. Un guide d'expérience choisit le tir en pensant à la récupération, pas seulement à la distance.",
+      "Distinguer un mâle d'une femelle à distance est difficile, et ça compte : les populations sont fragiles, et les bonnes pratiques, souvent les règles elles-mêmes, favorisent la récolte des mâles. Dans plusieurs provinces, les permis sont limités ou attribués par tirage, et les non-résidents doivent souvent chasser avec un pourvoyeur-guide autorisé. Consultez la réglementation officielle de la province."
+     ]
+    },
+    {
+     "h": "Ce qui est généralement inclus",
+     "p": [
+      "Les chasses à la chèvre sont habituellement des expéditions tout compris en arrière-pays, parfois combinées à d'autres espèces. Demandez ce qui est couvert, souvent :"
+     ],
+     "list": [
+      "Le transport jusqu'au territoire à cheval, en bateau ou en avion",
+      "Le camp, les repas et l'équipement pour toute la durée",
+      "Le guidage, souvent un guide par chasseur",
+      "L'aide pour la cape, le soin de la viande et la sortie de la bête",
+      "Le soutien pour toute déclaration ou inspection exigée après la récolte"
+     ]
+    },
+    {
+     "h": "Comment se préparer",
+     "p": [
+      "Préparez-vous comme pour une vraie expédition en montagne. Renforcez vos jambes et votre endurance avec un sac chargé, pratiquez en terrain abrupt et assurez-vous d'être à l'aise avec le vide. Demandez au guide à quel point le terrain est escarpé et s'il faut parfois s'aider des mains pour grimper.",
+      "Apportez des bottes de montagne rigides, un bon sac à dos, un habit de pluie, des couches chaudes et des bâtons de marche. Pratiquez le tir en angle, vers le haut et vers le bas, puisque la chèvre se tire rarement sur un terrain plat."
+     ]
+    },
+    {
+     "h": "Trouver un pourvoyeur avec {app}",
+     "p": [
+      "Filtrez {app} par chasse et choisissez chèvre de montagne pour voir les pourvoyeurs qui l'offrent, avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Joignez-les tôt et demandez-leur comment ils évaluent les mâles et comment ils récupèrent une bête en terrain abrupt."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Où peut-on chasser la chèvre de montagne au Canada?",
+     "a": "La plus grande partie de la chasse à la chèvre de montagne au Canada se fait en Colombie-Britannique, avec des possibilités limitées ailleurs dans l'Ouest et le Nord. Les permis sont souvent limités ou attribués par tirage : consultez la réglementation officielle de la province ou du territoire avant de planifier."
+    },
+    {
+     "q": "Pourquoi les guides insistent-ils pour récolter un mâle?",
+     "a": "Les populations de chèvres de montagne sont fragiles, et la perte de femelles reproductrices touche fortement un troupeau. Les bonnes pratiques, et dans bien des secteurs la réglementation, favorisent la récolte des mâles. Comme mâles et femelles se ressemblent à distance, un guide d'expérience prend le temps d'étudier la bête avant tout tir."
+    },
+    {
+     "q": "La chasse à la chèvre de montagne est-elle dangereuse?",
+     "a": "Elle se pratique en terrain rocheux et abrupt où les chutes sont un vrai risque : elle demande donc de la forme, de bonnes bottes et de la prudence. Un guide qualifié choisit les trajets et les tirs en pensant à la sécurité et à la récupération. Parlez franchement de votre expérience et de votre aisance en hauteur avant de réserver."
+    }
+   ]
+  }
+ },
+ {
+  "id": "pheasant",
+  "en": {
+   "title": "Guided pheasant hunts in Canada: find a guide",
+   "description": "Want a guided pheasant hunt with good dogs? See how prairie and preserve hunts work, what is usually included and what to ask before you book a guide.",
+   "h1": "Guided pheasant hunts in Canada",
+   "lead": "A rooster pheasant bursting out of cover in front of a pointing dog is one of the best moments in bird hunting. Guided hunts give you good ground, trained dogs and a relaxed day that suits new hunters and experienced shooters alike.",
+   "sections": [
+    {
+     "h": "Where pheasants are hunted",
+     "p": [
+      "Pheasants were introduced to North America and are now found in farm country across parts of southern Canada. On the prairies of Saskatchewan, Alberta and Manitoba, wild birds live in shelterbelts, cattail sloughs and crop edges. In several provinces, including Alberta, British Columbia and Ontario, birds are also released for hunting, and licensed hunting preserves offer hunts on managed land.",
+      "Wild-bird hunts and preserve hunts feel quite different. Wild birds are wary and numbers depend on habitat and winters, while preserves offer more predictable action. Ask which kind of hunt a guide offers before you book."
+     ]
+    },
+    {
+     "h": "Dogs and how the hunt works",
+     "p": [
+      "Pheasant hunting is built around dogs. Pointing breeds lock up on a bird and hold it until you walk in, while flushing dogs and retrievers work close and push birds into the air. A good dog also finds wounded birds that would otherwise be lost in thick cover.",
+      "Hunters walk in a line through cover, with the guide directing the group and the dogs. Safety is central: everyone wears blaze orange, keeps track of the line and only shoots birds flying safely above the horizon."
+     ]
+    },
+    {
+     "h": "Rules to know",
+     "p": [
+      "In many places only rooster pheasants may be taken in the wild, and preserves can operate under different rules and seasons. Small game licences, firearm requirements and non-resident rules vary by province and year. Check the official regulations and ask the guide what applies where you will hunt.",
+      "If you are visiting from another province or country, ask early about the paperwork for bringing or renting a shotgun, and about how to transport cleaned birds home."
+     ]
+    },
+    {
+     "h": "What is usually included",
+     "p": [
+      "Pheasant hunts range from a single morning to multi-day packages, sometimes combined with ducks, geese or other upland birds. Offers often include:"
+     ],
+     "list": [
+      "Guiding with trained pointing or flushing dogs",
+      "Access to private farmland or a licensed preserve",
+      "Lunch, or full lodging and meals on longer trips",
+      "Bird cleaning and packaging to take home",
+      "Shotgun rental or shells at some operations"
+     ]
+    },
+    {
+     "h": "Choosing a guide and booking with {app}",
+     "p": [
+      "Ask whether birds are wild or released, how many dogs and hunters go out together, and whether there is a minimum or maximum group size. If you are new, ask whether the guide offers coaching on safe gun handling and shooting.",
+      "In {app}, choose hunting, then pheasant, to see guides on the map with the region, what is included and a price per person from, or on request, then contact the one that suits you."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Is a pheasant hunt good for beginners?",
+     "a": "Yes, it is one of the most approachable guided hunts. Days are relaxed, the dogs do much of the work and guides can coach you on safety and shooting. You still need the licences and firearm requirements of the province, so check the official rules before you go."
+    },
+    {
+     "q": "What is the difference between a wild-bird hunt and a preserve hunt?",
+     "a": "Wild-bird hunts take place on farmland where pheasants live on their own, and numbers vary with habitat and weather. Licensed preserves release birds on managed land and may follow different rules and seasons. Ask the guide which kind they offer."
+    },
+    {
+     "q": "Can I bring my own dog on a guided pheasant hunt?",
+     "a": "Some guides welcome a well-trained dog, others prefer to use only their own to keep the hunt safe and organised. Ask before you book, and be ready to share your dog's training and vaccination details."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse au faisan avec guide au Canada",
+   "description": "Une chasse au faisan guidée avec de bons chiens? Chasse en prairie ou en territoire de lâcher, ce qui est inclus et quoi demander avant de réserver.",
+   "h1": "Chasse au faisan avec guide au Canada",
+   "lead": "Un coq faisan qui jaillit du couvert devant un chien à l'arrêt, c'est l'un des plus beaux moments de la chasse au petit gibier. Une chasse guidée vous offre un bon terrain, des chiens dressés et une journée détendue, autant pour le débutant que pour le tireur aguerri.",
+   "sections": [
+    {
+     "h": "Où on chasse le faisan",
+     "p": [
+      "Le faisan a été introduit en Amérique du Nord et vit maintenant dans les régions agricoles d'une partie du sud du Canada. Dans les Prairies de la Saskatchewan, de l'Alberta et du Manitoba, les oiseaux sauvages fréquentent les brise-vent, les marais à quenouilles et les bordures de champs. Dans plusieurs provinces, dont l'Alberta, la Colombie-Britannique et l'Ontario, des oiseaux sont aussi lâchés pour la chasse, et des territoires de chasse autorisés offrent des sorties sur des terres aménagées.",
+      "La chasse aux oiseaux sauvages et la chasse en territoire de lâcher sont bien différentes. L'oiseau sauvage est méfiant et son abondance dépend de l'habitat et des hivers, alors que le territoire aménagé donne une action plus prévisible. Demandez au guide quel type de chasse il propose avant de réserver."
+     ]
+    },
+    {
+     "h": "Les chiens et le déroulement",
+     "p": [
+      "La chasse au faisan tourne autour des chiens. Les chiens d'arrêt bloquent l'oiseau et le tiennent jusqu'à ce que vous avanciez, tandis que les leveurs et les rapporteurs travaillent près et font s'envoler les oiseaux. Un bon chien retrouve aussi l'oiseau blessé qui serait autrement perdu dans le couvert épais.",
+      "Les chasseurs avancent en ligne dans le couvert, le guide dirigeant le groupe et les chiens. La sécurité passe en premier : tout le monde porte du orangé, garde la ligne à l'œil et tire seulement les oiseaux qui volent bien au-dessus de l'horizon."
+     ]
+    },
+    {
+     "h": "Les règles à connaître",
+     "p": [
+      "À bien des endroits, seuls les coqs peuvent être récoltés à l'état sauvage, et les territoires de lâcher peuvent suivre des règles et des saisons différentes. Les permis de petit gibier, les exigences sur les armes à feu et les règles pour les non-résidents varient selon la province et l'année. Consultez la réglementation officielle et demandez au guide ce qui s'applique là où vous chasserez.",
+      "Si vous venez d'une autre province ou d'un autre pays, renseignez-vous tôt sur les formalités pour apporter ou louer un fusil, et sur le transport des oiseaux nettoyés jusque chez vous."
+     ]
+    },
+    {
+     "h": "Ce qui est généralement inclus",
+     "p": [
+      "Les chasses au faisan vont d'un simple avant-midi à des forfaits de plusieurs jours, parfois combinés aux canards, aux oies ou à d'autres oiseaux. Les offres comprennent souvent :"
+     ],
+     "list": [
+      "Le guidage avec des chiens d'arrêt ou des leveurs dressés",
+      "L'accès à des terres agricoles privées ou à un territoire autorisé",
+      "Le dîner, ou l'hébergement et les repas pour les séjours plus longs",
+      "Le nettoyage et l'emballage des oiseaux à rapporter",
+      "La location d'un fusil ou les cartouches chez certains pourvoyeurs"
+     ]
+    },
+    {
+     "h": "Choisir un guide et réserver avec {app}",
+     "p": [
+      "Demandez si les oiseaux sont sauvages ou lâchés, combien de chiens et de chasseurs sortent ensemble et s'il y a un nombre minimum ou maximum de participants. Si vous débutez, demandez si le guide offre de l'encadrement sur le maniement sécuritaire de l'arme et le tir.",
+      "Dans {app}, choisissez chasse, puis faisan, pour voir les guides sur la carte avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande, puis joignez celui qui vous convient."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "La chasse au faisan convient-elle aux débutants?",
+     "a": "Oui, c'est l'une des chasses guidées les plus accessibles. Les journées sont détendues, les chiens font une bonne partie du travail et le guide peut vous encadrer pour la sécurité et le tir. Il vous faut quand même les permis et les certificats exigés par la province : vérifiez les règles officielles avant de partir."
+    },
+    {
+     "q": "Quelle différence entre oiseaux sauvages et territoire de lâcher?",
+     "a": "La chasse aux oiseaux sauvages se fait sur des terres agricoles où les faisans vivent par eux-mêmes, et leur nombre varie selon l'habitat et la météo. Les territoires de chasse autorisés lâchent des oiseaux sur des terres aménagées et peuvent suivre des règles et des saisons différentes. Demandez au guide ce qu'il offre."
+    },
+    {
+     "q": "Puis-je amener mon propre chien?",
+     "a": "Certains guides acceptent un chien bien dressé, d'autres préfèrent n'utiliser que les leurs pour garder la chasse sécuritaire et organisée. Posez la question avant de réserver et soyez prêt à fournir les renseignements sur le dressage et les vaccins de votre chien."
+    }
+   ]
+  }
+ },
+ {
+  "id": "sharp-tailed-grouse",
+  "en": {
+   "title": "Guided sharp-tailed grouse hunts on the prairies",
+   "description": "Planning a guided sharp-tailed grouse hunt in the Prairies? Learn how dogs and open-country walking work, what is included and what to ask a guide.",
+   "h1": "Guided sharp-tailed grouse hunts on the Canadian prairies",
+   "lead": "Sharp-tailed grouse are a native bird of the prairies and parkland, hunted by walking big open country behind a good dog. A guide finds the birds, provides access to land and often pairs them with ducks, geese or partridge.",
+   "sections": [
+    {
+     "h": "Where and how sharptails are hunted",
+     "p": [
+      "Sharp-tailed grouse live in grasslands, brushy coulees and aspen parkland across the prairie provinces, especially Saskatchewan, Alberta and Manitoba, with populations in parts of British Columbia's interior and further north and east as well. In spring, males gather on dancing grounds called leks; the hunting season, where open, is in the fall.",
+      "Early in the season, birds are often found in small groups in grass and brush near feeding areas. As fall goes on they flock up and flush wild, and hunting becomes a game of covering ground and reading the wind. Hunters walk long distances with pointing or flushing dogs, often in wide-open landscape."
+     ]
+    },
+    {
+     "h": "Why go with a guide",
+     "p": [
+      "Sharptails can be spread thin across big country, and much of the best habitat is private pasture and farmland. A local guide knows where birds are using that season and has permission on the land, which saves you days of searching.",
+      "Dogs make a real difference. A good pointer covers far more ground than a hunter on foot, and a retriever finds downed birds in tall grass. Small game licences and non-resident rules differ between provinces and years, so check the official regulations and ask the guide what you need."
+     ]
+    },
+    {
+     "h": "Combined hunts and what is included",
+     "p": [
+      "Many prairie outfitters offer sharptails as part of a mixed bag with waterfowl, Hungarian partridge or pheasant: decoys over a field in the morning, birds and dogs in the afternoon. Packages often include:"
+     ],
+     "list": [
+      "Guiding with experienced bird dogs",
+      "Access to private pasture and farmland",
+      "Lodging and meals, from farmhouse to lodge",
+      "Transport between hunting spots",
+      "Bird cleaning, and decoys and blinds for combined waterfowl hunts"
+     ]
+    },
+    {
+     "h": "What to ask and what to bring",
+     "p": [
+      "Ask how much walking a day involves, which other species are included, and how many hunters share each dog. Ask whether the guide welcomes your own dog and what the plan is on very hot or windy days, which affect both birds and dogs.",
+      "Bring comfortable broken-in boots, layered clothing, blaze orange, water for you and any dog, and a shotgun you know well. Early-season days can be warm, while late fall on the prairie can be cold and windy."
+     ]
+    },
+    {
+     "h": "Finding a sharp-tailed grouse hunt with {app}",
+     "p": [
+      "Open {app}, filter for hunting and choose sharp-tailed grouse. The map shows guides who offer it, with the region, what is included and a price per person from, or on request, so you can compare and contact them directly."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Where can I hunt sharp-tailed grouse?",
+     "a": "Sharp-tailed grouse are hunted mainly in the prairie provinces, especially Saskatchewan, Alberta and Manitoba, and in parts of British Columbia and other regions where seasons are open. Open areas and seasons vary, so check the official regulations of the province."
+    },
+    {
+     "q": "Do I need a dog to hunt sharp-tailed grouse?",
+     "a": "It is possible without one, but dogs make a big difference in open grassland, both to find birds and to recover them. Most guided hunts include trained dogs, and some guides accept your own well-trained dog if you ask ahead."
+    },
+    {
+     "q": "Can I combine sharptails with waterfowl?",
+     "a": "Often, yes. Many prairie outfitters run combined hunts with ducks and geese in the morning and upland birds later in the day. Each species may need its own licence or permit, so check the regulations and ask the guide what is required."
+    }
+   ]
+  },
+  "fr": {
+   "title": "Chasse au tétras à queue fine avec guide",
+   "description": "Une chasse guidée au tétras à queue fine dans les Prairies? Les chiens, la marche en terrain ouvert, ce qui est inclus et quoi demander au guide.",
+   "h1": "Chasse au tétras à queue fine avec guide dans les Prairies",
+   "lead": "Le tétras à queue fine est un oiseau indigène des Prairies et de la forêt-parc, qu'on chasse en marchant de grands espaces ouverts derrière un bon chien. Le guide trouve les oiseaux, donne accès aux terres et l'associe souvent aux canards, aux oies ou à la perdrix.",
+   "sections": [
+    {
+     "h": "Où et comment on chasse le tétras",
+     "p": [
+      "Le tétras à queue fine vit dans les prairies, les coulées broussailleuses et la forêt-parc des provinces des Prairies, surtout en Saskatchewan, en Alberta et au Manitoba, avec des populations dans l'intérieur de la Colombie-Britannique et plus au nord et à l'est. Au printemps, les mâles se rassemblent sur des aires de parade; la chasse, là où elle est ouverte, se fait à l'automne.",
+      "En début de saison, on trouve souvent les oiseaux en petits groupes dans l'herbe et les broussailles, près des aires d'alimentation. Plus l'automne avance, plus ils se regroupent et s'envolent de loin, et la chasse devient une affaire de terrain couvert et de lecture du vent. On marche beaucoup avec des chiens d'arrêt ou des leveurs, souvent dans un paysage grand ouvert."
+     ]
+    },
+    {
+     "h": "Pourquoi partir avec un guide",
+     "p": [
+      "Le tétras peut être dispersé sur de grands espaces, et une bonne partie du meilleur habitat est en pâturages et en terres agricoles privés. Un guide local sait où se tiennent les oiseaux cette saison-là et a la permission d'y chasser, ce qui vous épargne des jours de recherche.",
+      "Les chiens font une vraie différence. Un bon chien d'arrêt couvre beaucoup plus de terrain qu'un chasseur à pied, et un rapporteur retrouve l'oiseau tombé dans les hautes herbes. Les permis de petit gibier et les règles pour les non-résidents changent selon la province et l'année : consultez la réglementation officielle et demandez au guide ce qu'il vous faut."
+     ]
+    },
+    {
+     "h": "Chasses combinées et ce qui est inclus",
+     "p": [
+      "Bien des pourvoyeurs des Prairies offrent le tétras dans une chasse mixte avec la sauvagine, la perdrix grise ou le faisan : appelants dans un champ le matin, oiseaux et chiens l'après-midi. Les forfaits comprennent souvent :"
+     ],
+     "list": [
+      "Le guidage avec des chiens d'oiseaux d'expérience",
+      "L'accès à des pâturages et à des terres agricoles privés",
+      "L'hébergement et les repas, de la maison de ferme au lodge",
+      "Le transport entre les secteurs de chasse",
+      "Le nettoyage des oiseaux, et les appelants et caches pour la sauvagine"
+     ]
+    },
+    {
+     "h": "Quoi demander et quoi apporter",
+     "p": [
+      "Demandez combien de marche une journée représente, quelles autres espèces sont comprises et combien de chasseurs partagent chaque chien. Vérifiez si le guide accepte votre propre chien et ce qui est prévu les journées très chaudes ou très venteuses, qui touchent autant les oiseaux que les chiens.",
+      "Apportez des bottes confortables et rodées, des vêtements en couches, du orangé, de l'eau pour vous et pour votre chien, et un fusil que vous connaissez bien. Les journées de début de saison peuvent être chaudes, alors que la fin de l'automne dans les Prairies peut être froide et venteuse."
+     ]
+    },
+    {
+     "h": "Trouver une chasse au tétras avec {app}",
+     "p": [
+      "Ouvrez {app}, filtrez par chasse et choisissez tétras à queue fine. La carte affiche les guides qui l'offrent, avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande, pour que vous puissiez comparer et les joindre directement."
+     ]
+    }
+   ],
+   "faq": [
+    {
+     "q": "Où peut-on chasser le tétras à queue fine?",
+     "a": "On le chasse surtout dans les provinces des Prairies, en particulier en Saskatchewan, en Alberta et au Manitoba, ainsi que dans certaines régions de la Colombie-Britannique et d'ailleurs où la saison est ouverte. Les secteurs et les saisons varient : consultez la réglementation officielle de la province."
+    },
+    {
+     "q": "Faut-il un chien pour chasser le tétras à queue fine?",
+     "a": "C'est possible sans chien, mais en prairie ouverte un chien change tout, autant pour trouver les oiseaux que pour les récupérer. La plupart des chasses guidées incluent des chiens dressés, et certains guides acceptent votre propre chien bien dressé si vous le demandez d'avance."
+    },
+    {
+     "q": "Peut-on combiner le tétras et la sauvagine?",
+     "a": "Souvent, oui. Bien des pourvoyeurs des Prairies organisent des chasses combinées, avec canards et oies le matin et petit gibier à plumes plus tard dans la journée. Chaque espèce peut exiger son propre permis : vérifiez la réglementation et demandez au guide ce qu'il faut."
+    }
+   ]
+  }
+ }
+]

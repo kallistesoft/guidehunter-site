@@ -696,7 +696,7 @@
       },
       {
         "q": "Which regions does {app} cover?",
-        "a": "We are starting with Québec and covering all of Canada. Guides and outfitters from anywhere can list their offers."
+        "a": "All of Canada, from Québec to British Columbia and up North. Guides and outfitters from anywhere can put their offers on the map."
       }
     ],
     "fr": [
@@ -730,7 +730,7 @@
       },
       {
         "q": "Quelles régions l'application {app} couvre-t-elle?",
-        "a": "Nous commençons par le Québec et couvrons tout le Canada. Les guides et les pourvoiries de partout peuvent afficher leurs offres."
+        "a": "Tout le Canada, du Québec à la Colombie-Britannique et jusqu'au Nord. Les guides et les pourvoiries de partout peuvent afficher leurs offres sur la carte."
       }
     ]
   }
