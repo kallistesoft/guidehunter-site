@@ -2,7 +2,7 @@
 
 The promotional website of the GuideHunter app (Android, [kallistesoft/guidehunter-android](https://github.com/kallistesoft/guidehunter-android)):
 what the app does, for hunters and anglers looking for a guide, and for guides who want to be on the map. Built to
-be found on search engines: one page per species, tips articles, FAQ, in French (`/`) and English (`/en/`). It also
+be found on search engines: one page per species (29, the app's list), one per province, tips articles, FAQ, in French (`/`) and English (`/en/`). It also
 holds the app's privacy policy and account deletion pages, which Google Play asks for.
 
 Live at https://guides.kallistesoft.ca, deployed to the GoDaddy hosting on every push to `main`.
@@ -19,7 +19,8 @@ Plain Node 22, no dependencies:
 |---|---|
 | `tools/config.mjs` | **The app's name**, the domain, the Google Play link (null: "coming soon" and a "tell me" email), the contact |
 | `tools/copy.mjs` | The site's own words (FR/EN): home, hubs, become a guide, privacy, account deletion, and the species list with their URLs |
-| `data/species-*.json` | The 16 species pages, one object per species, `fr` and `en` |
+| `data/species-*.json` | The species pages, one object per species, `fr` and `en` (every `species-*.json` file is read; ids match `SPECIES` in copy.mjs and the app's `Species` enum) |
+| `data/provinces.json` | The province pages, with the species each one is known for (linked both ways) |
 | `data/articles.json` | The tips articles and the app FAQ |
 | `data/BRIEF.md` | The rules the content follows (what the app does and doesn't do, no invented facts, Québec French) |
 | `assets/` | `site.css` (the app's theme: palette from `core/designsystem` Color.kt, Barlow fonts), `site.js` (theme toggle, menu), logo, fonts, share images |

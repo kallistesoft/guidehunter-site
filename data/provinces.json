@@ -1,0 +1,1126 @@
+[
+  {
+    "id": "quebec",
+    "species": [
+      "moose",
+      "black-bear",
+      "white-tailed-deer",
+      "waterfowl",
+      "brook-trout",
+      "walleye",
+      "lake-trout",
+      "atlantic-salmon",
+      "northern-pike",
+      "ice-fishing"
+    ],
+    "en": {
+      "name": "Québec",
+      "title": "Hunting and fishing outfitters (pourvoiries) in Québec",
+      "description": "Looking for a pourvoirie or a hunting and fishing guide in Québec? How outfitters work, moose, bear and brook trout trips, access and what to check first.",
+      "h1": "Hunting and fishing guides and pourvoiries in Québec",
+      "lead": "Québec has a long tradition of outfitters, called pourvoiries, spread across forests, lakes and rivers from the Laurentians to the far north. For a visitor or a new hunter, a pourvoirie is often the simplest way in.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in Québec",
+          "p": [
+            "Most of Québec is boreal forest cut by thousands of lakes and rivers, with farmland and hardwood ridges in the south along the St. Lawrence. That range gives very different trips: a moose hunt in a remote camp, a white-tailed deer (chevreuil) hunt near farm country, or a week of brook trout fishing on a quiet lake.",
+            "Moose and black bear are the big game most visitors come for. White-tailed deer is popular in the south, wild turkey has become a spring hunt in some southern regions, and ducks, geese and grouse fill the fall. Caribou sport hunting is closed in Québec.",
+            "On the water, brook trout (truite mouchetée) is the classic catch, along with walleye (doré), lake trout (touladi) and northern pike. Atlantic salmon rivers draw fly anglers to the Gaspé Peninsula and the North Shore, and ice fishing (pêche blanche) keeps many camps busy in winter."
+          ]
+        },
+        {
+          "h": "How pourvoiries work",
+          "p": [
+            "A pourvoirie is a business that offers lodging and services for hunting, fishing or trapping. Some hold exclusive rights on a defined territory, which means they manage the hunting and fishing there and only their clients can use it. Others operate without exclusive rights: they rent cabins and offer services, but the land around them stays open to other users.",
+            "Both can be good choices. A territory with exclusive rights usually gives more control over fishing pressure and hunting sectors. A pourvoirie without exclusive rights can be more flexible and closer to roads. Québec also has public territories such as ZECs and wildlife reserves, which work differently from a pourvoirie."
+          ]
+        },
+        {
+          "h": "Getting there: road, boat or floatplane",
+          "p": [
+            "Many pourvoiries in the southern half of the province are reached by road, often on gravel forest roads for the last part. Others sit on a big lake and send a boat to pick you up at the landing.",
+            "Further north, in regions such as the Côte-Nord, Abitibi or Nord-du-Québec, fly-in camps are common. A floatplane drops you at a lake with a cabin and a boat, and picks you up at the end of the stay. Ask about luggage limits and weather delays."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Licences are sold by the province, and the rules for residents and non-residents differ. A visitor from another province, the US or France needs the right non-resident permits, and in some cases certain species or zones are only open to non-residents through an outfitter. Hunters also need a recognized hunter education certificate."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the zone you will visit",
+            "Ask whether the territory has exclusive rights and how many groups share it",
+            "Confirm who buys the licences and what is included in the package",
+            "Ask about meat care, transport of game and fish, and cell coverage"
+          ]
+        },
+        {
+          "h": "Finding a pourvoirie with {app}",
+          "p": [
+            "Open {app}, zoom the map on Québec, then filter by hunting or fishing and choose a species such as moose, black bear or brook trout. Each pin is a guide or pourvoirie with its offers: what is included, the region and a price per person from, or on request.",
+            "Compare a few offers in the same region, then call or write to the ones that fit."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between a pourvoirie with and without exclusive rights?",
+          "a": "A pourvoirie with exclusive rights manages hunting and fishing on its own territory, and only its clients can hunt or fish there. A pourvoirie without exclusive rights offers lodging and services, but the surrounding land is open to other users. Ask each outfitter which kind it is."
+        },
+        {
+          "q": "Can a non-resident hunt in Québec?",
+          "a": "Yes. Non-residents can hunt several species in Québec with the right non-resident licences and a recognized hunter education certificate. For some species or zones, going through an outfitter may be required. Rules change, so check the province's current regulations and ask the pourvoirie."
+        },
+        {
+          "q": "Can I hunt caribou in Québec?",
+          "a": "No. Sport hunting of caribou is closed in Québec. Pourvoiries that once offered caribou now focus on moose, black bear, fishing and other species."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Québec",
+      "title": "Pourvoiries et guides de chasse et pêche au Québec",
+      "description": "Vous cherchez une pourvoirie ou un guide de chasse et pêche au Québec? Droits exclusifs ou non, orignal, ours, truite, accès et ce qu'il faut vérifier.",
+      "h1": "Pourvoiries et guides de chasse et pêche au Québec",
+      "lead": "Le Québec a une longue tradition de pourvoiries, des Laurentides jusqu'au Grand Nord. Pour un chasseur de la ville, un débutant ou un visiteur de l'étranger, c'est souvent la façon la plus simple de commencer.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche au Québec",
+          "p": [
+            "La forêt boréale, parsemée de milliers de lacs et de rivières, couvre presque tout le territoire, avec des terres agricoles et des érablières le long du Saint-Laurent. Les séjours sont donc variés : l'orignal dans un camp éloigné, le chevreuil près des champs ou une semaine de truite mouchetée sur un petit lac tranquille.",
+            "L'orignal et l'ours noir sont les gros gibiers qui attirent le plus de visiteurs. Le chevreuil est très populaire dans le sud, le dindon sauvage est devenu une chasse printanière dans certaines régions méridionales, et la sauvagine et la gélinotte occupent l'automne. La chasse sportive au caribou est fermée au Québec.",
+            "À la pêche, l'omble de fontaine reste la classique, avec le doré, le touladi et le brochet. Les rivières à saumon atlantique de la Gaspésie et de la Côte-Nord attirent les moucheurs, et la pêche blanche fait vivre bien des camps l'hiver."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoiries",
+          "p": [
+            "Une pourvoirie est une entreprise qui offre de l'hébergement et des services pour la chasse, la pêche ou le piégeage. Certaines ont des droits exclusifs sur un territoire délimité : elles y gèrent la chasse et la pêche, et seuls leurs clients peuvent l'exploiter. D'autres sont sans droits exclusifs : elles louent des chalets et offrent des services, mais le territoire autour reste ouvert aux autres utilisateurs.",
+            "Les deux formules ont leurs avantages : les droits exclusifs donnent souvent un meilleur contrôle de la pression de pêche et des secteurs de chasse, tandis qu'une pourvoirie sans droits exclusifs peut être plus souple et plus proche des routes. Il existe aussi des territoires publics comme les zecs et les réserves fauniques, qui fonctionnent autrement."
+          ]
+        },
+        {
+          "h": "Se rendre : par la route, en bateau ou en hydravion",
+          "p": [
+            "Dans le sud, bien des pourvoiries sont accessibles par la route, souvent par un chemin forestier sur la fin. D'autres sont installées au bord d'un grand lac et viennent vous chercher en bateau au débarcadère.",
+            "Plus au nord, de la Côte-Nord à l'Abitibi, les camps en avion sont courants. L'hydravion vous dépose sur un lac avec un chalet et une chaloupe, puis revient vous chercher à la fin du séjour. Informez-vous sur le poids des bagages et les retards dus à la météo."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "Les permis sont vendus par la province, et les règles diffèrent selon que vous êtes résident ou non. Un visiteur d'une autre province, des États-Unis ou de France doit avoir les bons permis de non-résident, et certaines espèces ou zones ne leur sont accessibles que par l'entremise d'un pourvoyeur. Le chasseur doit aussi détenir un certificat du chasseur reconnu."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour la zone visitée",
+            "Demandez si le territoire est à droits exclusifs et combien de groupes le partagent",
+            "Confirmez qui achète les permis et ce que comprend le forfait",
+            "Informez-vous sur le soin de la viande, le transport des prises et le réseau cellulaire"
+          ]
+        },
+        {
+          "h": "Trouver une pourvoirie avec {app}",
+          "p": [
+            "Ouvrez {app}, zoomez la carte sur le Québec, puis filtrez par chasse ou par pêche et choisissez une espèce : orignal, ours noir, omble de fontaine ou autre. Chaque épingle est un guide ou une pourvoirie avec ses offres : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande.",
+            "Comparez quelques offres dans la même région, puis appelez ou écrivez un courriel à celles qui vous conviennent."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quelle est la différence entre une pourvoirie avec ou sans droits exclusifs?",
+          "a": "Une pourvoirie à droits exclusifs gère la chasse et la pêche sur son propre territoire, et seuls ses clients peuvent y chasser ou y pêcher. Une pourvoirie sans droits exclusifs offre l'hébergement et des services, mais le territoire autour est ouvert aux autres. Demandez à chaque pourvoyeur dans quelle catégorie il se trouve."
+        },
+        {
+          "q": "Un non-résident peut-il chasser au Québec?",
+          "a": "Oui. Un non-résident peut chasser plusieurs espèces au Québec avec les permis de non-résident appropriés et un certificat du chasseur reconnu. Pour certaines espèces ou zones, il peut devoir passer par un pourvoyeur. Les règles changent : consultez la réglementation en vigueur et posez la question à la pourvoirie."
+        },
+        {
+          "q": "Peut-on chasser le caribou au Québec?",
+          "a": "Non. La chasse sportive au caribou est fermée au Québec. Les pourvoiries qui l'offraient se consacrent maintenant à l'orignal, à l'ours noir, à la pêche et à d'autres espèces."
+        }
+      ]
+    }
+  },
+  {
+    "id": "ontario",
+    "species": [
+      "walleye",
+      "northern-pike",
+      "muskellunge",
+      "smallmouth-bass",
+      "lake-trout",
+      "brook-trout",
+      "moose",
+      "black-bear",
+      "white-tailed-deer",
+      "wild-turkey"
+    ],
+    "en": {
+      "name": "Ontario",
+      "title": "Hunting and fishing guides in Ontario",
+      "description": "Find a guided hunt or fishing trip in Ontario: fly-in walleye lodges, muskie guides, moose and bear outfitters, road or floatplane access, what to check.",
+      "h1": "Hunting and fishing guides and outfitters in Ontario",
+      "lead": "Ontario is one of the great freshwater fishing destinations in North America, with a huge northern wilderness of lakes and a strong tradition of lodges and outfitters. Hunting for moose, bear and deer fits into the same landscape.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in Ontario",
+          "p": [
+            "Southern Ontario is farmland, hardwood bush and the shores of the Great Lakes. North of that, the Canadian Shield takes over: granite, pine and spruce, and lakes as far as you can fly. Most guided trips happen in the central and northern parts of the province, from cottage country to the far northwest.",
+            "Walleye and northern pike are the backbone of northern fishing, and many anglers come for a shore lunch of fresh walleye. Muskellunge (muskie) draws specialists to a handful of famous waters, smallmouth bass is a summer favourite, and lake trout and brook trout live in the colder, clearer lakes and rivers.",
+            "On the hunting side, moose and black bear are the main big game in the north. White-tailed deer and wild turkey are hunted mostly in the south and centre, and ducks, geese and grouse round out the fall."
+          ]
+        },
+        {
+          "h": "How lodges and outfitters work",
+          "p": [
+            "Ontario's outfitters range from full-service lodges with guides, boats and meals to outpost camps, where you get a cabin, a boat and motor on a remote lake and cook for yourself. Some fishing guides work by the day out of a town or marina and simply meet you at the launch.",
+            "For hunting, outfitters often hold the areas and allocations that make a hunt possible for a visitor. Non-resident hunters, especially for black bear and moose, generally hunt through a licensed outfitter. Check the current rules for your situation and ask the outfitter what applies."
+          ]
+        },
+        {
+          "h": "Access: drive-to or fly-in",
+          "p": [
+            "Many lodges in central and northwestern Ontario are drive-to, often at the end of a long highway and a stretch of gravel. Some are boat-in only, a short run across a big lake from the landing.",
+            "The classic northern trip is fly-in: a floatplane takes you to a lake that no road reaches, where the fishing pressure is light. Fly-in trips need more planning, so ask about weight limits, what gear is provided and the plan if weather holds the plane."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Ontario sells its own fishing and hunting licences, and you generally need an Outdoors Card as well. Non-resident and resident rules differ, and some waters have special limits or catch-and-release rules."
+          ],
+          "list": [
+            "Read the province's current fishing and hunting regulations for the zone you will visit",
+            "Ask whether licences are included or sold at the lodge",
+            "For a fly-in, confirm what the camp supplies: boat, fuel, electronics, bedding",
+            "For a hunt, ask about success, meat care and getting your game home"
+          ]
+        },
+        {
+          "h": "Finding an Ontario guide with {app}",
+          "p": [
+            "In {app}, zoom the map on Ontario and filter by fishing or hunting, then pick a species such as walleye, muskellunge or moose. Teal pins are fishing guides, orange pins are hunting, and gold pins offer both. Each offer shows what is included, the region and a price per person from, or on request."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is an outpost camp in Ontario?",
+          "a": "An outpost camp is a cabin on a remote lake, usually reached by floatplane, where you fish on your own with a boat and motor provided. It costs less than a full-service lodge but you cook and guide yourself. Ask the outfitter exactly what is supplied."
+        },
+        {
+          "q": "Do non-residents need an outfitter to hunt in Ontario?",
+          "a": "For some big game, such as black bear and moose, non-residents generally hunt through a licensed outfitter. The rules depend on the species and can change, so check the province's current hunting regulations and confirm with the outfitter."
+        },
+        {
+          "q": "When is walleye fishing best in Ontario?",
+          "a": "Walleye can be caught through the open-water season and through the ice in winter, and the best weeks depend on the lake and the region. Seasons and limits vary by zone, so check the current fishing regulations and ask your lodge."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Ontario",
+      "title": "Guides de chasse et pêche en Ontario",
+      "description": "Trouvez un guide de chasse ou de pêche en Ontario : camps en hydravion pour le doré, maskinongé, orignal et ours, accès et ce qu'il faut vérifier.",
+      "h1": "Guides et pourvoyeurs de chasse et pêche en Ontario",
+      "lead": "L'Ontario est l'une des grandes destinations de pêche en eau douce d'Amérique du Nord, avec un immense Nord sauvage couvert de lacs et une longue tradition de camps et de pourvoyeurs. La chasse à l'orignal, à l'ours et au chevreuil s'y ajoute naturellement.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche en Ontario",
+          "p": [
+            "Le sud de l'Ontario, ce sont des terres agricoles, des boisés de feuillus et les rives des Grands Lacs. Plus au nord, le Bouclier canadien prend le relais : granit, pins, épinettes et des lacs à perte de vue. La plupart des séjours guidés se déroulent dans le centre et le nord de la province, jusqu'au nord-ouest.",
+            "Le doré et le grand brochet sont la base de la pêche nordique, et bien des pêcheurs viennent pour le fameux dîner de doré sur le rivage. Le maskinongé attire les spécialistes sur quelques plans d'eau réputés, l'achigan à petite bouche est un favori de l'été, et le touladi et l'omble de fontaine vivent dans les eaux plus froides et claires.",
+            "Côté chasse, l'orignal et l'ours noir sont les principaux gros gibiers du Nord. Le chevreuil et le dindon sauvage se chassent surtout dans le sud et le centre, et la sauvagine et la gélinotte complètent l'automne."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les camps et les pourvoyeurs",
+          "p": [
+            "Les pourvoyeurs ontariens vont du camp tout inclus, avec guides, bateaux et repas, au camp avant-poste : un chalet, une chaloupe et un moteur sur un lac isolé, et vous cuisinez vous-même. Certains guides de pêche travaillent à la journée à partir d'un village ou d'une marina et vous attendent à la mise à l'eau.",
+            "À la chasse, ce sont souvent les pourvoyeurs qui détiennent les secteurs et les autorisations qui rendent un séjour possible pour un visiteur. Les non-résidents, surtout pour l'ours noir et l'orignal, chassent généralement avec un pourvoyeur autorisé. Vérifiez les règles qui s'appliquent à vous et posez la question au pourvoyeur."
+          ]
+        },
+        {
+          "h": "L'accès : par la route ou en hydravion",
+          "p": [
+            "Bien des camps du centre et du nord-ouest sont accessibles en voiture, souvent au bout d'une longue route et d'un bout de gravier. D'autres ne se rejoignent qu'en bateau, à partir d'un débarcadère.",
+            "Le séjour nordique classique se fait en hydravion, vers un lac qu'aucune route n'atteint et où la pression de pêche est faible. Prévoyez plus d'organisation : informez-vous sur le poids des bagages, l'équipement fourni et le plan si la météo cloue l'avion au sol."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "L'Ontario vend ses propres permis de chasse et de pêche, et il faut généralement aussi une carte Plein air. Les règles diffèrent pour les résidents et les non-résidents, et certains plans d'eau ont des limites ou des règles de remise à l'eau particulières."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour la zone visitée",
+            "Demandez si les permis sont inclus ou vendus au camp",
+            "En hydravion, confirmez ce que le camp fournit : bateau, essence, sonar, literie",
+            "Pour la chasse, informez-vous sur le soin de la viande et le transport du gibier"
+          ]
+        },
+        {
+          "h": "Trouver un guide en Ontario avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur l'Ontario, filtrez par pêche ou par chasse, puis choisissez une espèce : doré, maskinongé, orignal ou autre. Les épingles sarcelle sont des guides de pêche, les orange de chasse, et les dorées offrent les deux. Chaque offre indique ce qui est inclus, la région et un prix par personne à partir de, ou sur demande."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Qu'est-ce qu'un camp avant-poste en Ontario?",
+          "a": "C'est un chalet sur un lac isolé, souvent accessible en hydravion, où vous pêchez seul avec une chaloupe et un moteur fournis. C'est moins cher qu'un camp tout inclus, mais vous cuisinez et vous vous guidez vous-même. Demandez au pourvoyeur ce qui est fourni exactement."
+        },
+        {
+          "q": "Un non-résident doit-il passer par un pourvoyeur pour chasser en Ontario?",
+          "a": "Pour certains gros gibiers, comme l'ours noir et l'orignal, les non-résidents chassent généralement avec un pourvoyeur autorisé. Les règles dépendent de l'espèce et peuvent changer : consultez la réglementation en vigueur et confirmez avec le pourvoyeur."
+        },
+        {
+          "q": "Quand pêcher le doré en Ontario?",
+          "a": "Le doré se pêche en eau libre et sous la glace l'hiver, et les meilleures semaines dépendent du lac et de la région. Les saisons et les limites varient selon la zone : vérifiez la réglementation de pêche et demandez conseil à votre camp."
+        }
+      ]
+    }
+  },
+  {
+    "id": "british-columbia",
+    "species": [
+      "mountain-goat",
+      "bighorn-sheep",
+      "elk",
+      "mule-deer",
+      "moose",
+      "black-bear",
+      "pacific-salmon",
+      "rainbow-trout",
+      "sturgeon",
+      "lake-trout"
+    ],
+    "en": {
+      "name": "British Columbia",
+      "title": "Hunting and fishing guides in British Columbia",
+      "description": "Find a guide-outfitter or fishing guide in British Columbia: mountain hunts, Pacific salmon, sturgeon and trout, how guiding works there and what to check.",
+      "h1": "Hunting and fishing guides in British Columbia",
+      "lead": "British Columbia packs coast, rainforest, interior plateaus and high mountains into one province. That variety makes it one of the most diverse places in Canada for guided hunting and fishing.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in BC",
+          "p": [
+            "Big game hunting in BC often means mountains. Mountain goat and bighorn sheep live in steep, high country, while elk, mule deer, moose and black bear range through the valleys, the interior and the north. Many hunts involve hiking, horses or backpacking into remote basins.",
+            "Fishing is just as varied. On the coast and in the big rivers, Pacific salmon draw anglers from around the world. Interior lakes are known for rainbow trout, and the large rivers of the south hold sturgeon, usually fished catch-and-release with a guide who knows the water. Lake trout live in deep northern and interior lakes."
+          ]
+        },
+        {
+          "h": "How guide-outfitters work in BC",
+          "p": [
+            "BC has a licensed guide-outfitter system. A guide-outfitter holds a defined guiding territory, and visiting hunters book with the outfitter whose area holds the animals they want. Non-residents generally must hunt big game with a licensed guide-outfitter, with limited exceptions. Check the current rules for your situation.",
+            "A guided mountain hunt is a serious trip. Ask how the outfitter travels in the area (truck, horse, boat, foot), how fit you need to be, and how many hunters a guide takes at once."
+          ]
+        },
+        {
+          "h": "Access: road, boat, floatplane or horseback",
+          "p": [
+            "Some lodges and fishing guides work close to towns and highways, especially in the interior and along the big rivers. Coastal fishing often runs from a lodge or a marina by boat, and some coastal lodges can only be reached by floatplane or water taxi.",
+            "In the north and in the mountains, hunts often start with a bush plane to a remote strip or lake, then continue on horseback or on foot. Ask exactly how you will get in and out, and how much gear you can bring."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "BC sells its own hunting and freshwater fishing licences, while saltwater fishing is licensed separately. Rules for residents, other Canadians and visitors from abroad differ, and some species and areas have extra limits or draws."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations, and the saltwater rules if you fish the coast",
+            "Confirm the outfitter is licensed for the species and area you want",
+            "Ask about physical demands, altitude and weather",
+            "Ask about meat, trophy care and transport out of the bush"
+          ]
+        },
+        {
+          "h": "Finding a BC guide with {app}",
+          "p": [
+            "In {app}, zoom the map on British Columbia and filter by hunting or fishing, then choose a species such as mountain goat, elk, Pacific salmon or sturgeon. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request, and the guide's contact details appear after a short optional video ad."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do non-residents need a guide to hunt in British Columbia?",
+          "a": "Non-residents generally must hunt big game in BC with a licensed guide-outfitter, with limited exceptions. The details depend on where you live and can change, so check the province's current hunting regulations and confirm with the outfitter."
+        },
+        {
+          "q": "Do I need a separate licence for saltwater fishing in BC?",
+          "a": "Yes. Saltwater (tidal) fishing is licensed separately from freshwater fishing in BC. If your trip includes both, you will likely need both. Check the official rules or ask your guide or lodge."
+        },
+        {
+          "q": "How fit do I need to be for a mountain hunt?",
+          "a": "Sheep and goat hunts are among the most demanding in Canada, with steep climbs and long days. Ask the outfitter how they hunt the area and train well before the trip. Valley hunts for elk, moose or bear can be easier."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Colombie-Britannique",
+      "title": "Guides de chasse et pêche en Colombie-Britannique",
+      "description": "Trouvez un pourvoyeur ou un guide de pêche en Colombie-Britannique : chasse en montagne, saumon du Pacifique, esturgeon, règles et ce qu'il faut vérifier.",
+      "h1": "Guides de chasse et pêche en Colombie-Britannique",
+      "lead": "La Colombie-Britannique réunit la côte, la forêt pluviale, les plateaux de l'intérieur et de hautes montagnes. C'est l'une des provinces les plus variées au Canada pour la chasse et la pêche guidées.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche en Colombie-Britannique",
+          "p": [
+            "En Colombie-Britannique, le gros gibier rime souvent avec montagne. La chèvre de montagne et le mouflon d'Amérique vivent dans les hauteurs escarpées, tandis que le wapiti, le cerf mulet, l'orignal et l'ours noir fréquentent les vallées, l'intérieur et le Nord. Bien des chasses se font à pied, à cheval ou en camping léger dans des bassins éloignés.",
+            "La pêche est tout aussi variée. Sur la côte et dans les grandes rivières, le saumon du Pacifique attire des pêcheurs du monde entier. Les lacs de l'intérieur sont réputés pour la truite arc-en-ciel, et les grandes rivières du sud abritent l'esturgeon, qu'on pêche habituellement avec remise à l'eau, accompagné d'un guide qui connaît le cours d'eau. Le touladi vit dans les lacs profonds."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs",
+          "p": [
+            "La province a un système de pourvoyeurs-guides autorisés (guide-outfitters). Chacun détient un territoire de guidage délimité, et le chasseur visiteur réserve avec celui dont le territoire abrite l'espèce qu'il cherche. Les non-résidents doivent généralement chasser le gros gibier avec un pourvoyeur autorisé, sauf exceptions limitées. Vérifiez les règles qui s'appliquent à vous.",
+            "Une chasse en montagne guidée est un projet sérieux. Demandez comment le pourvoyeur se déplace sur son territoire (camion, cheval, bateau, à pied), quelle forme physique il faut et combien de chasseurs un guide accompagne à la fois."
+          ]
+        },
+        {
+          "h": "L'accès : route, bateau, hydravion ou cheval",
+          "p": [
+            "Certains camps et guides de pêche travaillent près des villes et des routes, surtout dans l'intérieur et le long des grandes rivières. Sur la côte, la pêche se fait souvent en bateau à partir d'un camp ou d'une marina, et certains camps côtiers ne sont accessibles qu'en hydravion ou en bateau-taxi.",
+            "Dans le Nord et en montagne, la chasse commence souvent par un vol en avion de brousse vers une piste ou un lac isolé, puis se poursuit à cheval ou à pied. Demandez exactement comment vous entrerez et sortirez, et combien d'équipement vous pouvez apporter."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "La province vend ses propres permis de chasse et de pêche en eau douce, alors que la pêche en mer fait l'objet d'un permis distinct. Les règles diffèrent pour les résidents, les autres Canadiens et les visiteurs étrangers, et certaines espèces ou zones ont des limites ou des tirages."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur, et les règles de pêche en mer si vous pêchez sur la côte",
+            "Confirmez que le pourvoyeur est autorisé pour l'espèce et le secteur visés",
+            "Informez-vous sur l'effort physique, l'altitude et la météo",
+            "Demandez comment la viande et le trophée seront traités et sortis du bois"
+          ]
+        },
+        {
+          "h": "Trouver un guide avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur la Colombie-Britannique, filtrez par chasse ou par pêche, puis choisissez une espèce : chèvre de montagne, wapiti, saumon du Pacifique ou esturgeon. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Ses coordonnées s'affichent après une courte publicité vidéo facultative."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Un non-résident doit-il avoir un guide pour chasser en Colombie-Britannique?",
+          "a": "Les non-résidents doivent généralement chasser le gros gibier avec un pourvoyeur autorisé, sauf exceptions limitées. Les détails dépendent de votre lieu de résidence et peuvent changer : consultez la réglementation de chasse en vigueur et confirmez avec le pourvoyeur."
+        },
+        {
+          "q": "Faut-il un permis distinct pour pêcher en mer?",
+          "a": "Oui. La pêche en eaux à marée fait l'objet d'un permis distinct de la pêche en eau douce. Si votre séjour comprend les deux, il vous faudra probablement les deux. Vérifiez les règles officielles ou demandez à votre guide."
+        },
+        {
+          "q": "Quelle forme physique faut-il pour une chasse en montagne?",
+          "a": "La chasse au mouflon et à la chèvre est parmi les plus exigeantes au Canada, avec des montées raides et de longues journées. Demandez au pourvoyeur comment il chasse son territoire et entraînez-vous bien avant le départ. La chasse au wapiti, à l'orignal ou à l'ours en vallée peut être plus accessible."
+        }
+      ]
+    }
+  },
+  {
+    "id": "alberta",
+    "species": [
+      "elk",
+      "mule-deer",
+      "white-tailed-deer",
+      "pronghorn",
+      "bighorn-sheep",
+      "moose",
+      "black-bear",
+      "waterfowl",
+      "pheasant",
+      "rainbow-trout"
+    ],
+    "en": {
+      "name": "Alberta",
+      "title": "Hunting and fishing guides in Alberta",
+      "description": "Find a guided hunt or fishing trip in Alberta: elk, mule deer, whitetail and pronghorn, prairie waterfowl, mountain trout rivers, outfitters and the rules.",
+      "h1": "Hunting and fishing guides and outfitters in Alberta",
+      "lead": "Alberta runs from open prairie to aspen parkland, boreal forest and the Rocky Mountains. That gives visiting hunters and anglers a rare mix: deer and pronghorn on the plains, elk and sheep in the foothills, and clear trout rivers flowing out of the mountains.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in Alberta",
+          "p": [
+            "Alberta is known for big-bodied white-tailed deer and mule deer, often hunted along river breaks, coulees and farmland edges. Pronghorn live on the southeastern prairie, elk range through the foothills and forests, and bighorn sheep hunts take place in the mountains. Moose and black bear are common in the boreal north and the foothills.",
+            "In the fall, the prairie and parkland are a major flyway for ducks and geese, and many hunters come for field goose hunts over decoys. Pheasant and other upland birds add to the season in farm country.",
+            "For anglers, the rivers that leave the Rockies are known for rainbow trout and other trout, often fished from a drift boat with a guide. Northern lakes hold walleye, northern pike and lake trout."
+          ]
+        },
+        {
+          "h": "How outfitters and guides work in Alberta",
+          "p": [
+            "Big game outfitting in Alberta is a licensed activity, and outfitters hold allocations that let them guide non-resident hunters for specific species and areas. Non-residents, especially from outside Canada, generally need a licensed outfitter-guide to hunt big game. Some rules differ for Canadians from other provinces. Check the current rules for your situation.",
+            "Bird hunting and fishing guides work more freely: many run day trips, with the hunter or angler staying in a nearby town."
+          ]
+        },
+        {
+          "h": "Access: mostly by road",
+          "p": [
+            "Most guided trips in Alberta start by road. Prairie and parkland hunts often use a ranch house or lodge as a base, with daily drives to the fields. River fishing trips meet at a boat launch near town.",
+            "Mountain and far-north trips are more remote, with horse packing in the backcountry or a fly-in to a northern lake. Ask how you get to the hunting area and how game comes out."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Alberta sells its own licences, and many big game tags for residents and some for non-residents work through draws or outfitter allocations. Private land is common on the prairie, so permission to hunt matters."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the area you will visit",
+            "Confirm the outfitter has an allocation for your species and area",
+            "Ask whether the hunt is on private land, public land or both",
+            "Ask about firearms import rules if you travel from abroad"
+          ]
+        },
+        {
+          "h": "Finding an Alberta guide with {app}",
+          "p": [
+            "In {app}, zoom the map on Alberta and filter by hunting or fishing, then choose a species such as elk, mule deer, pronghorn or rainbow trout. Each pin is a guide with offers that show what is included, the region and a price per person from, or on request. With your approximate location, you see how far each guide is."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need an outfitter to hunt big game in Alberta?",
+          "a": "Non-residents, especially from outside Canada, generally need a licensed outfitter-guide to hunt big game in Alberta. Canadians from other provinces may have different options. Check the province's current hunting regulations and ask the outfitter what applies to you."
+        },
+        {
+          "q": "Can I hunt pronghorn in Alberta?",
+          "a": "Pronghorn live on the southeastern prairie, and some outfitters offer pronghorn hunts. Licences can be limited, so check the current regulations and ask outfitters early about availability."
+        },
+        {
+          "q": "Is Alberta good for waterfowl hunting?",
+          "a": "Yes. The prairie and parkland lie on a major migration route, and guided field hunts for ducks and geese are popular in the fall. Ask the guide about decoy setups, retrieving dogs and what you need to bring."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Alberta",
+      "title": "Guides de chasse et pêche en Alberta",
+      "description": "Trouvez un guide de chasse ou de pêche en Alberta : wapiti, cerf mulet, chevreuil, antilope, sauvagine des Prairies, truite de rivière et les règles.",
+      "h1": "Guides et pourvoyeurs de chasse et pêche en Alberta",
+      "lead": "L'Alberta passe de la prairie ouverte à la forêt-parc, à la forêt boréale et aux Rocheuses. Le chasseur ou le pêcheur y trouve un mélange rare : cerfs et antilopes dans les plaines, wapitis et mouflons dans les contreforts, et des rivières à truite limpides qui descendent des montagnes.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche en Alberta",
+          "p": [
+            "L'Alberta est réputée pour ses gros chevreuils et cerfs mulets, souvent chassés le long des ravins, des coulées et en bordure des champs. L'antilope d'Amérique vit dans la prairie du sud-est, le wapiti fréquente les contreforts et les forêts, et le mouflon d'Amérique se chasse en montagne. L'orignal et l'ours noir sont communs dans le Nord boréal et les contreforts.",
+            "À l'automne, la prairie et la forêt-parc forment un grand couloir migratoire pour les canards et les oies, et bien des chasseurs viennent pour la chasse à l'oie dans les champs, avec appelants. Le faisan et d'autres oiseaux complètent la saison en milieu agricole.",
+            "Pour les pêcheurs, les rivières qui sortent des Rocheuses sont reconnues pour la truite arc-en-ciel et d'autres truites, souvent pêchées en bateau de dérive avec un guide. Les lacs du Nord abritent le doré, le grand brochet et le touladi."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs",
+          "p": [
+            "En Alberta, la pourvoirie de gros gibier est une activité encadrée : les pourvoyeurs détiennent des allocations qui leur permettent de guider des non-résidents pour des espèces et des secteurs précis. Les non-résidents, surtout ceux de l'extérieur du Canada, doivent généralement chasser le gros gibier avec un pourvoyeur-guide autorisé. Les règles peuvent différer pour les Canadiens d'autres provinces. Vérifiez ce qui s'applique à vous.",
+            "Les guides de chasse aux oiseaux et de pêche travaillent plus librement : plusieurs offrent des sorties à la journée, et vous logez dans un village voisin."
+          ]
+        },
+        {
+          "h": "L'accès : surtout par la route",
+          "p": [
+            "La plupart des séjours guidés commencent par la route. Dans la prairie, on loge souvent dans un ranch ou un camp, avec des déplacements quotidiens vers les champs. Pour la pêche en rivière, le guide vous attend à la mise à l'eau près du village.",
+            "En montagne et dans le Grand Nord, c'est plus isolé : expédition à cheval dans l'arrière-pays ou vol vers un lac nordique. Demandez comment vous vous rendrez au territoire et comment le gibier en sortira."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "L'Alberta vend ses propres permis, et bien des permis de gros gibier passent par des tirages ou par les allocations des pourvoyeurs. Les terres privées sont nombreuses dans la prairie : la permission de chasser compte."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour le secteur visité",
+            "Confirmez que le pourvoyeur a une allocation pour l'espèce et le secteur visés",
+            "Demandez si la chasse se fait sur des terres privées, publiques ou les deux",
+            "Si vous venez de l'étranger, informez-vous sur l'importation d'armes à feu"
+          ]
+        },
+        {
+          "h": "Trouver un guide en Alberta avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur l'Alberta, filtrez par chasse ou par pêche, puis choisissez une espèce : wapiti, cerf mulet, antilope d'Amérique ou truite arc-en-ciel. Chaque épingle est un guide avec ses offres : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Avec votre position approximative, vous voyez à quelle distance il se trouve."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Faut-il un pourvoyeur pour chasser le gros gibier en Alberta?",
+          "a": "Les non-résidents, surtout ceux de l'extérieur du Canada, doivent généralement chasser le gros gibier avec un pourvoyeur-guide autorisé. Les Canadiens d'autres provinces peuvent avoir d'autres options. Consultez la réglementation de chasse en vigueur et demandez au pourvoyeur ce qui s'applique à vous."
+        },
+        {
+          "q": "Peut-on chasser l'antilope d'Amérique en Alberta?",
+          "a": "L'antilope vit dans la prairie du sud-est, et certains pourvoyeurs offrent cette chasse. Les permis peuvent être limités : vérifiez la réglementation et informez-vous tôt auprès des pourvoyeurs."
+        },
+        {
+          "q": "L'Alberta est-elle une bonne destination pour la sauvagine?",
+          "a": "Oui. La prairie et la forêt-parc se trouvent sur une grande voie migratoire, et la chasse guidée aux canards et aux oies dans les champs est populaire à l'automne. Demandez au guide comment il installe ses appelants, s'il a des chiens rapporteurs et quoi apporter."
+        }
+      ]
+    }
+  },
+  {
+    "id": "saskatchewan",
+    "species": [
+      "white-tailed-deer",
+      "waterfowl",
+      "sharp-tailed-grouse",
+      "pheasant",
+      "black-bear",
+      "moose",
+      "mule-deer",
+      "walleye",
+      "northern-pike",
+      "lake-trout"
+    ],
+    "en": {
+      "name": "Saskatchewan",
+      "title": "Hunting and fishing guides in Saskatchewan",
+      "description": "Find a guided hunt or fishing trip in Saskatchewan: whitetail, waterfowl, upland birds, black bear and fly-in pike and walleye lodges, plus what to check.",
+      "h1": "Hunting and fishing guides and outfitters in Saskatchewan",
+      "lead": "Saskatchewan is two provinces in one: a southern half of prairie, potholes and farmland, and a northern half of forest and countless lakes. Hunters know it for whitetails and waterfowl, anglers for big pike and walleye.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in Saskatchewan",
+          "p": [
+            "In the south, small wetlands scattered across the grain fields make Saskatchewan one of the great places in Canada for ducks and geese in the fall. Sharp-tailed grouse, Hungarian partridge and pheasant add upland hunting, and mule deer live in the river valleys and hills.",
+            "The forest fringe and the boreal north are home to large white-tailed deer, often hunted from stands along field edges and bush. Black bear and moose are hunted in the forest, and elk in some areas.",
+            "North of the farmland, the boreal forest and the Canadian Shield hold lakes with walleye, northern pike and lake trout. Fly-in lodges in the far north are known for trophy pike and lake trout."
+          ]
+        },
+        {
+          "h": "How outfitters work in Saskatchewan",
+          "p": [
+            "Saskatchewan licenses its outfitters, and many specialise: whitetail and bear in the forest fringe, waterfowl and upland in the south, or fishing lodges in the north. Non-residents hunting big game such as white-tailed deer and black bear generally need to hunt with a licensed outfitter, with some exceptions. Check the current rules for your situation and ask the outfitter.",
+            "Waterfowl guides usually run morning field hunts over decoys, then go scouting in the afternoon to find the next day's field."
+          ]
+        },
+        {
+          "h": "Access: road in the south, floatplane in the north",
+          "p": [
+            "Southern and central trips are almost always by road, with lodging in a lodge, farmhouse or small-town motel. Some forest-fringe outfitters run camps at the end of gravel roads.",
+            "The far north is fly-in country. A floatplane takes you from a northern town or airstrip to a lodge or outpost camp on a lake that no road reaches. Ask about weight limits and weather delays."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Saskatchewan sells its own hunting and fishing licences, and non-resident rules differ from resident ones. Migratory birds also need a federal permit."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the zone you will visit",
+            "For waterfowl, confirm the federal migratory bird permit and who buys it",
+            "Ask whether the hunt is on private land and how permission is handled",
+            "For a fly-in, ask what the camp supplies and what you must bring"
+          ]
+        },
+        {
+          "h": "Finding a Saskatchewan guide with {app}",
+          "p": [
+            "In {app}, zoom the map on Saskatchewan and filter by hunting or fishing, then choose a species such as white-tailed deer, ducks and geese, or northern pike. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do non-residents need an outfitter to hunt deer in Saskatchewan?",
+          "a": "Non-residents hunting big game such as white-tailed deer and black bear generally need a licensed outfitter in Saskatchewan, with some exceptions. Check the province's current hunting regulations and confirm with the outfitter."
+        },
+        {
+          "q": "Why is Saskatchewan known for waterfowl?",
+          "a": "The southern prairie is dotted with small wetlands and grain fields, which attract huge numbers of ducks and geese during the fall migration. Guided field hunts over decoys are the classic way to hunt them."
+        },
+        {
+          "q": "Can I fish for trophy pike in Saskatchewan?",
+          "a": "Yes. The northern lakes are known for large northern pike, and many lodges practise catch-and-release for big fish. Limits and rules vary by water, so check the regulations and ask your lodge."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Saskatchewan",
+      "title": "Guides de chasse et pêche en Saskatchewan",
+      "description": "Trouvez un guide de chasse ou de pêche en Saskatchewan : chevreuil, sauvagine, tétras, ours noir et camps en hydravion pour brochet et doré. Quoi vérifier.",
+      "h1": "Guides et pourvoyeurs de chasse et pêche en Saskatchewan",
+      "lead": "La Saskatchewan, c'est deux provinces en une : un sud de prairies, de petits étangs et de terres agricoles, et un nord de forêts et de lacs innombrables. Les chasseurs la connaissent pour le chevreuil et la sauvagine, les pêcheurs pour le grand brochet et le doré.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche en Saskatchewan",
+          "p": [
+            "Dans le sud, les petits milieux humides dispersés entre les champs de céréales font de la Saskatchewan l'un des meilleurs endroits au Canada pour les canards et les oies à l'automne. Le tétras à queue fine, la perdrix grise et le faisan ajoutent la chasse au petit gibier, et le cerf mulet vit dans les vallées et les collines.",
+            "La bordure de la forêt et le Nord boréal abritent de gros chevreuils, souvent chassés à l'affût en bordure des champs et du bois. L'ours noir et l'orignal se chassent en forêt, et le wapiti dans certains secteurs.",
+            "Au nord des terres agricoles, la forêt boréale et le Bouclier canadien abritent des lacs riches en doré, en grand brochet et en touladi. Les camps en hydravion du Grand Nord sont réputés pour les brochets et les touladis de taille trophée."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs",
+          "p": [
+            "La Saskatchewan délivre des permis aux pourvoyeurs, et beaucoup se spécialisent : chevreuil et ours en bordure de forêt, sauvagine et petit gibier dans le sud, ou camps de pêche dans le Nord. Les non-résidents qui chassent le gros gibier, comme le chevreuil et l'ours noir, doivent généralement passer par un pourvoyeur autorisé, sauf exceptions. Vérifiez les règles qui s'appliquent à vous.",
+            "Les guides de sauvagine chassent habituellement le matin dans les champs avec des appelants, puis repèrent l'après-midi le champ du lendemain."
+          ]
+        },
+        {
+          "h": "L'accès : la route au sud, l'hydravion au nord",
+          "p": [
+            "Dans le sud et le centre, on arrive presque toujours par la route, et on loge dans un camp, une maison de ferme ou un motel de village. Certains pourvoyeurs de la bordure forestière ont des camps au bout d'un chemin de gravier.",
+            "Le Grand Nord, c'est le pays de l'hydravion. L'avion vous mène d'un village nordique à un camp ou à un avant-poste sur un lac qu'aucune route n'atteint. Informez-vous sur le poids des bagages et les retards dus à la météo."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "La Saskatchewan vend ses propres permis de chasse et de pêche, et les règles pour les non-résidents diffèrent. Pour les oiseaux migrateurs, il faut aussi un permis fédéral."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour la zone visitée",
+            "Pour la sauvagine, confirmez le permis fédéral d'oiseaux migrateurs et qui l'achète",
+            "Demandez si la chasse se fait sur des terres privées et comment la permission est obtenue",
+            "En hydravion, demandez ce que le camp fournit et ce que vous devez apporter"
+          ]
+        },
+        {
+          "h": "Trouver un guide en Saskatchewan avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur la Saskatchewan, filtrez par chasse ou par pêche, puis choisissez une espèce : chevreuil, canards et oies, ou grand brochet. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Un non-résident doit-il avoir un pourvoyeur pour chasser le chevreuil en Saskatchewan?",
+          "a": "Les non-résidents qui chassent le gros gibier, comme le chevreuil et l'ours noir, doivent généralement passer par un pourvoyeur autorisé, sauf exceptions. Consultez la réglementation de chasse en vigueur et confirmez avec le pourvoyeur."
+        },
+        {
+          "q": "Pourquoi la Saskatchewan est-elle réputée pour la sauvagine?",
+          "a": "La prairie du sud est parsemée de petits étangs et de champs de céréales qui attirent d'énormes volées de canards et d'oies pendant la migration d'automne. La chasse guidée dans les champs, avec appelants, est la façon classique de les chasser."
+        },
+        {
+          "q": "Peut-on pêcher le brochet trophée en Saskatchewan?",
+          "a": "Oui. Les lacs du Nord sont reconnus pour leurs gros brochets, et bien des camps pratiquent la remise à l'eau des gros poissons. Les limites varient selon le plan d'eau : vérifiez la réglementation et demandez à votre camp."
+        }
+      ]
+    }
+  },
+  {
+    "id": "manitoba",
+    "species": [
+      "waterfowl",
+      "black-bear",
+      "white-tailed-deer",
+      "moose",
+      "upland-birds",
+      "walleye",
+      "northern-pike",
+      "lake-trout",
+      "yellow-perch",
+      "ice-fishing"
+    ],
+    "en": {
+      "name": "Manitoba",
+      "title": "Hunting and fishing guides in Manitoba",
+      "description": "Find a guided hunt or fishing trip in Manitoba: black bear, whitetail, waterfowl, trophy pike, walleye and ice fishing, lodges, access and what to check.",
+      "h1": "Hunting and fishing guides and outfitters in Manitoba",
+      "lead": "Manitoba sits where the prairie meets the boreal forest and the Canadian Shield, with some of the largest lakes in the country. It is a quiet favourite for bear hunters, waterfowlers and anglers chasing big pike and walleye.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in Manitoba",
+          "p": [
+            "The southwest is farmland and prairie potholes, a fall stopover for ducks and geese. The Interlake, between the big lakes, mixes marsh, forest and fields. North and east, the boreal forest and the Shield stretch for hundreds of kilometres of lakes and rivers.",
+            "Black bear hunting is one of Manitoba's best-known guided hunts, usually over bait in the forest. White-tailed deer are hunted in the farm and forest edge, moose in the boreal forest, and grouse and other upland birds in the woods and fields.",
+            "On the water, walleye and northern pike lead the way, with lake trout in the deep, cold northern lakes and yellow perch in the large southern lakes. Manitoba is known for trophy pike and for its catch-and-release culture on big fish. In winter, ice fishing on the big lakes is a tradition of its own."
+          ]
+        },
+        {
+          "h": "How outfitters work in Manitoba",
+          "p": [
+            "Manitoba's lodges and outfitters are licensed by the province. Many hunting outfitters focus on bear, deer or waterfowl, while fishing lodges range from road-access resorts to remote fly-in camps. Non-residents hunting big game such as black bear generally hunt with a licensed outfitter, and some rules differ for Canadians and foreign residents. Check the current rules for your situation and ask the outfitter."
+          ]
+        },
+        {
+          "h": "Access: road, boat and floatplane",
+          "p": [
+            "Southern lodges and many bear and deer camps are reached by road. On the big lakes, some fishing guides meet you at a harbour or a launch, and ice fishing guides often take you out by truck, side-by-side or tracked vehicle on the ice, with a heated shelter.",
+            "In the north, fly-in lodges and outpost camps are the norm. Ask about luggage limits, what the camp supplies, and what happens if weather delays a flight."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Manitoba sells its own hunting and fishing licences, and some waters have special rules such as barbless hooks or catch-and-release for large fish. Waterfowl hunters also need a federal migratory bird permit."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the area you will visit",
+            "Ask how bear bait sites are run and how many hunters share them",
+            "For ice fishing, ask about ice safety, shelters and transport on the ice",
+            "Confirm who buys the licences and what the package includes"
+          ]
+        },
+        {
+          "h": "Finding a Manitoba guide with {app}",
+          "p": [
+            "In {app}, zoom the map on Manitoba and filter by hunting or fishing, then choose a species such as black bear, walleye or ice fishing. Each pin is a guide with offers that show what is included, the region and a price per person from, or on request."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Manitoba a good place for a guided black bear hunt?",
+          "a": "Yes. Manitoba's forests support a healthy black bear population, and bear hunting over bait is one of the province's best-known guided hunts. Non-residents generally hunt bear with a licensed outfitter. Check the current regulations and ask the outfitter about seasons and methods."
+        },
+        {
+          "q": "Do I need barbless hooks to fish in Manitoba?",
+          "a": "Manitoba is known for barbless hook rules on many waters. Rules can vary by water and change over time, so read the province's current fishing regulations and ask your guide."
+        },
+        {
+          "q": "Can I book a guided ice fishing trip in Manitoba?",
+          "a": "Yes. Ice fishing is popular on Manitoba's large lakes, and some guides offer heated shelters and transport on the ice. Ask about ice conditions, safety and what gear is provided."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Manitoba",
+      "title": "Guides de chasse et pêche au Manitoba",
+      "description": "Trouvez un guide de chasse ou de pêche au Manitoba : ours noir, chevreuil, sauvagine, brochet trophée, doré et pêche blanche. Camps, accès, quoi vérifier.",
+      "h1": "Guides et pourvoyeurs de chasse et pêche au Manitoba",
+      "lead": "Le Manitoba se trouve à la rencontre de la prairie, de la forêt boréale et du Bouclier canadien, avec certains des plus grands lacs du pays. C'est un choix discret mais solide pour la chasse à l'ours, la sauvagine et la pêche au gros brochet et au doré.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche au Manitoba",
+          "p": [
+            "Le sud-ouest est fait de terres agricoles et de petits étangs de prairie, une halte d'automne pour les canards et les oies. L'Entre-les-Lacs mêle marais, forêt et champs. Au nord et à l'est, la forêt boréale et le Bouclier s'étendent sur des centaines de kilomètres de lacs et de rivières.",
+            "La chasse à l'ours noir est l'une des chasses guidées les plus connues de la province, généralement à l'appât en forêt. Le chevreuil se chasse en bordure des champs et du bois, l'orignal en forêt boréale, et la gélinotte et le petit gibier à plumes dans les boisés et les champs.",
+            "Côté pêche, le doré et le grand brochet dominent, avec le touladi dans les lacs froids du Nord et la perchaude dans les grands lacs du sud. Le Manitoba est réputé pour ses brochets trophées et sa culture de remise à l'eau des gros poissons. L'hiver, la pêche blanche sur les grands lacs est une tradition en soi."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs",
+          "p": [
+            "Les camps et les pourvoyeurs du Manitoba détiennent un permis de la province. Plusieurs pourvoyeurs de chasse se consacrent à l'ours, au chevreuil ou à la sauvagine, tandis que les camps de pêche vont du centre de villégiature accessible par la route au camp isolé en hydravion. Les non-résidents qui chassent le gros gibier, comme l'ours noir, le font généralement avec un pourvoyeur autorisé, et certaines règles diffèrent pour les Canadiens et les étrangers. Vérifiez ce qui s'applique à vous et demandez au pourvoyeur."
+          ]
+        },
+        {
+          "h": "L'accès : route, bateau et hydravion",
+          "p": [
+            "Les camps du sud et bien des camps de chasse à l'ours et au chevreuil sont accessibles par la route. Sur les grands lacs, certains guides de pêche vous attendent au port ou à la mise à l'eau, et les guides de pêche blanche vous conduisent souvent sur la glace en camion, en côte à côte ou en véhicule à chenilles, jusqu'à une cabane chauffée.",
+            "Dans le Nord, les camps et avant-postes en hydravion sont la norme. Informez-vous sur le poids des bagages, l'équipement fourni et les retards possibles dus à la météo."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "Le Manitoba vend ses propres permis de chasse et de pêche, et certains plans d'eau ont des règles particulières, comme l'hameçon sans ardillon ou la remise à l'eau des gros poissons. Pour la sauvagine, il faut aussi un permis fédéral d'oiseaux migrateurs."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour le secteur visité",
+            "Demandez comment les sites d'appâtage sont gérés et combien de chasseurs les partagent",
+            "Pour la pêche blanche, informez-vous sur la sécurité sur la glace, les cabanes et le transport",
+            "Confirmez qui achète les permis et ce que comprend le forfait"
+          ]
+        },
+        {
+          "h": "Trouver un guide au Manitoba avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur le Manitoba, filtrez par chasse ou par pêche, puis choisissez une espèce : ours noir, doré ou pêche blanche. Chaque épingle est un guide avec ses offres : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Le Manitoba est-il un bon endroit pour chasser l'ours noir avec un guide?",
+          "a": "Oui. Les forêts du Manitoba abritent une bonne population d'ours noirs, et la chasse à l'appât est l'une des chasses guidées les plus connues de la province. Les non-résidents chassent généralement l'ours avec un pourvoyeur autorisé. Consultez la réglementation et demandez au pourvoyeur les saisons et méthodes permises."
+        },
+        {
+          "q": "Faut-il des hameçons sans ardillon pour pêcher au Manitoba?",
+          "a": "Le Manitoba est connu pour exiger l'hameçon sans ardillon sur bien des plans d'eau. Les règles varient selon le plan d'eau et peuvent changer : lisez la réglementation de pêche en vigueur et demandez à votre guide."
+        },
+        {
+          "q": "Peut-on réserver une sortie de pêche blanche guidée au Manitoba?",
+          "a": "Oui. La pêche blanche est populaire sur les grands lacs du Manitoba, et certains guides offrent des cabanes chauffées et le transport sur la glace. Informez-vous sur l'état de la glace, la sécurité et l'équipement fourni."
+        }
+      ]
+    }
+  },
+  {
+    "id": "new-brunswick",
+    "species": [
+      "white-tailed-deer",
+      "black-bear",
+      "moose",
+      "upland-birds",
+      "waterfowl",
+      "atlantic-salmon",
+      "brook-trout",
+      "smallmouth-bass"
+    ],
+    "en": {
+      "name": "New Brunswick",
+      "title": "Hunting and fishing guides in New Brunswick",
+      "description": "Find a guided hunt or fishing trip in New Brunswick: Atlantic salmon rivers, brook trout, bass, black bear and deer, outfitters, licensed guides and rules.",
+      "h1": "Hunting and fishing guides and outfitters in New Brunswick",
+      "lead": "New Brunswick is a forested, river-rich province on the Atlantic coast, famous among fly anglers for its Atlantic salmon rivers. Its woods also offer some of the most accessible black bear and deer hunting in Eastern Canada.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like in New Brunswick",
+          "p": [
+            "Most of the province is mixed forest, cut by rivers and dotted with lakes, with farmland along the river valleys and the coast. Few places are very far from a road, which makes trips simpler to plan than in the far north.",
+            "The Miramichi and Restigouche river systems are known worldwide for Atlantic salmon fly fishing, often from a riverside lodge or camp with a guide who knows each pool. Brook trout live in rivers and lakes across the province, and smallmouth bass offer summer fishing in many lakes and rivers.",
+            "For hunters, black bear over bait and white-tailed deer are the main guided hunts. Grouse and woodcock fill the fall coverts, and ducks and geese use the marshes and coast. Moose hunting is limited and mostly reserved for residents through a draw."
+          ]
+        },
+        {
+          "h": "How outfitters and guides work in New Brunswick",
+          "p": [
+            "New Brunswick licenses its guides and outfitters. Many outfitters run a lodge or a set of camps and offer bear, deer or bird hunts in the fall and salmon or trout fishing in the summer.",
+            "Non-residents generally must be accompanied by a licensed guide to hunt big game, and non-residents fishing for Atlantic salmon generally must fish with a licensed guide. The exact rules differ for Canadians and foreign residents and can change, so check the current rules and ask the outfitter."
+          ]
+        },
+        {
+          "h": "Access: mostly by road",
+          "p": [
+            "Almost all guided trips in New Brunswick start by road, often with a short drive on forest roads to camp. Salmon fishing is done by wading or from a canoe on the river, and some lodges own or lease stretches of water.",
+            "Because distances are short, it is easy to combine a trip with a visit to Québec, Nova Scotia or Maine."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "New Brunswick sells its own hunting and fishing licences. Atlantic salmon has its own rules, including catch-and-release and fly-fishing-only conditions on many waters."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the area you will visit",
+            "Confirm the guide or outfitter is licensed in New Brunswick",
+            "For salmon, ask which pools you can fish and whether the water is private or public",
+            "For a bear hunt, ask how many hunters share the bait sites"
+          ]
+        },
+        {
+          "h": "Finding a New Brunswick guide with {app}",
+          "p": [
+            "In {app}, zoom the map on New Brunswick and filter by hunting or fishing, then choose a species such as Atlantic salmon, black bear or white-tailed deer. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request. The guide's phone, email and website appear after a short optional video ad."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I need a guide to fish for Atlantic salmon in New Brunswick?",
+          "a": "Non-residents fishing for Atlantic salmon in New Brunswick generally must fish with a licensed guide. Rules differ for residents, other Canadians and foreign visitors, so check the province's current fishing regulations and ask the guide or lodge."
+        },
+        {
+          "q": "Can non-residents hunt black bear in New Brunswick?",
+          "a": "Yes. Black bear is one of the most popular guided hunts in the province, and non-residents generally must hunt big game with a licensed guide. Check the current hunting regulations and confirm the details with the outfitter."
+        },
+        {
+          "q": "Can I hunt moose in New Brunswick as a visitor?",
+          "a": "Moose hunting in New Brunswick is limited and mostly allotted to residents through a draw. Visitors usually come for black bear, white-tailed deer or birds instead. Check the current regulations for any change."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Nouveau-Brunswick",
+      "title": "Guides de chasse et pêche au Nouveau-Brunswick",
+      "description": "Trouvez un guide de chasse ou de pêche au Nouveau-Brunswick : rivières à saumon, omble de fontaine, achigan, ours noir et chevreuil. Guides et règles.",
+      "h1": "Guides et pourvoyeurs de chasse et pêche au Nouveau-Brunswick",
+      "lead": "Le Nouveau-Brunswick est une province boisée, riche en rivières, sur la côte atlantique. Les moucheurs le connaissent pour ses rivières à saumon, et ses forêts offrent une chasse à l'ours et au chevreuil parmi les plus accessibles de l'Est du Canada.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche au Nouveau-Brunswick",
+          "p": [
+            "La province est surtout couverte de forêt mixte, traversée de rivières et parsemée de lacs, avec des terres agricoles le long des vallées et de la côte. Peu d'endroits sont très loin d'une route, ce qui rend un séjour plus simple à organiser que dans le Grand Nord.",
+            "Les rivières Miramichi et Restigouche sont réputées dans le monde entier pour la pêche du saumon atlantique à la mouche, souvent à partir d'un camp au bord de l'eau, avec un guide qui connaît chaque fosse. L'omble de fontaine vit dans les rivières et les lacs de toute la province, et l'achigan à petite bouche offre une belle pêche d'été.",
+            "Pour les chasseurs, l'ours noir à l'appât et le chevreuil sont les principales chasses guidées. La gélinotte et la bécasse occupent l'automne, et les canards et les oies fréquentent les marais et la côte. La chasse à l'orignal est limitée et surtout réservée aux résidents par tirage au sort."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs et les guides",
+          "p": [
+            "Le Nouveau-Brunswick délivre des permis aux guides et aux pourvoyeurs. Plusieurs pourvoyeurs exploitent un camp ou quelques chalets, et offrent la chasse à l'ours, au chevreuil ou aux oiseaux l'automne, et la pêche au saumon ou à la truite l'été.",
+            "Les non-résidents doivent généralement être accompagnés d'un guide autorisé pour chasser le gros gibier, et ceux qui pêchent le saumon atlantique doivent généralement pêcher avec un guide autorisé. Les règles exactes diffèrent pour les Canadiens et les étrangers et peuvent changer : vérifiez-les et posez la question au pourvoyeur."
+          ]
+        },
+        {
+          "h": "L'accès : surtout par la route",
+          "p": [
+            "Presque tous les séjours guidés commencent par la route, souvent avec un court trajet sur un chemin forestier jusqu'au camp. Le saumon se pêche à gué ou en canot, et certains camps possèdent ou louent des tronçons de rivière.",
+            "Comme les distances sont courtes, il est facile de combiner le séjour avec une visite au Québec, en Nouvelle-Écosse ou dans le Maine."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "Le Nouveau-Brunswick vend ses propres permis de chasse et de pêche. Le saumon atlantique a ses propres règles, dont la remise à l'eau et la pêche à la mouche seulement sur bien des cours d'eau."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour le secteur visité",
+            "Confirmez que le guide ou le pourvoyeur détient un permis du Nouveau-Brunswick",
+            "Pour le saumon, demandez quelles fosses vous pourrez pêcher et si l'eau est privée ou publique",
+            "Pour l'ours, demandez combien de chasseurs se partagent les sites d'appâtage"
+          ]
+        },
+        {
+          "h": "Trouver un guide au Nouveau-Brunswick avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur le Nouveau-Brunswick, filtrez par chasse ou par pêche, puis choisissez une espèce : saumon atlantique, ours noir ou chevreuil. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Son téléphone, son courriel et son site Web s'affichent après une courte publicité vidéo facultative."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Faut-il un guide pour pêcher le saumon atlantique au Nouveau-Brunswick?",
+          "a": "Les non-résidents qui pêchent le saumon atlantique au Nouveau-Brunswick doivent généralement pêcher avec un guide autorisé. Les règles diffèrent pour les résidents, les autres Canadiens et les visiteurs étrangers : consultez la réglementation de pêche en vigueur et demandez au guide ou au camp."
+        },
+        {
+          "q": "Un non-résident peut-il chasser l'ours noir au Nouveau-Brunswick?",
+          "a": "Oui. L'ours noir est l'une des chasses guidées les plus populaires de la province, et les non-résidents doivent généralement chasser le gros gibier avec un guide autorisé. Vérifiez la réglementation de chasse en vigueur et confirmez les détails avec le pourvoyeur."
+        },
+        {
+          "q": "Un visiteur peut-il chasser l'orignal au Nouveau-Brunswick?",
+          "a": "La chasse à l'orignal au Nouveau-Brunswick est limitée et surtout attribuée aux résidents par tirage au sort. Les visiteurs viennent plutôt pour l'ours noir, le chevreuil ou les oiseaux. Vérifiez la réglementation en vigueur au cas où les règles changeraient."
+        }
+      ]
+    }
+  },
+  {
+    "id": "newfoundland-and-labrador",
+    "species": [
+      "moose",
+      "black-bear",
+      "caribou",
+      "upland-birds",
+      "waterfowl",
+      "atlantic-salmon",
+      "brook-trout",
+      "arctic-char",
+      "lake-trout",
+      "northern-pike"
+    ],
+    "en": {
+      "name": "Newfoundland and Labrador",
+      "title": "Hunting and fishing guides in Newfoundland and Labrador",
+      "description": "Find a guided hunt or fishing trip in Newfoundland and Labrador: moose, black bear, salmon rivers, brook trout and Labrador char, outfitters and the rules.",
+      "h1": "Hunting and fishing guides in Newfoundland and Labrador",
+      "lead": "Newfoundland and Labrador is rugged, wild and sparsely populated, with an island of forest, barrens and salmon rivers and a mainland of vast northern wilderness. It is one of the best-known moose destinations in Canada.",
+      "sections": [
+        {
+          "h": "What hunting and fishing look like there",
+          "p": [
+            "The island of Newfoundland is a mix of boreal forest, bogs and open barrens, with a long, rocky coastline. Moose are abundant, and a moose hunt is the trip most visiting hunters come for. Black bear is also hunted, and ptarmigan, grouse and snowshoe hare draw small-game hunters to the barrens and woods.",
+            "Labrador is much more remote: tundra, spruce forest and huge lakes and rivers, reached mostly by air. Caribou herds there have declined sharply, and caribou hunting is closed or heavily restricted in much of the region. Guides offer it only where and when it is legal.",
+            "For anglers, the island's rivers are famous for Atlantic salmon on the fly, and brook trout is found almost everywhere. In Labrador, fly-in camps target big brook trout, Arctic char, lake trout and northern pike in water that sees few anglers."
+          ]
+        },
+        {
+          "h": "How outfitters work there",
+          "p": [
+            "Outfitters in Newfoundland and Labrador are licensed by the province, and many hold the licences that let them host non-resident hunters. Non-residents generally must hunt big game with a licensed outfitter and guide, and non-residents fishing scheduled salmon rivers generally need a licensed guide as well. Check the current rules for your situation.",
+            "A typical moose hunt is based at a lodge or remote cabin, with a guide for one or two hunters, and often includes help with field dressing and getting the meat out."
+          ]
+        },
+        {
+          "h": "Access: road, boat, quad or floatplane",
+          "p": [
+            "On the island, many camps are reached by road, sometimes followed by a boat ride or a quad trip on a trail. Some are only reachable by floatplane or helicopter.",
+            "In Labrador, almost every fishing and hunting camp is fly-in. Ask how you will get there, how much luggage the plane takes, and what happens if fog or wind delays a flight, which is common near the coast."
+          ]
+        },
+        {
+          "h": "What to check before booking",
+          "p": [
+            "Newfoundland and Labrador sells its own licences, and big game licences for non-residents are usually obtained through an outfitter. Salmon rivers have their own rules, including classes of rivers and catch-and-release conditions."
+          ],
+          "list": [
+            "Read the province's current hunting and fishing regulations for the area you will visit",
+            "Confirm the outfitter holds a licence for your species and area",
+            "Ask how meat and trophies are shipped home, especially by air",
+            "Pack rain gear and layers: weather changes fast on the coast"
+          ]
+        },
+        {
+          "h": "Finding a guide there with {app}",
+          "p": [
+            "In {app}, zoom the map on Newfoundland and Labrador and filter by hunting or fishing, then choose a species such as moose, Atlantic salmon or Arctic char. Each pin shows a guide's offers: what is included, the region and a price per person from, or on request."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do non-residents need an outfitter to hunt moose in Newfoundland?",
+          "a": "Non-residents generally must hunt big game in Newfoundland and Labrador with a licensed outfitter and guide, and their licences usually come through the outfitter. Check the province's current hunting regulations and confirm with the outfitter."
+        },
+        {
+          "q": "Can I hunt caribou in Labrador?",
+          "a": "Caribou hunting is closed or heavily restricted in much of Newfoundland and Labrador because several herds have declined. Guides offer it only where and when it is legal, so check the current regulations before planning a caribou trip."
+        },
+        {
+          "q": "Do I need a guide to fish for salmon in Newfoundland?",
+          "a": "Non-residents fishing scheduled salmon rivers generally need a licensed guide. Rules differ by river and can change, so read the current fishing regulations and ask the lodge."
+        }
+      ]
+    },
+    "fr": {
+      "name": "Terre-Neuve-et-Labrador",
+      "title": "Guides de chasse et pêche à Terre-Neuve-et-Labrador",
+      "description": "Trouvez un guide de chasse ou de pêche à Terre-Neuve-et-Labrador : orignal, ours noir, rivières à saumon, omble chevalier, pourvoyeurs et règles.",
+      "h1": "Guides de chasse et pêche à Terre-Neuve-et-Labrador",
+      "lead": "Terre-Neuve-et-Labrador est une province sauvage et peu peuplée : une île de forêts, de landes et de rivières à saumon, et un Labrador immense et nordique. C'est l'une des destinations les plus connues au Canada pour l'orignal.",
+      "sections": [
+        {
+          "h": "La chasse et la pêche à Terre-Neuve-et-Labrador",
+          "p": [
+            "L'île de Terre-Neuve mêle forêt boréale, tourbières et landes ouvertes, avec une longue côte rocheuse. L'orignal y est abondant, et c'est la chasse qui attire le plus de visiteurs. L'ours noir se chasse aussi, et le lagopède, la gélinotte et le lièvre attirent les amateurs de petit gibier.",
+            "Le Labrador est beaucoup plus isolé : toundra, forêt d'épinettes et immenses lacs et rivières, accessibles surtout par avion. Les troupeaux de caribous y ont beaucoup diminué, et la chasse au caribou est fermée ou très restreinte dans une grande partie de la région. Les guides ne l'offrent que là où elle est permise.",
+            "Pour les pêcheurs, les rivières de l'île sont célèbres pour le saumon atlantique à la mouche, et l'omble de fontaine se trouve presque partout. Au Labrador, les camps en hydravion visent la grosse truite mouchetée, l'omble chevalier, le touladi et le grand brochet, dans des eaux peu fréquentées."
+          ]
+        },
+        {
+          "h": "Comment fonctionnent les pourvoyeurs",
+          "p": [
+            "Les pourvoyeurs de la province détiennent un permis provincial, et plusieurs ont les autorisations nécessaires pour accueillir des chasseurs non résidents. Les non-résidents doivent généralement chasser le gros gibier avec un pourvoyeur et un guide autorisés, et ceux qui pêchent dans les rivières à saumon désignées doivent généralement être accompagnés d'un guide. Vérifiez les règles qui s'appliquent à vous.",
+            "Une chasse à l'orignal typique se fait à partir d'un camp ou d'un chalet isolé, avec un guide pour un ou deux chasseurs, et comprend souvent l'aide pour éviscérer l'animal et sortir la viande."
+          ]
+        },
+        {
+          "h": "L'accès : route, bateau, VTT ou hydravion",
+          "p": [
+            "Sur l'île, bien des camps sont accessibles par la route, parfois suivie d'un trajet en bateau ou en VTT. D'autres ne se rejoignent qu'en hydravion ou en hélicoptère.",
+            "Au Labrador, presque tous les camps de chasse et de pêche se rejoignent en avion. Demandez comment vous vous y rendrez, quel poids de bagages l'avion accepte et ce qui arrive si le brouillard ou le vent retarde un vol, ce qui est fréquent près de la côte."
+          ]
+        },
+        {
+          "h": "Ce qu'il faut vérifier avant de réserver",
+          "p": [
+            "La province vend ses propres permis, et les permis de gros gibier des non-résidents s'obtiennent habituellement par l'entremise d'un pourvoyeur. Les rivières à saumon ont leurs propres règles, dont des catégories de rivières et des conditions de remise à l'eau."
+          ],
+          "list": [
+            "Lisez la réglementation de chasse et de pêche en vigueur pour le secteur visité",
+            "Confirmez que le pourvoyeur détient un permis pour l'espèce et le secteur visés",
+            "Demandez comment la viande et le trophée seront expédiés, surtout en avion",
+            "Apportez un bon imperméable et des couches : la météo change vite sur la côte"
+          ]
+        },
+        {
+          "h": "Trouver un guide avec {app}",
+          "p": [
+            "Dans {app}, zoomez la carte sur Terre-Neuve-et-Labrador, filtrez par chasse ou par pêche, puis choisissez une espèce : orignal, saumon atlantique ou omble chevalier. Chaque épingle montre les offres d'un guide : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Un non-résident doit-il avoir un pourvoyeur pour chasser l'orignal à Terre-Neuve?",
+          "a": "Les non-résidents doivent généralement chasser le gros gibier à Terre-Neuve-et-Labrador avec un pourvoyeur et un guide autorisés, et leurs permis passent habituellement par le pourvoyeur. Consultez la réglementation de chasse en vigueur et confirmez avec le pourvoyeur."
+        },
+        {
+          "q": "Peut-on chasser le caribou au Labrador?",
+          "a": "La chasse au caribou est fermée ou très restreinte dans une grande partie de Terre-Neuve-et-Labrador, car plusieurs troupeaux ont décliné. Les guides ne l'offrent que là où elle est permise : vérifiez la réglementation en vigueur avant de planifier un tel séjour."
+        },
+        {
+          "q": "Faut-il un guide pour pêcher le saumon à Terre-Neuve?",
+          "a": "Les non-résidents qui pêchent dans les rivières à saumon désignées doivent généralement être accompagnés d'un guide autorisé. Les règles varient selon la rivière et peuvent changer : lisez la réglementation de pêche en vigueur et demandez au camp."
+        }
+      ]
+    }
+  }
+]

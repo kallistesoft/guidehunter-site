@@ -5,13 +5,15 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync } fr
 import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { config } from './config.mjs';
-import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION } from './copy.mjs';
+import { readdirSync } from 'node:fs';
+import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION, PROVINCES_PAGE } from './copy.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = join(ROOT, 'site');
 const json = (f) => JSON.parse(readFileSync(join(ROOT, 'data', f), 'utf8'));
 
-const speciesText = Object.fromEntries([...json('species-hunting.json'), ...json('species-fishing.json')].map((s) => [s.id, s]));
+const speciesText = Object.fromEntries(readdirSync(join(ROOT, 'data')).filter((f) => /^species-.*\.json$/.test(f)).flatMap(json).map((s) => [s.id, s]));
+const provinces = json('provinces.json');
 const { articles, faq: appFaq } = json('articles.json');
 
 // ---------------------------------------------------------------------------------------------------------------
@@ -42,6 +44,8 @@ const page = (key, lang, path, render) => pages.push({ key, lang, path, render }
 const pathOf = (key, lang) => pages.find((p) => p.key === key && p.lang === lang)?.path;
 const speciesPath = (sp, lang) => (sp.d === 'hunting' ? PATHS.hunting : PATHS.fishing)[lang] + sp[lang][0] + '/';
 const articlePath = (a, lang) => PATHS.tips[lang] + a[lang].slug + '/';
+const provincePath = (pr, lang) => PATHS.provinces[lang] + pr.id + '/';
+const provinceChip = (pr, lang) => `<a class="chip" href="${provincePath(pr, lang)}">${esc(pr[lang].name)}</a>`;
 
 let assetVersion = '';
 
@@ -72,7 +76,7 @@ function storeButtons(lang, { secondary } = {}) {
 function header(lang, key) {
   const t = T[lang];
   const other = lang === 'fr' ? 'en' : 'fr';
-  const nav = ['hunting', 'fishing', 'guides', 'tips', 'faq']
+  const nav = ['hunting', 'fishing', 'provinces', 'guides', 'tips', 'faq']
     .map((k) => {
       const href = PATHS[k][lang];
       const current = key === k || key.startsWith(k + ':');
@@ -108,6 +112,8 @@ function footer(lang) {
       <div><h2><a href="${PATHS.hunting[lang]}">${T[lang].nav.hunting}</a></h2><ul>${hunt}</ul></div>
       <div><h2><a href="${PATHS.fishing[lang]}">${T[lang].nav.fishing}</a></h2><ul>${fish}</ul></div>
       <div>
+        <h2><a href="${PATHS.provinces[lang]}">${t.nav.provinces}</a></h2>
+        <ul>${provinces.map((pr) => `<li><a href="${provincePath(pr, lang)}">${esc(pr[lang].name)}</a></li>`).join('')}</ul>
         <h2>${t.footer.app}</h2>
         <ul>
           <li><a href="${PATHS.guides[lang]}">${t.nav.guides}</a></li>
@@ -288,6 +294,11 @@ for (const lang of LANGS) {
   </div>
 </section>
 <section class="wrap block">
+  <h2 class="center">${inline(h.provincesTitle, lang)}</h2>
+  <p class="center sub">${inline(h.provincesLead, lang)}</p>
+  <div class="chips center-chips">${provinces.map((pr) => provinceChip(pr, lang)).join('')}</div>
+</section>
+<section class="wrap block">
   <div class="guides-band">
     <div>
       <h2>${inline(h.guidesTitle, lang)}</h2>
@@ -341,6 +352,7 @@ ${c.html}
         const c = crumbs(lang, [[t.nav[d], PATHS[d][lang]], [name, speciesPath(sp, lang)]]);
         const faq = st.faq.map((f) => [f.q, f.a]);
         const others = SPECIES.filter((s) => s.d === d && s.id !== sp.id);
+        const where = provinces.filter((pr) => pr.species.includes(sp.id));
         const body = `<div class="wrap page">
 ${c.html}
 <div class="with-aside">
@@ -357,6 +369,8 @@ ${c.html}
     </div>
   </aside>
 </div>
+${where.length ? `<h2>${lang === 'fr' ? 'Où au Canada' : 'Where in Canada'}</h2>
+<div class="chips">${where.map((pr) => provinceChip(pr, lang)).join('')}</div>` : ''}
 <h2>${t.seeAlso}</h2>
 <div class="chips">${others.map((s) => speciesChip(s, lang)).join('')}</div>
 <h2>${t.readTips}</h2>
@@ -365,6 +379,47 @@ ${c.html}
         return layout(p, { title: `${st.title} · ${config.app}`, description: st.description, body, ld: [c.ld, faqLd(lang, faq)], ogType: 'article' });
       });
     }
+  }
+
+  // Provinces
+  page('provinces', lang, PATHS.provinces[lang], (p) => {
+    const h = PROVINCES_PAGE[lang];
+    const c = crumbs(lang, [[t.nav.provinces, PATHS.provinces[lang]]]);
+    const cards = provinces.map((pr) => `<a class="sp-card" href="${provincePath(pr, lang)}">${dot('both')}<span class="sp-name">${esc(pr[lang].name)}</span><span class="sp-lead">${inline(pr[lang].lead, lang)}</span></a>`).join('');
+    const body = `<div class="wrap page">${c.html}
+<header class="page-head"><h1>${inline(h.h1, lang)}</h1><p class="lead">${inline(h.lead, lang)}</p></header>
+<div class="sp-grid">${cards}</div></div>`;
+    return layout(p, { title: `${h.title} · ${config.app}`, description: h.description, body, ld: [c.ld] });
+  });
+  for (const pr of provinces) {
+    page(`provinces:${pr.id}`, lang, provincePath(pr, lang), (p) => {
+      const h = PROVINCES_PAGE[lang];
+      const pt = pr[lang];
+      const c = crumbs(lang, [[t.nav.provinces, PATHS.provinces[lang]], [pt.name, provincePath(pr, lang)]]);
+      const faq = pt.faq.map((f) => [f.q, f.a]);
+      const known = pr.species.map((id) => SPECIES.find((s) => s.id === id)).filter(Boolean);
+      const others = provinces.filter((x) => x.id !== pr.id);
+      const body = `<div class="wrap page">
+${c.html}
+<div class="with-aside">
+  <article class="prose">
+    <header class="page-head"><p class="eyebrow">${dot('both')} ${esc(pt.name)}</p><h1>${inline(pt.h1, lang)}</h1><p class="lead">${inline(pt.lead, lang)}</p></header>
+    ${pt.sections.map((s) => section(lang, s)).join('')}
+    <section><h2>${t.faqTitle}</h2>${faqList(lang, faq)}</section>
+  </article>
+  <aside class="aside">
+    <div class="app-card">
+      <div class="app-card-head">${PIN}<b>${esc(h.speciesTitle)}</b></div>
+      <div class="chips">${known.map((s) => speciesChip(s, lang)).join('')}</div>
+      ${storeButtons(lang)}
+    </div>
+  </aside>
+</div>
+<h2>${t.nav.provinces}</h2>
+<div class="chips">${others.map((x) => provinceChip(x, lang)).join('')}</div>
+</div>`;
+      return layout(p, { title: `${pt.title} · ${config.app}`, description: pt.description, body, ld: [c.ld, faqLd(lang, faq)], ogType: 'article' });
+    });
   }
 
   // Become a guide
