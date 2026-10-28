@@ -131,7 +131,7 @@ export const HOME = {
     howTitle: 'Comment ça marche',
     how: [
       ['Choisissez une espèce et vos dates', "Orignal, ours noir, doré, omble de fontaine… et quand vous êtes libre. La carte ne garde que les guides qui l'offrent, avec un séjour qui entre dans vos dates."],
-      ['Repérez les guides sur la carte', 'Un repère par guide : orange pour la chasse, sarcelle pour la pêche, or pour les deux. Partagez votre position et chaque guide affiche sa distance.'],
+      ['Repérez les guides sur la carte', 'Un repère par offre : orange pour la chasse, sarcelle pour la pêche. Partagez votre position et chaque guide affiche sa distance.'],
       ["Lisez l'offre et choisissez une date", "Ce qui est inclus, la durée, le prochain départ et les autres dates, la région et le prix par personne quand le guide l'indique."],
       ['Contactez le guide', "Son nom, son téléphone, son courriel et son site s'affichent après une courte publicité. La date choisie est dans votre courriel. Pas d'intermédiaire, pas de frais."],
     ],
@@ -171,7 +171,7 @@ export const HOME = {
     howTitle: 'How it works',
     how: [
       ['Pick a species and your dates', 'Moose, black bear, walleye, brook trout… and when you are free. The map keeps only the guides who offer it, with a trip that fits your dates.'],
-      ['Spot the guides on the map', 'One pin per guide: orange for hunting, teal for fishing, gold for both. Share your location and each guide shows how far away it is.'],
+      ['Spot the guides on the map', 'One pin per offer: orange for hunting, teal for fishing. Share your location and each guide shows how far away it is.'],
       ['Read the offer and pick a date', "What's included, how long it lasts, the next departure and the other dates, the region and the price per person when the guide gives it."],
       ['Contact the guide', 'Their name, phone, email and website show after a short ad. The date you picked is in your email. No middleman, no fees.'],
     ],
@@ -274,7 +274,7 @@ export const GUIDES = {
         ['Nous vérifions, puis votre offre va sur la carte', "Chaque nouvelle offre et chaque modification est relue avant d'être publiée. Nous vous répondons par courriel."],
       ] },
       { h: 'Créer une offre, étape par étape', p: ["Une étape à la fois, chacune vérifiée avant la suivante. « Retour » revient à l'étape d'avant, rien ne se perd."], steps: [
-        ['Le séjour', "Un titre (« Ours noir au printemps en Abitibi »), chasse, pêche ou les deux, et une description : ce qui est inclus, l'hébergement, les langues parlées."],
+        ['Le séjour', "Un titre (« Ours noir au printemps en Abitibi »), chasse ou pêche, et une description : ce qui est inclus, l'hébergement, les langues parlées. Un type par offre : si vous offrez les deux, créez une offre de chasse et une offre de pêche."],
         ['Les espèces', "Celles que vous offrez, la chasse et la pêche dans des listes séparées. Les clients vous trouvent par ces espèces."],
         ['Où', "Votre ville ou région, et un repère sur la carte là où les clients vous rejoignent : touchez la carte, utilisez votre position ou entrez les coordonnées."],
         ['Quand', "La durée d'un séjour et vos dates de départ (détails plus bas). Facultatif : sans dates, votre offre indique « Dates sur demande »."],
@@ -330,7 +330,7 @@ export const GUIDES = {
         ['We review it, then it goes on the map', 'Every new offer and every edit is read before it is published. We answer by email.'],
       ] },
       { h: 'Creating an offer, step by step', p: ['One step at a time, each checked before the next. "Back" returns to the previous step, nothing is lost.'], steps: [
-        ['The trip', 'A title ("Spring black bear in Abitibi"), hunting, fishing or both, and a description: what\'s included, lodging, the languages you speak.'],
+        ['The trip', 'A title ("Spring black bear in Abitibi"), hunting or fishing, and a description: what\'s included, lodging, the languages you speak. One type per offer: if you offer both, create a hunting offer and a fishing offer.'],
         ['Species', 'The ones you offer, hunting and fishing in separate lists. Clients find you by these species.'],
         ['Where', 'Your town or region, and a pin on the map where clients meet you: tap the map, use your location or type the coordinates.'],
         ['When', 'How long a trip lasts and your departure dates (details below). Optional: without dates, your offer says "Dates on request".'],

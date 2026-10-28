@@ -6,7 +6,7 @@ who search the web for a guided hunt or fishing trip and have nobody to show the
 a visitor from France or the US who wants a black bear hunt in Québec).
 
 How the app works (state only this, never invent features):
-- Map of guides, a pin per guide: orange = hunting, teal = fishing, gold = both. Filters: hunting / fishing, then a
+- Map of guides, a pin per offer: orange = hunting, teal = fishing (an offer is one or the other; a guide with both makes two offers). Filters: hunting / fishing, then a
   species. With the user's approximate location (stays on the phone) each guide shows how far away it is.
 - A guide's offer: title, what's included, region, species, price per person "from" (or on request), how long a
   trip lasts (half day to weeks) and its departure dates (or "Dates on request"); the next departure shows, the others
