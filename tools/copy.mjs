@@ -130,10 +130,10 @@ export const HOME = {
     ],
     howTitle: 'Comment ça marche',
     how: [
-      ['Choisissez chasse ou pêche, puis une espèce', "Orignal, ours noir, dindon sauvage, doré, omble de fontaine, pêche blanche… La carte ne garde que les guides qui l'offrent."],
+      ['Choisissez une espèce et vos dates', "Orignal, ours noir, doré, omble de fontaine… et quand vous êtes libre. La carte ne garde que les guides qui l'offrent, avec un séjour qui entre dans vos dates."],
       ['Repérez les guides sur la carte', 'Un repère par guide : orange pour la chasse, sarcelle pour la pêche, or pour les deux. Partagez votre position et chaque guide affiche sa distance.'],
-      ["Lisez l'offre", "Ce qui est inclus, l'hébergement, la région, les espèces et le prix par personne, quand le guide l'indique."],
-      ['Contactez le guide', "Son nom, son téléphone, son courriel et son site s'affichent après une courte publicité. Vous lui parlez directement : pas d'intermédiaire, pas de frais."],
+      ["Lisez l'offre et choisissez une date", "Ce qui est inclus, la durée, le prochain départ et les autres dates, la région et le prix par personne quand le guide l'indique."],
+      ['Contactez le guide', "Son nom, son téléphone, son courriel et son site s'affichent après une courte publicité. La date choisie est dans votre courriel. Pas d'intermédiaire, pas de frais."],
     ],
     speciesTitle: 'Un guide pour chaque espèce',
     speciesLead: 'Chaque page explique comment se passe un séjour guidé, ce qui est habituellement inclus et quoi demander avant de réserver.',
@@ -170,10 +170,10 @@ export const HOME = {
     ],
     howTitle: 'How it works',
     how: [
-      ['Pick hunting or fishing, then a species', 'Moose, black bear, wild turkey, walleye, brook trout, ice fishing… The map keeps only the guides who offer it.'],
+      ['Pick a species and your dates', 'Moose, black bear, walleye, brook trout… and when you are free. The map keeps only the guides who offer it, with a trip that fits your dates.'],
       ['Spot the guides on the map', 'One pin per guide: orange for hunting, teal for fishing, gold for both. Share your location and each guide shows how far away it is.'],
-      ['Read the offer', "What's included, lodging, the region, the species and the price per person, when the guide gives it."],
-      ['Contact the guide', 'Their name, phone, email and website show after a short ad. You talk to them directly: no middleman, no fees.'],
+      ['Read the offer and pick a date', "What's included, how long it lasts, the next departure and the other dates, the region and the price per person when the guide gives it."],
+      ['Contact the guide', 'Their name, phone, email and website show after a short ad. The date you picked is in your email. No middleman, no fees.'],
     ],
     speciesTitle: 'A guide for every species',
     speciesLead: "Each page explains how a guided trip goes, what's usually included and what to ask before you book.",
@@ -262,7 +262,7 @@ export const GUIDES = {
     lead: "{app} est gratuit pour les guides. Vos offres apparaissent sur la carte à ceux qui cherchent exactement ce que vous offrez : une espèce, une région, un prix.",
     sections: [
       { h: 'Pourquoi être sur {app}', list: [
-        "Des clients qui cherchent déjà : ils filtrent par chasse ou pêche et par espèce, puis regardent la carte.",
+        "Des clients qui cherchent déjà : ils filtrent par chasse ou pêche, par espèce et par les dates où ils sont libres, puis regardent la carte.",
         "Un public bilingue : l'application est en français et en anglais, pour les gens d'ici comme pour les visiteurs d'Europe et des États-Unis.",
         "Aucun frais, aucune commission : les clients vous contactent directement, et vous réservez avec eux comme d'habitude.",
         "Vos coordonnées protégées : votre nom, votre téléphone, votre courriel et votre site ne s'affichent qu'après une publicité, pas à n'importe quel robot qui parcourt la carte.",
@@ -270,11 +270,30 @@ export const GUIDES = {
       { h: 'Comment vous inscrire', steps: [
         ["Ouvrez {app} et touchez « Devenir guide »", 'Connectez-vous avec votre compte Google. Il sert seulement à savoir quelles offres sont les vôtres.'],
         ['Remplissez votre profil', "Le nom de votre entreprise, votre courriel, et si vous voulez votre téléphone et votre site Web. Il est commun à toutes vos offres."],
-        ['Ajoutez vos offres', 'Un titre, une description (ce qui est inclus, saisons, hébergement, langues), chasse, pêche ou les deux, les espèces, la ville ou la région, un repère sur la carte et un prix « à partir de » si vous le voulez.'],
+        ['Ajoutez vos offres, en cinq étapes', 'Autant que vous voulez : une par séjour. Le formulaire vous guide une étape à la fois (détails ci-dessous).'],
         ['Nous vérifions, puis votre offre va sur la carte', "Chaque nouvelle offre et chaque modification est relue avant d'être publiée. Nous vous répondons par courriel."],
       ] },
+      { h: 'Créer une offre, étape par étape', p: ["Une étape à la fois, chacune vérifiée avant la suivante. « Retour » revient à l'étape d'avant, rien ne se perd."], steps: [
+        ['Le séjour', "Un titre (« Ours noir au printemps en Abitibi »), chasse, pêche ou les deux, et une description : ce qui est inclus, l'hébergement, les langues parlées."],
+        ['Les espèces', "Celles que vous offrez, la chasse et la pêche dans des listes séparées. Les clients vous trouvent par ces espèces."],
+        ['Où', "Votre ville ou région, et un repère sur la carte là où les clients vous rejoignent : touchez la carte, utilisez votre position ou entrez les coordonnées."],
+        ['Quand', "La durée d'un séjour et vos dates de départ (détails plus bas). Facultatif : sans dates, votre offre indique « Dates sur demande »."],
+        ['Prix et envoi', "Un prix par personne « à partir de » si vous le voulez, puis un résumé de tout, avec « Modifier » sur chaque étape. Vous envoyez pour vérification."],
+      ], shots: [
+        ['step1.webp', '1 · Le séjour'], ['step2.webp', '2 · Les espèces'], ['step3.webp', '3 · Où'],
+        ['step4.webp', '4 · Quand : 1 semaine, chaque samedi, chaque année'], ['step5.webp', '5 · Prix et envoi : le résumé'],
+      ], shotsNote: "Captures de l'application en anglais; elle est aussi entièrement en français." },
+      { h: 'Vos dates : quand partent vos séjours', p: [
+        "Les clients cherchent souvent par dates : ils indiquent quand ils sont libres et voient les séjours qui entrent au complet dans ces dates. Donner vos dates, c'est apparaître dans ces recherches.",
+      ], list: [
+        "**La durée** : demi-journée, 1 jour, 2 jours, 3 jours, 1 semaine, ou le nombre de jours que vous voulez.",
+        "**Les départs** : ajoutez chaque date, ou une saison entière d'un coup avec « Ajouter chaque semaine » (par exemple chaque samedi du 1er mai au 26 juin).",
+        "**Les demi-journées** : chaque date part le matin, l'après-midi ou les deux, pour une sortie de pêche au saumon comme pour une chasse au dindon à l'aube.",
+        "**Ces dates seulement ou chaque année** : une saison qui revient aux mêmes dates reste sur la carte d'une année à l'autre. Des dates ponctuelles quittent la carte après la dernière, et vous voyez « Dates passées » dans vos offres.",
+        "**Le client choisit sa date** : dans votre offre, il voit le prochain départ, et les autres sous « Autres dates ». Celle qu'il choisit se retrouve dans le courriel qu'il vous écrit.",
+      ], shots: [['sheet.webp', 'Votre offre vue par un client : le prochain départ, les autres dates, et la date choisie', 692]] },
       { h: 'Une offre qui donne envie', p: [
-        "Décrivez le séjour comme vous l'expliqueriez au téléphone : combien de jours, ce qui est fourni, le type d'hébergement, ce que le client doit apporter et les langues que vous parlez. Les clients de l'étranger veulent savoir s'il faut prévoir le transport depuis l'aéroport.",
+        "Décrivez le séjour comme vous l'expliqueriez au téléphone : ce qui est fourni, le type d'hébergement, ce que le client doit apporter et les langues que vous parlez. Les clients de l'étranger veulent savoir s'il faut prévoir le transport depuis l'aéroport.",
         "Créez une offre par séjour plutôt qu'une seule pour tout : « Ours noir au printemps » et « Orignal à l'appel en automne » ressortent chacun sous la bonne espèce.",
       ] },
       { h: 'Vous restez maître de vos offres', p: [
@@ -283,7 +302,9 @@ export const GUIDES = {
     ],
     faq: [
       ['Combien ça coûte?', "Rien. L'inscription et les offres sont gratuites. {app} est financé par la publicité que regardent les clients pour voir vos coordonnées."],
-      ['Est-ce que {app} prend des réservations?', "Non. Le client vous contacte directement par téléphone, par courriel ou sur votre site, et vous réservez avec lui comme vous le faites déjà."],
+      ['Est-ce que {app} prend des réservations?', "Non. Le client vous contacte directement par téléphone, par courriel ou sur votre site, et vous réservez avec lui comme vous le faites déjà. La date qu'il a choisie dans votre offre est dans son courriel."],
+      ['Dois-je donner mes dates?', "Non, c'est facultatif : votre offre indique alors « Dates sur demande » et reste visible. Avec vos dates, vous apparaissez aussi quand un client cherche un séjour qui entre dans ses dates libres."],
+      ['Ma saison revient chaque année. Dois-je tout refaire?', "Non. Choisissez « Chaque année » à l'étape Quand : les mêmes dates reviennent d'une année à l'autre et votre offre reste sur la carte."],
       ['Faut-il un permis de guide ou de pourvoyeur?', "Vous devez détenir les permis exigés là où vous exercez. Nous relisons chaque offre, mais il vous revient d'être en règle, et les clients sont invités à le vérifier."],
       ["L'application n'est pas encore sur Google Play. Comment m'inscrire?", 'Écrivez-nous à {contact} avec le nom de votre entreprise et vos séjours : nous vous préviendrons dès le lancement, pour que vos offres soient sur la carte dès le premier jour.'],
     ],
@@ -297,7 +318,7 @@ export const GUIDES = {
     lead: '{app} is free for guides. Your offers show on the map to people looking for exactly what you offer: a species, a region, a price.',
     sections: [
       { h: 'Why be on {app}', list: [
-        'Clients who are already looking: they filter by hunting or fishing and by species, then look at the map.',
+        'Clients who are already looking: they filter by hunting or fishing, by species and by the dates they are free, then look at the map.',
         'A bilingual audience: the app is in French and English, for people from here and visitors from Europe and the US.',
         'No fees, no commission: clients contact you directly, and you book them as you always do.',
         'Your contact protected: your name, phone, email and website show only after an ad, not to any robot crawling the map.',
@@ -305,11 +326,30 @@ export const GUIDES = {
       { h: 'How to sign up', steps: [
         ['Open {app} and tap "Become a guide"', 'Sign in with your Google account. It only tells us which offers are yours.'],
         ['Fill in your profile', "Your business name, your email, and if you like your phone and website. It's shared by all your offers."],
-        ['Add your offers', 'A title, a description (what\'s included, seasons, lodging, languages), hunting, fishing or both, the species, the town or region, a pin on the map and a "from" price if you want.'],
+        ['Add your offers, in five steps', 'As many as you like: one per trip. The form takes you through one step at a time (details below).'],
         ['We review it, then it goes on the map', 'Every new offer and every edit is read before it is published. We answer by email.'],
       ] },
+      { h: 'Creating an offer, step by step', p: ['One step at a time, each checked before the next. "Back" returns to the previous step, nothing is lost.'], steps: [
+        ['The trip', 'A title ("Spring black bear in Abitibi"), hunting, fishing or both, and a description: what\'s included, lodging, the languages you speak.'],
+        ['Species', 'The ones you offer, hunting and fishing in separate lists. Clients find you by these species.'],
+        ['Where', 'Your town or region, and a pin on the map where clients meet you: tap the map, use your location or type the coordinates.'],
+        ['When', 'How long a trip lasts and your departure dates (details below). Optional: without dates, your offer says "Dates on request".'],
+        ['Price and send', 'A "from" price per person if you like, then a summary of everything, with "Change" on each step. You send it for review.'],
+      ], shots: [
+        ['step1.webp', '1 · The trip'], ['step2.webp', '2 · Species'], ['step3.webp', '3 · Where'],
+        ['step4.webp', '4 · When: 1 week, every Saturday, every year'], ['step5.webp', '5 · Price and send: the summary'],
+      ] },
+      { h: 'Your dates: when your trips leave', p: [
+        'Clients often search by dates: they enter when they are free and see the trips that fit entirely within those dates. Giving your dates puts you in those searches.',
+      ], list: [
+        '**Duration**: half day, 1 day, 2 days, 3 days, 1 week, or any number of days.',
+        '**Departures**: add each date, or a whole season at once with "Add weekly dates" (for example every Saturday from May 1 to June 26).',
+        '**Half days**: each date leaves in the morning, the afternoon or both, for a salmon outing as for a dawn turkey hunt.',
+        '**These dates only or every year**: a season that comes back on the same dates stays on the map year after year. One-time dates leave the map after the last one, and your offers show "Dates passed".',
+        '**The client picks a date**: in your offer, they see the next departure, and the others under "Other dates". The one they pick is in the email they send you.',
+      ], shots: [['sheet.webp', 'Your offer as a client sees it: the next departure, the other dates, and the date they picked', 692]] },
       { h: 'An offer people want', p: [
-        'Describe the trip the way you would on the phone: how many days, what you supply, the lodging, what the client should bring and the languages you speak. Visitors from abroad want to know whether to plan transport from the airport.',
+        'Describe the trip the way you would on the phone: what you supply, the lodging, what the client should bring and the languages you speak. Visitors from abroad want to know whether to plan transport from the airport.',
         'Create one offer per trip rather than one for everything: "Spring black bear" and "Fall moose calling" each show up under the right species.',
       ] },
       { h: 'Your offers stay yours', p: [
@@ -318,7 +358,9 @@ export const GUIDES = {
     ],
     faq: [
       ['How much does it cost?', 'Nothing. Signing up and listing offers are free. {app} is paid for by the ads clients watch to see your contact.'],
-      ['Does {app} take bookings?', 'No. The client contacts you directly by phone, email or on your website, and you book them as you already do.'],
+      ['Does {app} take bookings?', 'No. The client contacts you directly by phone, email or on your website, and you book them as you already do. The date they picked in your offer is in their email.'],
+      ['Do I have to give my dates?', 'No, it is optional: your offer then says "Dates on request" and stays on the map. With your dates, you also show up when a client searches for a trip that fits their free dates.'],
+      ['My season comes back every year. Do I redo everything?', 'No. Choose "Every year" in the When step: the same dates come back year after year and your offer stays on the map.'],
       ['Do I need a guide or outfitter licence?', "You must hold the licences required where you operate. We review every offer, but staying compliant is up to you, and clients are told to check."],
       ["The app isn't on Google Play yet. How do I sign up?", 'Write to us at {contact} with your business name and your trips: we\'ll let you know at launch, so your offers are on the map from day one.'],
     ],
