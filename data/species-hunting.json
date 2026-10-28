@@ -45,7 +45,7 @@
         {
           "h": "Finding a bear outfitter with {app}",
           "p": [
-            "In {app}, filter the map for hunting, then choose black bear. Each orange or gold pin is a guide with an offer: what is included, the region and a price per person from, or on request. With your approximate location, you see how far each one is, and the guide's phone, email and website are one short optional video away.",
+            "In {app}, filter the map for hunting, then choose black bear. Each orange or gold pin is a guide with an offer: what is included, the region and a price per person from, or on request. With your approximate location, you see how far each one is, and after a short optional video, \"I'm interested\" sends the guide your request.",
             "Bring quiet, dark clothing, a good insect repellent or head net for spring, a headlamp for the walk out, and a rangefinder if you have one."
           ]
         }
@@ -109,7 +109,7 @@
         {
           "h": "Trouver une pourvoirie d'ours avec {app}",
           "p": [
-            "Dans {app}, filtrez la carte par chasse, puis choisissez ours noir. Chaque épingle orange ou dorée est un guide avec son offre : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Avec votre position approximative, vous voyez la distance, et les coordonnées du guide s'affichent après une courte publicité vidéo facultative.",
+            "Dans {app}, filtrez la carte par chasse, puis choisissez ours noir. Chaque épingle orange ou dorée est un guide avec son offre : ce qui est inclus, la région et un prix par personne à partir de, ou sur demande. Avec votre position approximative, vous voyez la distance, et après une courte publicité vidéo facultative, « Je suis intéressé » envoie votre demande au guide.",
             "Apportez des vêtements sombres et silencieux, un bon chasse-moustiques ou un filet au printemps, une lampe frontale pour le retour et un télémètre si vous en avez un."
           ]
         }
@@ -177,7 +177,7 @@
         {
           "h": "Finding a moose hunt with {app}",
           "p": [
-            "Open {app}, filter for hunting and choose moose. The map shows each guide's offer with the region, what is included and a price per person from, or on request. You see roughly how far each one is from you and can contact the guide directly after a short optional video."
+            "Open {app}, filter for hunting and choose moose. The map shows each guide's offer with the region, what is included and a price per person from, or on request. You see roughly how far each one is from you and, after a short optional video, send the guide a request; once they accept, you see their phone, email and website."
           ]
         }
       ],
@@ -241,7 +241,7 @@
         {
           "h": "Trouver une chasse à l'orignal avec {app}",
           "p": [
-            "Ouvrez {app}, filtrez par chasse et choisissez orignal. La carte affiche l'offre de chaque guide avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Vous voyez à peu près à quelle distance il se trouve et pouvez le joindre directement après une courte vidéo facultative."
+            "Ouvrez {app}, filtrez par chasse et choisissez orignal. La carte affiche l'offre de chaque guide avec la région, ce qui est inclus et un prix par personne à partir de, ou sur demande. Vous voyez à peu près à quelle distance il se trouve et, après une courte vidéo facultative, lui envoyer une demande; s'il l'accepte, vous voyez son téléphone, son courriel et son site Web."
           ]
         }
       ],

@@ -54,7 +54,7 @@
           {
             "h": "Questions to ask before you book",
             "p": [
-              "A short phone call answers more than a dozen emails. With {app}, you can see guides on a map, filter by hunting or fishing and by species, and get a guide's phone, email and website so you can ask these questions directly."
+              "A short phone call answers more than a dozen emails. With {app}, you can see guides on a map, filter by hunting or fishing and by species, and send a guide a request; once they accept, you have their phone, email and website to ask these questions directly."
             ],
             "list": [
               "How long have you guided here, and for this species?",
@@ -121,7 +121,7 @@
           {
             "h": "Les questions à poser avant de réserver",
             "p": [
-              "Un court appel règle plus de choses qu'une douzaine de courriels. Avec {app}, vous voyez les guides sur une carte, vous filtrez par chasse ou pêche et par espèce, puis vous obtenez le téléphone, le courriel et le site Web du guide pour lui poser ces questions directement."
+              "Un court appel règle plus de choses qu'une douzaine de courriels. Avec {app}, vous voyez les guides sur une carte, vous filtrez par chasse ou pêche et par espèce, puis vous envoyez une demande au guide; s'il l'accepte, vous avez son téléphone, son courriel et son site Web pour lui poser ces questions directement."
             ],
             "list": [
               "Depuis combien de temps guidez-vous ici, et pour cette espèce?",
@@ -668,15 +668,15 @@
     "en": [
       {
         "q": "Is {app} free?",
-        "a": "Yes. {app} is free for people looking for a guide, with no account and no fee. It is also free for guides and outfitters who want to list their offers."
+        "a": "Yes. {app} is free for people looking for a guide: you browse the map without an account, and you sign in with Google only to send requests to guides. It is also free for guides and outfitters who want to list their offers, with the same account."
       },
       {
-        "q": "Why do I watch an ad to see a guide's contact details?",
-        "a": "A short, optional video ad is what keeps the app free for everyone, users and guides alike. After the ad, you see the guide's name, phone, email and website."
+        "q": "Why do I watch an ad before contacting a guide?",
+        "a": "A short, optional video ad is what keeps the app free for everyone, users and guides alike. After the ad, you tap \"I'm interested\": the guide gets a request with your name, your email and, if you give it, your phone. You follow it in \"My requests\", and once the guide accepts, you see their phone, email and website."
       },
       {
         "q": "Can I book or pay for a trip in the app?",
-        "a": "No. {app} does not take bookings or payments. You contact the guide directly by phone, email or through their website, and you agree on dates, price, deposit and conditions with them."
+        "a": "No. {app} does not take bookings or payments. You send the guide a request with the dates you picked; they contact you, or you reach them once they accept, and you agree on dates, price, deposit and conditions with them directly."
       },
       {
         "q": "How are guides checked?",
@@ -684,7 +684,7 @@
       },
       {
         "q": "What data does the app collect?",
-        "a": "If you allow it, the app uses your approximate location to show how far each guide is from you, and that location stays on your phone. Ads are served by Google AdMob, with your consent where required."
+        "a": "If you allow it, the app uses your approximate location to show how far each guide is from you, and that location stays on your phone. If you sign in and send a request, the guide of that offer gets your name, email and optional phone. Ads are served by Google AdMob, with your consent where required. Details in our privacy policy."
       },
       {
         "q": "Is there an iPhone version?",
@@ -692,7 +692,7 @@
       },
       {
         "q": "I'm a guide or an outfitter. How do I get listed?",
-        "a": "Listing is free and done in the app. Sign in with Google, fill in your profile and add as many offers as you like. Each offer is reviewed before it goes on the map."
+        "a": "Listing is free and done in the app. Sign in with Google, choose \"I'm a guide\" (or switch to guide mode in Settings), fill in your profile and add as many offers as you like. Each offer is reviewed before it goes on the map, and the requests you receive show in the app."
       },
       {
         "q": "Which regions does {app} cover?",
@@ -702,15 +702,15 @@
     "fr": [
       {
         "q": "L'application {app} est-elle gratuite?",
-        "a": "Oui. L'application est gratuite pour les personnes qui cherchent un guide, sans compte et sans frais. Elle l'est aussi pour les guides et les pourvoiries qui veulent y afficher leurs offres."
+        "a": "Oui. L'application est gratuite pour les personnes qui cherchent un guide : vous parcourez la carte sans compte, et vous vous connectez avec Google seulement pour envoyer des demandes aux guides. Elle l'est aussi pour les guides et les pourvoiries qui veulent y afficher leurs offres, avec le même compte."
       },
       {
-        "q": "Pourquoi une publicité pour voir les coordonnées d'un guide?",
-        "a": "Une courte publicité vidéo facultative permet de garder l'application gratuite pour tout le monde, chasseurs, pêcheurs et guides. Après la publicité, vous voyez le nom, le téléphone, le courriel et le site Web du guide."
+        "q": "Pourquoi une publicité avant de contacter un guide?",
+        "a": "Une courte publicité vidéo facultative permet de garder l'application gratuite pour tout le monde, chasseurs, pêcheurs et guides. Après la publicité, vous touchez « Je suis intéressé » : le guide reçoit une demande avec votre nom, votre courriel et, si vous le donnez, votre téléphone. Vous la suivez dans « Mes demandes », et dès que le guide l'accepte, vous voyez son téléphone, son courriel et son site Web."
       },
       {
         "q": "Puis-je réserver ou payer un séjour dans l'application?",
-        "a": "Non. {app} ne prend ni réservations ni paiements. Vous communiquez directement avec le guide par téléphone, par courriel ou par son site Web, et vous vous entendez avec lui sur les dates, le prix, le dépôt et les conditions."
+        "a": "Non. {app} ne prend ni réservations ni paiements. Vous envoyez au guide une demande avec les dates choisies; il vous contacte, ou vous le joignez dès qu'il l'accepte, et vous vous entendez directement avec lui sur les dates, le prix, le dépôt et les conditions."
       },
       {
         "q": "Comment les guides sont-ils vérifiés?",
@@ -718,7 +718,7 @@
       },
       {
         "q": "Quelles données l'application recueille-t-elle?",
-        "a": "Si vous l'autorisez, l'application utilise votre position approximative pour afficher la distance de chaque guide, et cette position reste sur votre téléphone. Les publicités sont diffusées par Google AdMob, avec votre consentement lorsqu'il est requis."
+        "a": "Si vous l'autorisez, l'application utilise votre position approximative pour afficher la distance de chaque guide, et cette position reste sur votre téléphone. Si vous vous connectez et envoyez une demande, le guide de cette offre reçoit votre nom, votre courriel et, si vous le donnez, votre téléphone. Les publicités sont diffusées par Google AdMob, avec votre consentement lorsqu'il est requis. Les détails sont dans notre politique de confidentialité."
       },
       {
         "q": "Y a-t-il une version iPhone?",
@@ -726,7 +726,7 @@
       },
       {
         "q": "Je suis guide ou pourvoyeur. Comment m'inscrire?",
-        "a": "L'inscription est gratuite et se fait dans l'application. Connectez-vous avec Google, remplissez votre profil et ajoutez autant d'offres que vous voulez. Chaque offre est révisée avant d'être publiée sur la carte."
+        "a": "L'inscription est gratuite et se fait dans l'application. Connectez-vous avec Google, choisissez « Je suis guide » (ou passez en mode guide dans les paramètres), remplissez votre profil et ajoutez autant d'offres que vous voulez. Chaque offre est révisée avant d'être publiée sur la carte, et les demandes reçues s'affichent dans l'application."
       },
       {
         "q": "Quelles régions l'application {app} couvre-t-elle?",

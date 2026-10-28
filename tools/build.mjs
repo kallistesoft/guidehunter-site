@@ -204,12 +204,16 @@ function section(lang, s) {
   for (const para of s.p ?? []) h += `<p>${inline(para, lang)}</p>`;
   if (s.list) h += `<ul class="ticks">${s.list.map((li) => `<li>${inline(li, lang)}</li>`).join('')}</ul>`;
   if (s.steps) h += `<ol class="steps">${s.steps.map(([a, b]) => `<li><strong>${inline(a, lang)}</strong><span>${inline(b, lang)}</span></li>`).join('')}</ol>`;
-  // Screenshots of the app: [file in assets/app, caption, height at 540 wide]; the caption is the alt text too.
   if (s.shots) {
-    h += `<div class="shots">${s.shots.map(([file, caption, height = 1087]) => `<figure class="shot"><img src="/assets/app/${file}" alt="${esc(text(caption, lang))}" width="540" height="${height}" loading="lazy" decoding="async"><figcaption>${inline(caption, lang)}</figcaption></figure>`).join('')}</div>`;
+    h += shotsRow(lang, s.shots);
     if (s.shotsNote) h += `<p class="small">${inline(s.shotsNote, lang)}</p>`;
   }
   return `<section>${h}</section>`;
+}
+
+// Screenshots of the app: [file in assets/app, caption, height at 540 wide]; the caption is the alt text too.
+function shotsRow(lang, shots) {
+  return `<div class="shots">${shots.map(([file, caption, height = 1087]) => `<figure class="shot"><img src="/assets/app/${file}" alt="${esc(text(caption, lang))}" width="540" height="${height}" loading="lazy" decoding="async"><figcaption>${inline(caption, lang)}</figcaption></figure>`).join('')}</div>`;
 }
 
 const appLd = (lang) => ({
@@ -287,6 +291,8 @@ for (const lang of LANGS) {
   <h2 class="center">${inline(h.howTitle, lang)}</h2>
   <ol class="how">${h.how.map(([a, b], i) => `<li><span class="num">${i + 1}</span><h3>${inline(a, lang)}</h3><p>${inline(b, lang)}</p></li>`).join('')}</ol>
   <p class="legend">${dot('hunt')} ${t.nav.hunting} ${dot('fish')} ${t.nav.fishing}</p>
+  ${shotsRow(lang, h.shots)}
+  <p class="small center">${inline(h.shotsNote, lang)}</p>
 </section>
 <section class="band">
   <div class="wrap">
