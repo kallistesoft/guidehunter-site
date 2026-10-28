@@ -280,9 +280,9 @@ export const GUIDES = {
         ['Quand', "La durée d'un séjour et vos dates de départ (détails plus bas). Facultatif : sans dates, votre offre indique « Dates sur demande »."],
         ['Prix et envoi', "Un prix par personne « à partir de » si vous le voulez, puis un résumé de tout, avec « Modifier » sur chaque étape. Vous envoyez pour vérification."],
       ], shots: [
-        ['step1.webp', '1 · Le séjour'], ['step2.webp', '2 · Les espèces'], ['step3.webp', '3 · Où'],
-        ['step4.webp', '4 · Quand : 1 semaine, chaque samedi, chaque année'], ['step5.webp', '5 · Prix et envoi : le résumé'],
-      ], shotsNote: "Captures de l'application en anglais; elle est aussi entièrement en français." },
+        ['fr/step1.webp', '1 · Le séjour'], ['fr/step2.webp', '2 · Les espèces'], ['fr/step3.webp', '3 · Où'],
+        ['fr/step4.webp', '4 · Quand : 1 semaine, chaque samedi, chaque année'], ['fr/step5.webp', '5 · Prix et envoi : le résumé'],
+      ] },
       { h: 'Vos dates : quand partent vos séjours', p: [
         "Les clients cherchent souvent par dates : ils indiquent quand ils sont libres et voient les séjours qui entrent au complet dans ces dates. Donner vos dates, c'est apparaître dans ces recherches.",
       ], list: [
@@ -291,7 +291,7 @@ export const GUIDES = {
         "**Les demi-journées** : chaque date part le matin, l'après-midi ou les deux, pour une sortie de pêche au saumon comme pour une chasse au dindon à l'aube.",
         "**Ces dates seulement ou chaque année** : une saison qui revient aux mêmes dates reste sur la carte d'une année à l'autre. Des dates ponctuelles quittent la carte après la dernière, et vous voyez « Dates passées » dans vos offres.",
         "**Le client choisit sa date** : dans votre offre, il voit le prochain départ, et les autres sous « Autres dates ». Celle qu'il choisit se retrouve dans le courriel qu'il vous écrit.",
-      ], shots: [['sheet.webp', 'Votre offre vue par un client : le prochain départ, les autres dates, et la date choisie', 692]] },
+      ], shots: [['fr/sheet.webp', 'Votre offre vue par un client : le prochain départ, les autres dates, et la date choisie', 692]] },
       { h: 'Une offre qui donne envie', p: [
         "Décrivez le séjour comme vous l'expliqueriez au téléphone : ce qui est fourni, le type d'hébergement, ce que le client doit apporter et les langues que vous parlez. Les clients de l'étranger veulent savoir s'il faut prévoir le transport depuis l'aéroport.",
         "Créez une offre par séjour plutôt qu'une seule pour tout : « Ours noir au printemps » et « Orignal à l'appel en automne » ressortent chacun sous la bonne espèce.",
