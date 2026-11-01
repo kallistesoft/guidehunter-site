@@ -27,6 +27,9 @@ Plain Node 22, no dependencies:
 | `assets/` | `site.css` (the app's theme: palette from `core/designsystem` Color.kt, Barlow fonts), `site.js` (theme toggle, menu), logo, fonts, share images |
 | `tools/htaccess` | Copied to `site/.htaccess`: 404 page, caching |
 
+Each page opens in the visitor's language (`LANGUAGE_SCRIPT` in `tools/build.mjs`): the FR/EN link's last choice, else
+the browser's first French or English language, else English. Crawlers are not redirected.
+
 Write the app's name as `{app}` in any content: it comes from `config.app`.
 
 ## Renaming the app
