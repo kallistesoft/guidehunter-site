@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { config } from './config.mjs';
 import { readdirSync } from 'node:fs';
-import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION, LEGAL, PROVINCES_PAGE } from './copy.mjs';
+import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION, LEGAL, TERMS, PROVINCES_PAGE } from './copy.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = join(ROOT, 'site');
@@ -140,6 +140,7 @@ function footer(lang) {
         <ul>
           <li><a href="${PATHS.privacy[lang]}">${text(PRIVACY[lang].h1, lang)}</a></li>
           <li><a href="${PATHS.deletion[lang]}">${text(DELETION[lang].h1, lang)}</a></li>
+          <li><a href="${PATHS.terms[lang]}">${text(TERMS[lang].h1, lang)}</a></li>
           <li><a href="${PATHS.legal[lang]}">${text(LEGAL[lang].h1, lang)}</a></li>
         </ul>
       </div>
@@ -516,7 +517,7 @@ ${faqList(lang, items)}</div>`;
   });
 
   // Legal
-  for (const [key, L] of [['privacy', PRIVACY], ['deletion', DELETION], ['legal', LEGAL]]) {
+  for (const [key, L] of [['privacy', PRIVACY], ['deletion', DELETION], ['terms', TERMS], ['legal', LEGAL]]) {
     page(key, lang, PATHS[key][lang], (p) => {
       const h = L[lang];
       const c = crumbs(lang, [[text(h.h1, lang), PATHS[key][lang]]]);
