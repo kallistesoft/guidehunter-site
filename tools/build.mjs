@@ -176,8 +176,8 @@ ${xDefault}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0E1611" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F5F2EA" media="(prefers-color-scheme: light)">
-<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="icon" href="/assets/icon.svg${v}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png${v}">
 <link rel="preload" href="/assets/fonts/barlow_regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/barlow_condensed_bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css${v}">
@@ -527,7 +527,7 @@ ${h.sections.map((s) => section(lang, s)).join('')}</div>`;
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(OUT, { recursive: true });
 cpSync(join(ROOT, 'assets'), join(OUT, 'assets'), { recursive: true, filter: (f) => !f.endsWith('.ttf') });
-assetVersion = createHash('sha1').update(readFileSync(join(ROOT, 'assets/site.css'))).update(readFileSync(join(ROOT, 'assets/site.js'))).digest('hex').slice(0, 8);
+assetVersion = createHash('sha1').update(readFileSync(join(ROOT, 'assets/site.css'))).update(readFileSync(join(ROOT, 'assets/site.js'))).update(readFileSync(join(ROOT, 'assets/icon.svg'))).update(readFileSync(join(ROOT, 'assets/apple-touch-icon.png'))).digest('hex').slice(0, 8);
 
 const write = (path, html) => {
   const file = join(OUT, path.endsWith('/') ? path + 'index.html' : path);
