@@ -3,7 +3,7 @@
 export const config = {
   // The app's name, written wherever the content says {app}. A working name: change it here only.
   app: 'GuideHunter',
-  origin: 'https://guides.kallistesoft.ca',
+  origin: 'https://guidenordapp.com',
   // Google Play listing; while null the site says "coming soon" and offers to be told at launch.
   playUrl: null,
   // App Store listing, once the iPhone app exists.

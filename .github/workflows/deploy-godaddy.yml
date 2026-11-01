@@ -32,5 +32,5 @@ jobs:
     needs: build
     uses: kallistesoft/kallistesoft-site/.github/workflows/deploy-ftp.yml@main
     with:
-      folder: guides.kallistesoft.ca
+      folder: guidenordapp.com
     secrets: inherit

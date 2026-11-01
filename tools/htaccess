@@ -2,6 +2,12 @@
 ErrorDocument 404 /404.html
 Options -Indexes
 
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/\.well-known/
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://guidenordapp.com/$1 [R=301,L]
+
 <IfModule mod_headers.c>
   <FilesMatch "\.(woff2|svg|png)$">
     Header set Cache-Control "public, max-age=2592000"
