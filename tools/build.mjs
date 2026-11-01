@@ -70,7 +70,8 @@ function storeButtons(lang, { secondary } = {}) {
   const play = config.playUrl
     ? `<a class="btn btn-primary" href="${config.playUrl}">${icon.play}<span>${t.playBadge}</span></a>`
     : `<a class="btn btn-primary" href="${mailto(t.notifySubject, lang)}">${icon.play}<span><small>${t.soon}</small>${t.notify}</span></a>`;
-  return `<div class="ctas">${play}${secondary ? `<a class="btn btn-ghost" href="${secondary.href}">${esc(secondary.label)}</a>` : ''}</div>`;
+  const appStore = config.appStoreUrl ? `<a class="btn btn-primary" href="${config.appStoreUrl}"><span>${t.appStoreBadge}</span></a>` : '';
+  return `<div class="ctas">${play}${appStore}${secondary ? `<a class="btn btn-ghost" href="${secondary.href}">${esc(secondary.label)}</a>` : ''}</div>`;
 }
 
 function header(lang, key) {
@@ -90,7 +91,7 @@ function header(lang, key) {
     <div class="tools">
       <a class="lang" href="${pathOf(key, other)}" hreflang="${LOCALE[other]}" lang="${LOCALE[other]}" aria-label="${t.otherLangLabel}">${other.toUpperCase()}</a>
       <button class="icon-btn theme" type="button" aria-label="${t.theme}"><span class="i-sun">${icon.sun}</span><span class="i-moon">${icon.moon}</span></button>
-      <a class="btn btn-primary btn-sm get" href="${config.playUrl ?? '#get'}">${t.getApp}</a>
+      <a class="btn btn-primary btn-sm get" href="${config.playUrl ?? config.appStoreUrl ?? '#get'}">${t.getApp}</a>
       <button class="icon-btn menu" type="button" aria-expanded="false" aria-controls="nav" aria-label="${t.menu}">${icon.menu}</button>
     </div>
   </div>
@@ -218,11 +219,11 @@ function shotsRow(lang, shots) {
 
 const appLd = (lang) => ({
   '@context': 'https://schema.org', '@type': 'MobileApplication',
-  name: config.app, operatingSystem: 'Android', applicationCategory: 'TravelApplication',
+  name: config.app, operatingSystem: 'Android, iOS', applicationCategory: 'TravelApplication',
   description: text(HOME[lang].description, lang), inLanguage: ['fr-CA', 'en-CA'],
   offers: { '@type': 'Offer', price: '0', priceCurrency: 'CAD' },
   publisher: { '@type': 'Organization', name: config.studio.name, url: config.studio.url },
-  ...(config.playUrl ? { downloadUrl: config.playUrl } : {}),
+  ...(config.playUrl || config.appStoreUrl ? { downloadUrl: config.playUrl ?? config.appStoreUrl } : {}),
 });
 
 const speciesCard = (sp, lang) => {
@@ -333,7 +334,7 @@ for (const lang of LANGS) {
 <section class="wrap block end" id="get">
   ${PIN}
   <h2>${inline(h.endTitle, lang)}</h2>
-  <p>${inline(config.playUrl ? h.lead : h.endBody, lang)}</p>
+  <p>${inline(config.playUrl || config.appStoreUrl ? h.lead : h.endBody, lang)}</p>
   ${storeButtons(lang)}
 </section>`;
     return layout(p, { title: h.title, description: h.description, body, ld: [appLd(lang), faqLd(lang, faq), { '@context': 'https://schema.org', '@type': 'WebSite', name: config.app, url: config.origin + PATHS.home[lang], inLanguage: LOCALE[lang] }] });
@@ -437,7 +438,7 @@ ${c.html}
   page('guides', lang, PATHS.guides[lang], (p) => {
     const g = GUIDES[lang];
     const c = crumbs(lang, [[t.nav.guides, PATHS.guides[lang]]]);
-    const ctas = config.playUrl ? storeButtons(lang) : `<div class="ctas"><a class="btn btn-primary" href="${mailto(g.earlySubject, lang)}">${esc(g.early)} ${icon.arrow}</a></div>`;
+    const ctas = config.playUrl || config.appStoreUrl ? storeButtons(lang) : `<div class="ctas"><a class="btn btn-primary" href="${mailto(g.earlySubject, lang)}">${esc(g.early)} ${icon.arrow}</a></div>`;
     const body = `<div class="wrap page">
 ${c.html}
 <div class="with-aside">

@@ -688,7 +688,7 @@
       },
       {
         "q": "Is there an iPhone version?",
-        "a": "Not yet. {app} is coming to Android first, and an iPhone version is planned for later."
+        "a": "Yes, it's coming. {app} is on its way to the App Store, as well as Google Play."
       },
       {
         "q": "I'm a guide or an outfitter. How do I get listed?",
@@ -722,7 +722,7 @@
       },
       {
         "q": "Y a-t-il une version iPhone?",
-        "a": "Pas encore. {app} arrive d'abord sur Android, et une version iPhone est prévue plus tard."
+        "a": "Oui, elle s'en vient. {app} arrive bientôt sur l'App Store, en plus de Google Play."
       },
       {
         "q": "Je suis guide ou pourvoyeur. Comment m'inscrire?",
