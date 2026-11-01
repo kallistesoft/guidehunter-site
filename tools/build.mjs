@@ -60,7 +60,7 @@ const icon = {
   play: '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4.6 2.3c-.3.3-.5.8-.5 1.4v16.6c0 .6.2 1.1.5 1.4l.1.1 9.3-9.3v-.2L4.7 2.2l-.1.1Z"/><path fill="currentColor" opacity=".75" d="m17.1 15.6-3.1-3.1v-.2l3.1-3.1.1.1 3.7 2.1c1 .6 1 1.6 0 2.2l-3.7 2.1-.1-.1Z"/><path fill="currentColor" opacity=".55" d="M17.2 15.5 14 12.3l-9.4 9.4c.3.4.9.4 1.6 0l11-6.2"/><path fill="currentColor" opacity=".9" d="M17.2 9.1 6.2 2.9c-.7-.4-1.3-.3-1.6 0L14 12.3l3.2-3.2Z"/></svg>',
 };
 
-const PIN = readFileSync(join(ROOT, 'assets/pin.svg'), 'utf8').replace('<svg ', '<svg aria-hidden="true" class="logo-pin" ');
+const LOGO = readFileSync(join(ROOT, 'assets/icon.svg'), 'utf8').trim().replace('<svg ', '<svg aria-hidden="true" class="logo" ');
 
 // Opens a page in the visitor's language: the one they chose with the FR/EN link, else the browser's first French or
 // English language, else English. Crawlers stay put so that both versions are indexed; without storage the FR/EN link
@@ -99,7 +99,7 @@ function header(lang, key) {
   return `<a class="skip" href="#main">${t.skip}</a>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="${PATHS.home[lang]}">${PIN}<span>${config.app}</span></a>
+    <a class="brand" href="${PATHS.home[lang]}">${LOGO}<span>${config.app}</span></a>
     <nav class="nav" id="nav" aria-label="${t.menu}">${nav}</nav>
     <div class="tools">
       <a class="lang" href="${pathOf(key, other)}" hreflang="${LOCALE[other]}" lang="${LOCALE[other]}" aria-label="${t.otherLangLabel}">${other.toUpperCase()}</a>
@@ -119,7 +119,7 @@ function footer(lang) {
   <div class="wrap">
     <div class="foot-grid">
       <div class="foot-brand">
-        <a class="brand" href="${PATHS.home[lang]}">${PIN}<span>${config.app}</span></a>
+        <a class="brand" href="${PATHS.home[lang]}">${LOGO}<span>${config.app}</span></a>
         <p>${t.footer.tagline}</p>
         ${storeButtons(lang)}
       </div>
@@ -346,7 +346,7 @@ for (const lang of LANGS) {
   </div>
 </section>
 <section class="wrap block end" id="get">
-  ${PIN}
+  ${LOGO}
   <h2>${inline(h.endTitle, lang)}</h2>
   <p>${inline(config.playUrl || config.appStoreUrl ? h.lead : h.endBody, lang)}</p>
   ${storeButtons(lang)}
@@ -389,7 +389,7 @@ ${c.html}
   </article>
   <aside class="aside">
     <div class="app-card">
-      <div class="app-card-head">${PIN}<b>${esc(t.findGuideFor(name, d))}</b></div>
+      <div class="app-card-head">${LOGO}<b>${esc(t.findGuideFor(name, d))}</b></div>
       <p>${inline(t.appCardBody(name), lang)}</p>
       ${storeButtons(lang)}
     </div>
@@ -435,7 +435,7 @@ ${c.html}
   </article>
   <aside class="aside">
     <div class="app-card">
-      <div class="app-card-head">${PIN}<b>${esc(h.speciesTitle)}</b></div>
+      <div class="app-card-head">${LOGO}<b>${esc(h.speciesTitle)}</b></div>
       <div class="chips">${known.map((s) => speciesChip(s, lang)).join('')}</div>
       ${storeButtons(lang)}
     </div>
@@ -461,7 +461,7 @@ ${c.html}
     ${g.sections.map((s) => section(lang, s)).join('')}
     <section><h2>${t.faqTitle}</h2>${faqList(lang, g.faq)}</section>
   </article>
-  <aside class="aside"><div class="app-card"><div class="app-card-head">${PIN}<b>${esc(t.nav.guides)}</b></div><ul class="ticks">${HOME[lang].guidesPoints.map((x) => `<li>${inline(x, lang)}</li>`).join('')}</ul>${ctas}</div></aside>
+  <aside class="aside"><div class="app-card"><div class="app-card-head">${LOGO}<b>${esc(t.nav.guides)}</b></div><ul class="ticks">${HOME[lang].guidesPoints.map((x) => `<li>${inline(x, lang)}</li>`).join('')}</ul>${ctas}</div></aside>
 </div>
 </div>`;
     return layout(p, { title: `${g.title} · ${config.app}`, description: g.description, body, ld: [c.ld, faqLd(lang, g.faq)] });
@@ -487,7 +487,7 @@ ${c.html}
     <header class="page-head"><h1>${inline(at.h1, lang)}</h1><p class="lead">${inline(at.lead, lang)}</p></header>
     ${at.sections.map((s) => section(lang, s)).join('')}
   </article>
-  <aside class="aside"><div class="app-card"><div class="app-card-head">${PIN}<b>${config.app}</b></div><p>${inline(HOME[lang].lead, lang)}</p>${storeButtons(lang)}</div></aside>
+  <aside class="aside"><div class="app-card"><div class="app-card-head">${LOGO}<b>${config.app}</b></div><p>${inline(HOME[lang].lead, lang)}</p>${storeButtons(lang)}</div></aside>
 </div>
 <h2>${t.nav.tips}</h2>
 <div class="grid3 arts">${others.map((x) => articleCard(x, lang)).join('')}</div>
@@ -540,7 +540,7 @@ for (const p of pages) write(p.path, p.render(p));
 {
   const fr = T.fr.notFound, en = T.en.notFound;
   const p = { lang: 'fr', key: 'home', path: '/404.html' };
-  const body = `<div class="wrap page narrow center nf">${PIN}<h1>${fr.h1}</h1><p>${fr.p}</p><p><a class="btn btn-primary" href="/">${fr.back}</a></p>
+  const body = `<div class="wrap page narrow center nf">${LOGO}<h1>${fr.h1}</h1><p>${fr.p}</p><p><a class="btn btn-primary" href="/">${fr.back}</a></p>
 <p lang="en-CA" class="small">${en.p} <a href="/en/">${en.back}</a></p></div>`;
   write('/404.html', layout(p, { title: `${fr.title} · ${config.app}`, description: fr.p, body }).replace('<meta name="description"', '<meta name="robots" content="noindex">\n<meta name="description"'));
 }

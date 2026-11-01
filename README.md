@@ -37,7 +37,8 @@ Write the app's name as `{app}` in any content: it comes from `config.app`.
 1. Change `app` in `tools/config.mjs` (and `origin` if the domain changes).
 2. Redraw the share images and the touch icon, which show the name:
    `npm i --no-save puppeteer-core && node tools/images.mjs` (uses the installed Chrome), and commit the PNGs.
-3. Update the logo in `assets/icon.svg` and `assets/pin.svg` if it changes (`design/generator/logo.py` in the app repo).
+3. Update the logo in `assets/icon.svg` if it changes (`design/generator/logo.py` in the app repo): it is the favicon,
+   the header logo and the share images' logo, on the app icon's green so that it shows on both themes.
 
 ## At launch
 
