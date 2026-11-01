@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { config } from './config.mjs';
 import { readdirSync } from 'node:fs';
-import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION, PROVINCES_PAGE } from './copy.mjs';
+import { LANGS, LOCALE, PATHS, SPECIES, T, HOME, HUBS, GUIDES, TIPS, FAQ_PAGE, PRIVACY, DELETION, LEGAL, PROVINCES_PAGE } from './copy.mjs';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const OUT = join(ROOT, 'site');
@@ -24,6 +24,7 @@ const fill = (s, lang) => String(s)
   .replaceAll('{app}', config.app)
   .replaceAll('{contact}', config.contact)
   .replaceAll('{deletion}', PATHS.deletion[lang])
+  .replaceAll('{legal}', PATHS.legal[lang])
   // French spacing: keep « », : and $ with their word, so a line never starts with them.
   .replace(/« /g, '«\u00a0').replace(/ »/g, '\u00a0»').replace(/ :/g, '\u00a0:').replace(/(\d) \$/g, '$1\u00a0$$');
 // Plain text for attributes and JSON-LD.
@@ -139,6 +140,7 @@ function footer(lang) {
         <ul>
           <li><a href="${PATHS.privacy[lang]}">${text(PRIVACY[lang].h1, lang)}</a></li>
           <li><a href="${PATHS.deletion[lang]}">${text(DELETION[lang].h1, lang)}</a></li>
+          <li><a href="${PATHS.legal[lang]}">${text(LEGAL[lang].h1, lang)}</a></li>
         </ul>
       </div>
     </div>
@@ -214,6 +216,8 @@ const faqList = (lang, items) => `<div class="faq">${items.map(([q, a]) =>
   `<details><summary>${inline(q, lang)}</summary><p>${inline(a, lang)}</p></details>`).join('')}</div>`;
 
 // A section from the content files: { h, p?: [], list?: [], steps?: [[title, body]] }
+const notice = (lang, s) => `<p class="notice">${inline(s ?? T[lang].notice, lang)}</p>`;
+
 function section(lang, s) {
   let h = `<h2>${inline(s.h, lang)}</h2>`;
   for (const para of s.p ?? []) h += `<p>${inline(para, lang)}</p>`;
@@ -384,6 +388,7 @@ ${c.html}
 <div class="with-aside">
   <article class="prose">
     <header class="page-head"><p class="eyebrow">${dot(d === 'hunting' ? 'hunt' : 'fish')} ${t.nav[d]}</p><h1>${inline(st.h1, lang)}</h1><p class="lead">${inline(st.lead, lang)}</p></header>
+    ${notice(lang)}
     ${st.sections.map((s) => section(lang, s)).join('')}
     <section><h2>${t.faqTitle}</h2>${faqList(lang, faq)}</section>
   </article>
@@ -430,6 +435,7 @@ ${c.html}
 <div class="with-aside">
   <article class="prose">
     <header class="page-head"><p class="eyebrow">${dot('both')} ${esc(pt.name)}</p><h1>${inline(pt.h1, lang)}</h1><p class="lead">${inline(pt.lead, lang)}</p></header>
+    ${notice(lang)}
     ${pt.sections.map((s) => section(lang, s)).join('')}
     <section><h2>${t.faqTitle}</h2>${faqList(lang, faq)}</section>
   </article>
@@ -485,6 +491,7 @@ ${c.html}
 <div class="with-aside">
   <article class="prose">
     <header class="page-head"><h1>${inline(at.h1, lang)}</h1><p class="lead">${inline(at.lead, lang)}</p></header>
+    ${notice(lang, a.strict && t.noticeStrict(a.checked?.[lang]))}
     ${at.sections.map((s) => section(lang, s)).join('')}
   </article>
   <aside class="aside"><div class="app-card"><div class="app-card-head">${LOGO}<b>${config.app}</b></div><p>${inline(HOME[lang].lead, lang)}</p>${storeButtons(lang)}</div></aside>
@@ -509,7 +516,7 @@ ${faqList(lang, items)}</div>`;
   });
 
   // Legal
-  for (const [key, L] of [['privacy', PRIVACY], ['deletion', DELETION]]) {
+  for (const [key, L] of [['privacy', PRIVACY], ['deletion', DELETION], ['legal', LEGAL]]) {
     page(key, lang, PATHS[key][lang], (p) => {
       const h = L[lang];
       const c = crumbs(lang, [[text(h.h1, lang), PATHS[key][lang]]]);
