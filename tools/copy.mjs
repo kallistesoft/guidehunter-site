@@ -14,6 +14,7 @@ export const PATHS = {
   faq: { fr: '/faq/', en: '/en/faq/' },
   privacy: { fr: '/confidentialite/', en: '/en/privacy/' },
   deletion: { fr: '/supprimer-mon-compte/', en: '/en/delete-account/' },
+  legal: { fr: '/avis-legal/', en: '/en/legal-notice/' },
   provinces: { fr: '/provinces/', en: '/en/provinces/' },
 };
 
@@ -77,8 +78,10 @@ export const T = {
       tagline: 'La carte des guides de chasse et de pêche.',
       app: "L'application", legal: 'Légal',
       by: 'Une application de',
-      disclaimer: "{app} met en relation chasseurs, pêcheurs et guides; il ne vend pas de séjours et ne prend pas de réservations. Chaque guide est responsable de ses permis et de son offre : vérifiez-les avant de réserver, ainsi que les règlements de chasse et de pêche de la province.",
+      disclaimer: "{app} met en relation chasseurs, pêcheurs et guides; il ne vend pas de séjours et ne prend pas de réservations. Chaque guide est responsable de ses permis et de son offre : vérifiez-les avant de réserver, ainsi que les règlements de chasse et de pêche de la province. Le contenu de ce site est donné à titre de renseignement général, peut être inexact ou périmé, et ne constitue pas un conseil juridique, en immigration ou sur les armes à feu : validez-le auprès de votre guide et des autorités compétentes.",
     },
+    notice: "**Renseignements généraux, pas un conseil.** Ce contenu peut être inexact ou ne plus être à jour. Validez toujours auprès de votre guide et des autorités compétentes. [Avis légal]({legal})",
+    noticeStrict: (date) => `**Renseignements généraux, pas un conseil.** Cette page ne constitue pas un conseil juridique, en immigration ou sur les armes à feu. ${date ? `Dernière vérification : ${date}. ` : ''}Les règles changent et ce contenu peut être inexact ou périmé : validez chaque point auprès de votre guide et des autorités compétentes avant d'agir. [Avis légal]({legal})`,
     notFound: { title: 'Page introuvable', h1: 'Cette piste ne mène nulle part', p: "La page que vous cherchez n'existe pas ou a été déplacée.", back: "Retour à l'accueil" },
   },
   en: {
@@ -107,8 +110,10 @@ export const T = {
       tagline: 'The map of hunting and fishing guides.',
       app: 'The app', legal: 'Legal',
       by: 'An app by',
-      disclaimer: "{app} connects hunters, anglers and guides; it doesn't sell trips or take bookings. Each guide is responsible for their licences and their offer: check them before you book, along with the province's hunting and fishing regulations.",
+      disclaimer: "{app} connects hunters, anglers and guides; it doesn't sell trips or take bookings. Each guide is responsible for their licences and their offer: check them before you book, along with the province's hunting and fishing regulations. The content of this site is general information, may be inaccurate or out of date, and is not legal, immigration or firearms advice: confirm it with your guide and the competent authorities.",
     },
+    notice: "**General information, not advice.** This content may be inaccurate or out of date. Always confirm with your guide and the competent authorities. [Legal notice]({legal})",
+    noticeStrict: (date) => `**General information, not advice.** This page is not legal, immigration or firearms advice. ${date ? `Last checked: ${date}. ` : ''}Rules change and this content may be inaccurate or out of date: confirm every point with your guide and the competent authorities before you act. [Legal notice]({legal})`,
     notFound: { title: 'Page not found', h1: 'This trail leads nowhere', p: "The page you're looking for doesn't exist or has moved.", back: 'Back to the home page' },
   },
 };
@@ -490,6 +495,73 @@ export const PRIVACY = {
       ] },
       { h: 'Children', p: ['{app} is not directed at children under 13.'] },
       { h: 'Changes', p: ['If this policy changes, the new version is posted on this page with its date.'] },
+    ],
+  },
+};
+
+export const LEGAL = {
+  fr: {
+    title: 'Avis légal et limites de responsabilité · {app}',
+    description: "Les renseignements sur {app} sont généraux, peuvent être inexacts ou périmés, et ne constituent pas un conseil juridique, d'immigration ou sur les armes à feu.",
+    h1: 'Avis légal',
+    updated: 'Mise à jour le 1er novembre 2026',
+    sections: [
+      { h: 'Qui nous sommes', p: ["{app} et ce site sont publiés par Kallistesoft. Pour toute question, écrivez à {contact}."] },
+      { h: 'Renseignements généraux seulement', p: [
+        "Le contenu de ce site, de ses articles et de ses pages sur les espèces et les provinces est fourni à titre de renseignement général. Il vise à vous aider à préparer vos questions, pas à y répondre à la place des personnes compétentes.",
+        "Rien sur ce site ne constitue un conseil juridique, un conseil en immigration, un conseil en douane, un conseil sur les armes à feu ou un conseil de sécurité. Consulter ce site ne crée aucune relation de conseil avec Kallistesoft. Kallistesoft n'est pas un gouvernement, n'est pas affiliée à un gouvernement et n'est pas une source officielle.",
+      ] },
+      { h: 'Ces renseignements peuvent être inexacts ou périmés', p: [
+        "Les lois, les règlements, les saisons, les permis, les frais et les exigences aux frontières changent souvent, parfois sans préavis, et varient selon la province, l'espèce, le pays et votre situation. Malgré notre soin, certains renseignements peuvent être incomplets, inexacts ou ne plus être à jour au moment où vous les lisez. Une date de vérification indique seulement quand nous avons consulté une source; elle ne garantit pas que le renseignement est encore valide.",
+        "Nous ne garantissons ni l'exactitude, ni l'exhaustivité, ni l'actualité du contenu. Les textes officiels ont toujours priorité sur ce site.",
+      ] },
+      { h: 'Validez toujours avant d\'agir', p: ["Avant de réserver, de voyager, de chasser, de pêcher, de transporter une arme ou de passer une frontière, vous devez confirmer chaque renseignement auprès :"],
+        list: [
+          "de votre guide ou de votre pourvoirie",
+          "du ministère responsable de la faune de la province ou du territoire visé",
+          "de l'Agence des services frontaliers du Canada et de la Gendarmerie royale du Canada pour les armes à feu",
+          "d'Immigration, Réfugiés et Citoyenneté Canada pour l'entrée au Canada",
+          "des autorités douanières, vétérinaires et CITES de votre pays pour tout ce que vous rapportez",
+          "d'un avocat ou d'un consultant en immigration réglementé si votre situation l'exige",
+        ] },
+      { h: 'Immigration et armes à feu', p: ["Nous n'offrons aucun service et aucun avis en matière d'immigration ou d'armes à feu, et nous ne pouvons pas évaluer votre situation. Nous ne pouvons pas vous dire si vous serez admis au Canada ou si vous pouvez apporter une arme. Seuls les agents et les autorités compétentes en décident. Vous êtes seul responsable de respecter les lois qui s'appliquent à vous."] },
+      { h: 'Guides et pourvoiries', p: ["Les guides et les pourvoiries sur {app} sont des entreprises indépendantes. Kallistesoft ne vend pas de séjours, ne prend pas de réservations et ne reçoit pas de paiements pour eux. Chaque guide est responsable de ses permis, de ses assurances, de la sécurité et de son offre. L'examen d'une offre avant sa publication n'est ni une vérification complète, ni une recommandation, ni une garantie. Vérifiez vous-même les permis et les références d'un guide avant de vous engager."] },
+      { h: 'Risques', p: ["La chasse, la pêche et les déplacements en région éloignée comportent des risques, dont des blessures graves. Vous participez à ces activités à vos propres risques, et il vous revient de vous préparer et de vous assurer adéquatement."] },
+      { h: 'Liens vers d\'autres sites', p: ["Nos liens vers des sites externes sont offerts par commodité. Nous ne contrôlons pas ces sites et ne sommes pas responsables de leur contenu."] },
+      { h: 'Limitation de responsabilité', p: ["Dans la mesure permise par la loi applicable, Kallistesoft n'est pas responsable des dommages, des pertes, des frais, des amendes, des saisies ou des refus d'entrée liés à l'utilisation de ce site ou de l'application, ou au fait de s'être fié à leur contenu. Cet avis ne limite aucun droit que la loi ne permet pas d'exclure."] },
+      { h: 'Nous signaler une erreur', p: ["Si vous voyez un renseignement inexact ou périmé, écrivez-nous à {contact}. Nous le corrigerons dès que possible. Cet avis peut être modifié à tout moment; la date en haut de la page indique la dernière version."] },
+    ],
+  },
+  en: {
+    title: 'Legal notice and disclaimers · {app}',
+    description: "Information on {app} is general, may be inaccurate or out of date, and is not legal, immigration or firearms advice. Always confirm with guides and the authorities.",
+    h1: 'Legal notice',
+    updated: 'Updated November 1, 2026',
+    sections: [
+      { h: 'Who we are', p: ["{app} and this site are published by Kallistesoft. For any question, write to {contact}."] },
+      { h: 'General information only', p: [
+        "The content of this site, including its articles and its species and province pages, is general information. It is meant to help you prepare your questions, not to answer them in place of the people qualified to do so.",
+        "Nothing on this site is legal advice, immigration advice, customs advice, firearms advice or safety advice. Using this site doesn't create any advisory relationship with Kallistesoft. Kallistesoft is not a government, is not affiliated with any government, and is not an official source.",
+      ] },
+      { h: 'This information may be inaccurate or out of date', p: [
+        "Laws, regulations, seasons, licences, fees and border requirements change often, sometimes without notice, and they vary by province, species, country and your own situation. Despite our care, some information may be incomplete, inaccurate or no longer current when you read it. A \"last checked\" date only shows when we consulted a source; it doesn't guarantee the information is still valid.",
+        "We don't guarantee that the content is accurate, complete or up to date. Official texts always take precedence over this site.",
+      ] },
+      { h: 'Always confirm before you act', p: ["Before you book, travel, hunt, fish, transport a firearm or cross a border, you must confirm each piece of information with:"],
+        list: [
+          "your guide or outfitter",
+          "the wildlife authority of the province or territory concerned",
+          "the Canada Border Services Agency and the Royal Canadian Mounted Police for firearms",
+          "Immigration, Refugees and Citizenship Canada for entering Canada",
+          "your own country's customs, veterinary and CITES authorities for anything you bring home",
+          "a lawyer or a regulated immigration consultant if your situation calls for it",
+        ] },
+      { h: 'Immigration and firearms', p: ["We don't provide any service or opinion on immigration or firearms, and we can't assess your situation. We can't tell you whether you will be admitted to Canada or whether you may bring a firearm. Only the officers and the competent authorities decide. You alone are responsible for complying with the laws that apply to you."] },
+      { h: 'Guides and outfitters', p: ["Guides and outfitters on {app} are independent businesses. Kallistesoft doesn't sell trips, take bookings or receive payments for them. Each guide is responsible for their licences, insurance, safety and offer. Reviewing an offer before it is published is not a full verification, a recommendation or a guarantee. Check a guide's licences and references yourself before you commit."] },
+      { h: 'Risks', p: ["Hunting, fishing and travel in remote areas involve risks, including serious injury. You take part in these activities at your own risk, and it's up to you to prepare and to be properly insured."] },
+      { h: 'Links to other sites', p: ["Links to external sites are provided for convenience. We don't control those sites and aren't responsible for their content."] },
+      { h: 'Limitation of liability', p: ["To the extent permitted by applicable law, Kallistesoft is not liable for any damage, loss, cost, fine, seizure or refusal of entry related to using this site or the app, or to relying on their content. This notice doesn't limit any right that the law doesn't allow to be excluded."] },
+      { h: 'Report an error', p: ["If you see information that is inaccurate or out of date, write to us at {contact} and we'll correct it as soon as we can. This notice may change at any time; the date at the top of the page shows the latest version."] },
     ],
   },
 };

@@ -532,6 +532,7 @@
     },
     {
       "id": "hunting-in-canada-from-abroad",
+      "strict": true,
       "en": {
         "slug": "hunting-fishing-in-canada-as-a-visitor",
         "title": "Hunting or Fishing in Canada as a Visitor",
@@ -665,6 +666,11 @@
     },
     {
       "id": "hunting-fishing-canada-american",
+      "strict": true,
+      "checked": {
+        "fr": "novembre 2026",
+        "en": "November 2026"
+      },
       "en": {
         "slug": "hunting-fishing-in-canada-as-an-american",
         "title": "Hunting and Fishing in Canada as an American",
@@ -822,6 +828,11 @@
     },
     {
       "id": "hunting-fishing-canada-european",
+      "strict": true,
+      "checked": {
+        "fr": "novembre 2026",
+        "en": "November 2026"
+      },
       "en": {
         "slug": "hunting-fishing-in-canada-as-a-european",
         "title": "Hunting and Fishing in Canada as a European",
