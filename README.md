@@ -5,7 +5,7 @@ what the app does, for hunters and anglers looking for a guide, and for guides w
 be found on search engines: one page per species (29, the app's list), one per province, tips articles, FAQ, in French (`/`) and English (`/en/`). It also
 holds the app's privacy policy and account deletion pages, which Google Play asks for.
 
-Live at https://guides.kallistesoft.ca, deployed to the GoDaddy hosting on every push to `main`.
+Live at https://guidenordapp.com, deployed to the GoDaddy hosting on every push to `main`.
 
 ## Build
 
