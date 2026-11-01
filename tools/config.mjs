@@ -6,7 +6,7 @@ export const config = {
   origin: 'https://guidenordapp.com',
   // Google Play listing; while null the site says "coming soon" and offers to be told at launch.
   playUrl: null,
-  // App Store listing, once the iPhone app exists.
+  // App Store listing; while null there is no App Store button.
   appStoreUrl: null,
   contact: 'contact@kallistesoft.ca',
   studio: { name: 'Kallistesoft', url: 'https://kallistesoft.ca' },

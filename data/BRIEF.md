@@ -1,6 +1,6 @@
 # Content brief (for writers)
 
-The site promotes a free Android app (iOS later) that is a **map of hunting and fishing guides and outfitters**
+The site promotes a free Android and iPhone app that is a **map of hunting and fishing guides and outfitters**
 (pourvoiries), "like Airbnb for hunting and fishing trips". Made in Québec, for all of Canada, bilingual (FR/EN). Write for a Canada-wide audience: examples from several provinces, never as if the reader were in Québec (Québec stays one strong region among others). Audience: people
 who search the web for a guided hunt or fishing trip and have nobody to show them the way (a city person, a new hunter,
 a visitor from France or the US who wants a black bear hunt in Québec).
@@ -28,7 +28,7 @@ How the app works (state only this, never invent features):
   (the trip, species, where, when, price and send); dates are added one by one or weekly, on those dates only or every
   year; every offer is reviewed by us before it goes on the map. They answer requests in "Requests received"
   (« Demandes reçues »): call or email the person, Accept or Decline.
-- The app is NOT on Google Play yet (coming soon). Never claim numbers of guides, reviews, bookings or payments
+- The app is NOT on Google Play or the App Store yet (coming soon to both). Never claim numbers of guides, reviews, bookings or payments
   (none of these exist). Never invent prices, seasons dates, bag limits, licence fees or laws.
 
 Write the app's name as the literal token `{app}` (it will be renamed later).
