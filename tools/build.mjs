@@ -62,6 +62,19 @@ const icon = {
 
 const PIN = readFileSync(join(ROOT, 'assets/pin.svg'), 'utf8').replace('<svg ', '<svg aria-hidden="true" class="logo-pin" ');
 
+// Opens a page in the visitor's language: the one they chose with the FR/EN link, else the browser's first French or
+// English language, else English. Crawlers stay put so that both versions are indexed; without storage the FR/EN link
+// couldn't be remembered, so nothing moves. The 404 page isn't at its own alternate URL, so it stays too.
+const LANGUAGE_SCRIPT = `(function(){try{
+if(/bot|crawl|spider|slurp|lighthouse|headless/i.test(navigator.userAgent))return;
+localStorage.setItem('lang-test','1');localStorage.removeItem('lang-test');
+var want=localStorage.getItem('lang'),list=navigator.languages||[navigator.language];
+for(var i=0;!want&&i<list.length;i++){var l=list[i].slice(0,2).toLowerCase();if(l==='fr'||l==='en')want=l}
+var page=document.documentElement.lang.slice(0,2);want=want||'en';if(want===page)return;
+var path=function(h){var a=document.querySelector('link[rel=alternate][hreflang^='+h+']');return a&&new URL(a.href).pathname};
+var to=path(want);if(to&&path(page)===location.pathname)location.replace(to+location.search+location.hash);
+}catch(e){}})()`.replaceAll('\n', '');
+
 // A small map pin in the app's colours (hunt orange, fish teal, both gold).
 const dot = (kind) => `<span class="dot dot-${kind}" aria-hidden="true"></span>`;
 
@@ -169,6 +182,7 @@ ${xDefault}
 <link rel="preload" href="/assets/fonts/barlow_condensed_bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css${v}">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script>${LANGUAGE_SCRIPT}</script>
 <script src="/assets/site.js${v}" defer></script>
 ${scripts}
 </head>

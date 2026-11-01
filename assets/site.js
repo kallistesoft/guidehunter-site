@@ -1,4 +1,4 @@
-// Theme toggle (light / dark, remembered) and the mobile menu.
+// Theme toggle (light / dark, remembered), the language link and the mobile menu.
 (function () {
   var root = document.documentElement;
   var dark = function () {
@@ -8,6 +8,11 @@
     var next = dark() ? 'light' : 'dark';
     root.dataset.theme = next;
     try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
+  // The FR/EN link wins over the browser's language from now on (see LANGUAGE_SCRIPT in tools/build.mjs).
+  document.querySelector('.lang').addEventListener('click', function (e) {
+    try { localStorage.setItem('lang', e.currentTarget.hreflang.slice(0, 2)); } catch (err) {}
   });
 
   var menu = document.querySelector('.menu');
