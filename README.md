@@ -1,6 +1,6 @@
-# GuideHunter website
+# GuideNord website
 
-The promotional website of the GuideHunter app (Android, [kallistesoft/guidehunter-android](https://github.com/kallistesoft/guidehunter-android)):
+The promotional website of the GuideNord app (Android, [kallistesoft/guidehunter-android](https://github.com/kallistesoft/guidehunter-android)):
 what the app does, for hunters and anglers looking for a guide, and for guides who want to be on the map. Built to
 be found on search engines: one page per species (29, the app's list), one per province, tips articles, FAQ, in French (`/`) and English (`/en/`). It also
 holds the app's privacy policy and account deletion pages, which Google Play asks for.
