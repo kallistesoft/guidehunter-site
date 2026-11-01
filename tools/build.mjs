@@ -152,8 +152,8 @@ function layout(p, { title, description, body, ld = [], ogType = 'website' }) {
   const { lang, key, path } = p;
   const t = fill(title, lang);
   const d = text(description, lang);
-  const alt = LANGS.map((l) => `<link rel="alternate" hreflang="${LOCALE[l]}" href="${config.origin}${pathOf(key, l)}">`).join('\n');
-  const xDefault = pathOf(key, 'fr') ? `<link rel="alternate" hreflang="x-default" href="${config.origin}${pathOf(key, 'fr')}">` : '';
+  const alt = LANGS.map((l) => `<link rel="alternate" hreflang="${l}" href="${config.origin}${pathOf(key, l)}">`).join('\n');
+  const xDefault = pathOf(key, 'en') ? `<link rel="alternate" hreflang="x-default" href="${config.origin}${pathOf(key, 'en')}">` : '';
   const scripts = ld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`).join('\n');
   const v = `?v=${assetVersion}`;
   return `<!doctype html>
@@ -548,7 +548,7 @@ for (const p of pages) write(p.path, p.render(p));
 write('/robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${config.origin}/sitemap.xml\n`);
 write('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-${pages.map((p) => `<url><loc>${config.origin}${p.path}</loc>${LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${LOCALE[l]}" href="${config.origin}${pathOf(p.key, l)}"/>`).join('')}</url>`).join('\n')}
+${pages.map((p) => `<url><loc>${config.origin}${p.path}</loc>${LANGS.map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${config.origin}${pathOf(p.key, l)}"/>`).join('')}</url>`).join('\n')}
 </urlset>
 `);
 write('/.htaccess', readFileSync(join(ROOT, 'tools/htaccess'), 'utf8'));
