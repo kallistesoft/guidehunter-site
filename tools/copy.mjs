@@ -15,6 +15,7 @@ export const PATHS = {
   privacy: { fr: '/confidentialite/', en: '/en/privacy/' },
   deletion: { fr: '/supprimer-mon-compte/', en: '/en/delete-account/' },
   legal: { fr: '/avis-legal/', en: '/en/legal-notice/' },
+  terms: { fr: '/conditions/', en: '/en/terms/' },
   provinces: { fr: '/provinces/', en: '/en/provinces/' },
 };
 
@@ -427,7 +428,7 @@ export const PRIVACY = {
     title: 'Politique de confidentialité de {app}',
     description: "Ce que l'application {app} recueille, pourquoi, avec qui c'est partagé, et comment supprimer votre compte et vos données.",
     h1: 'Politique de confidentialité',
-    updated: 'Mise à jour le 28 octobre 2026',
+    updated: 'Mise à jour le 1er novembre 2026',
     sections: [
       { h: 'Qui sommes-nous', p: ["{app} est une application de Kallistesoft, au Québec (Canada). Pour toute question sur vos données : {contact}."] },
       { h: 'Votre compte', p: [
@@ -441,11 +442,14 @@ export const PRIVACY = {
       ] },
       { h: 'Sur votre téléphone seulement', p: [
         "**Position approximative.** Si vous l'autorisez, l'application lit votre position approximative pour afficher la distance de chaque guide. Elle est utilisée sur votre téléphone seulement et ne nous est jamais envoyée.",
-        "**Réglages de l'application.** Le fait d'avoir terminé l'accueil, le mode choisi (chercher un guide ou être guide) et les espèces affichées sur la carte sont gardés sur votre téléphone et ne nous sont pas envoyés.",
+        "**Réglages de l'application.** Le fait d'avoir terminé l'accueil, le mode choisi (chercher un guide ou être guide), les espèces affichées sur la carte et les guides que vous avez bloqués sont gardés sur votre téléphone et ne nous sont pas envoyés.",
       ] },
       { h: 'Publicité', p: [
         "L'application affiche deux sortes de publicités : une publicité vidéo que vous choisissez de regarder sur une offre, avant d'envoyer une demande au guide, et des publicités natives dans les listes. Elles sont servies par Google AdMob, qui peut recueillir l'identifiant publicitaire de l'appareil, une position approximative et des données d'interaction avec les annonces, à des fins de publicité, de mesure et de prévention de la fraude. Là où la loi l'exige, l'application vous demande votre consentement d'abord, et « Options de confidentialité » permet de le changer.",
         "Voir comment Google utilise ces données : policies.google.com/technologies/partner-sites.",
+      ] },
+      { h: 'Signalements', p: [
+        "Si vous signalez une offre, nous recevons le motif, votre note s'il y en a une, l'offre, son guide et votre identifiant Firebase, pour examiner le signalement. Ils sont conservés dans Google Cloud Firestore, ne sont pas montrés au guide, et sont gardés après la suppression de votre compte tant qu'ils sont utiles à la modération. Pour faire effacer un signalement, écrivez à {contact}.",
       ] },
       { h: 'Guides : profil et offres', p: [
         "**Profil et offres.** Ce que le guide écrit (nom d'entreprise, courriel, téléphone, site Web, description, région, coordonnées du repère, prix) est conservé dans Google Cloud Firestore. Chaque nouvelle offre nous est envoyée par courriel pour vérification. Une fois publiée, l'offre est publique sur la carte; le nom de l'entreprise et les coordonnées du guide ne sont montrés qu'aux personnes dont il accepte la demande.",
@@ -464,7 +468,7 @@ export const PRIVACY = {
     title: '{app} privacy policy',
     description: 'What the {app} app collects, why, who it is shared with, and how to delete your account and data.',
     h1: 'Privacy policy',
-    updated: 'Updated October 28, 2026',
+    updated: 'Updated November 1, 2026',
     sections: [
       { h: 'Who we are', p: ['{app} is an app by Kallistesoft, in Québec (Canada). For any question about your data: {contact}.'] },
       { h: 'Your account', p: [
@@ -478,11 +482,14 @@ export const PRIVACY = {
       ] },
       { h: 'On your phone only', p: [
         "**Approximate location.** If you allow it, the app reads your approximate location to show how far each guide is. It is used on your phone only and is never sent to us.",
-        "**App settings.** Whether you finished the welcome screens, the mode you chose (looking for a guide or being a guide) and the species shown on the map are kept on your phone and not sent to us.",
+        "**App settings.** Whether you finished the welcome screens, the mode you chose (looking for a guide or being a guide), the species shown on the map and the guides you blocked are kept on your phone and not sent to us.",
       ] },
       { h: 'Ads', p: [
         "The app shows two kinds of ads: a video ad you choose to watch on an offer, before you send the guide a request, and native ads in lists. They are served by Google AdMob, which may collect the device's advertising ID, an approximate location and ad interaction data, for advertising, measurement and fraud prevention. Where the law requires it, the app asks for your consent first, and \"Privacy options\" lets you change it.",
         'See how Google uses this data: policies.google.com/technologies/partner-sites.',
+      ] },
+      { h: 'Reports', p: [
+        "If you report an offer, we receive the reason, your note if you wrote one, the offer, its guide and your Firebase user ID, to review the report. Reports are stored in Google Cloud Firestore, aren't shown to the guide, and are kept after you delete your account for as long as they're useful for moderation. To have a report erased, email {contact}.",
       ] },
       { h: 'Guides: profile and offers', p: [
         "**Profile and offers.** What the guide writes (business name, email, phone, website, description, region, the pin's coordinates, price) is stored in Google Cloud Firestore. Each new offer is emailed to us for review. Once published, the offer is public on the map; the guide's business name and contact are shown only to people whose request they accept.",
@@ -562,6 +569,79 @@ export const LEGAL = {
       { h: 'Links to other sites', p: ["Links to external sites are provided for convenience. We don't control those sites and aren't responsible for their content."] },
       { h: 'Limitation of liability', p: ["To the extent permitted by applicable law, Kallistesoft is not liable for any damage, loss, cost, fine, seizure or refusal of entry related to using this site or the app, or to relying on their content. This notice doesn't limit any right that the law doesn't allow to be excluded."] },
       { h: 'Report an error', p: ["If you see information that is inaccurate or out of date, write to us at {contact} and we'll correct it as soon as we can. This notice may change at any time; the date at the top of the page shows the latest version."] },
+    ],
+  },
+};
+
+export const TERMS = {
+  fr: {
+    title: "Conditions d'utilisation de {app}",
+    description: "Les règles d'utilisation de {app} : réservée aux 18 ans et plus, un répertoire de guides indépendants, ce qui est interdit, et comment signaler une offre.",
+    h1: "Conditions d'utilisation",
+    updated: 'Mise à jour le 1er novembre 2026',
+    sections: [
+      { h: 'Qui nous sommes', p: ["{app} est une application de Kallistesoft, au Québec (Canada). Pour toute question : {contact}. En utilisant {app} ou en vous connectant, vous acceptez ces conditions."] },
+      { h: '18 ans et plus', p: ["{app} est réservée aux personnes de 18 ans et plus."] },
+      { h: "Ce que fait l'application", p: [
+        "{app} est un répertoire qui met en contact des personnes et des guides de chasse et de pêche indépendants. Nous ne vendons pas de séjours, ne prenons pas de réservations et ne recevons pas de paiements pour eux. Nous ne sommes pas partie à ce qui est convenu entre vous et un guide.",
+        "Nous ne vérifions ni la sécurité d'un guide, ni ses permis, ni ses assurances. L'examen d'une offre avant sa publication n'est ni une vérification complète, ni une recommandation, ni une garantie.",
+      ] },
+      { h: 'Si vous êtes guide', list: [
+        'Vos offres sont exactes et à jour : espèces, dates, prix, lieu',
+        'Vous détenez les permis, les autorisations et les assurances exigés pour ce que vous offrez',
+        'Vous respectez les lois qui s\'appliquent à vous et à vos clients',
+      ] },
+      { h: 'Si vous cherchez un guide', p: ["Vérifiez vous-même les permis et les références d'un guide avant de vous engager. Vous êtes responsable de vos propres permis, de votre préparation et de votre sécurité. La chasse, la pêche et les déplacements en région éloignée comportent des risques, dont des blessures graves."] },
+      { h: 'Ce qui est interdit', list: [
+        'Du contenu faux ou trompeur',
+        'Du contenu ou des activités illégales, comme le braconnage',
+        'Du contenu dangereux',
+        'Du contenu offensant, haineux ou harcelant',
+        'Le pourriel et la publicité sans rapport avec un séjour guidé',
+      ] },
+      { h: 'Signaler et bloquer', p: [
+        "Sur une offre, touchez « Signaler cette offre » ou écrivez à {contact}. Les signalements nous sont transmis et nous les examinons. Vous pouvez aussi bloquer un guide : ses offres ne s'affichent plus sur votre téléphone.",
+        "Nous pouvons retirer une offre ou fermer un compte qui ne respecte pas ces conditions, avec ou sans préavis.",
+      ] },
+      { h: 'Publicité', p: ["{app} est gratuite et financée par la publicité. Certaines fonctions, comme contacter un guide, demandent de regarder une publicité."] },
+      { h: 'Limitation de responsabilité', p: ["Dans la mesure permise par la loi applicable, Kallistesoft n'est pas responsable des dommages, des pertes ou des frais liés à l'utilisation de {app}, à une offre, ou à un séjour avec un guide. Ces conditions ne limitent aucun droit que la loi ne permet pas d'exclure."] },
+      { h: 'Droit applicable', p: ['Ces conditions sont régies par les lois du Québec et les lois du Canada qui s\'y appliquent.'] },
+      { h: 'Changements', p: ["Si ces conditions changent, la nouvelle version est publiée sur cette page avec sa date. Continuer d'utiliser {app} signifie que vous l'acceptez."] },
+    ],
+  },
+  en: {
+    title: '{app} terms of use',
+    description: 'The rules for using {app}: 18 and over, a directory of independent guides, what is not allowed, and how to report an offer.',
+    h1: 'Terms of use',
+    updated: 'Updated November 1, 2026',
+    sections: [
+      { h: 'Who we are', p: ['{app} is an app by Kallistesoft, in Québec (Canada). For any question: {contact}. By using {app} or signing in, you accept these terms.'] },
+      { h: '18 and over', p: ['{app} is for people aged 18 and over.'] },
+      { h: 'What the app does', p: [
+        "{app} is a directory that connects people with independent hunting and fishing guides. We don't sell trips, take bookings or receive payments for them. We are not a party to anything you agree with a guide.",
+        "We don't check a guide's safety, licences or insurance. Reviewing an offer before it is published is not a full verification, a recommendation or a guarantee.",
+      ] },
+      { h: 'If you are a guide', list: [
+        'Your offers are accurate and up to date: species, dates, price, place',
+        'You hold the licences, permits and insurance required for what you offer',
+        'You follow the laws that apply to you and your clients',
+      ] },
+      { h: 'If you are looking for a guide', p: ["Check a guide's licences and references yourself before you commit. You are responsible for your own licences, preparation and safety. Hunting, fishing and travel in remote areas involve risks, including serious injury."] },
+      { h: 'What is not allowed', list: [
+        'False or misleading content',
+        'Illegal content or activities, such as poaching',
+        'Dangerous content',
+        'Offensive, hateful or harassing content',
+        'Spam, and advertising unrelated to a guided trip',
+      ] },
+      { h: 'Reporting and blocking', p: [
+        'On an offer, tap "Report this offer", or email {contact}. Reports come to us and we review them. You can also block a guide: their offers no longer show on your phone.',
+        'We can remove an offer or close an account that breaks these terms, with or without notice.',
+      ] },
+      { h: 'Ads', p: ['{app} is free and funded by ads. Some features, such as contacting a guide, ask you to watch an ad.'] },
+      { h: 'Limitation of liability', p: ["To the extent permitted by applicable law, Kallistesoft is not liable for any damage, loss or cost related to using {app}, to an offer, or to a trip with a guide. These terms don't limit any right that the law doesn't allow to be excluded."] },
+      { h: 'Governing law', p: ['These terms are governed by the laws of Québec and the laws of Canada that apply there.'] },
+      { h: 'Changes', p: ['If these terms change, the new version is posted on this page with its date. Continuing to use {app} means you accept it.'] },
     ],
   },
 };
