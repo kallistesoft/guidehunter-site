@@ -991,7 +991,7 @@
     "en": [
       {
         "q": "Is {app} free?",
-        "a": "Yes. {app} is free for people looking for a guide: you browse the map without an account, and you sign in with Google only to send requests to guides. It is also free for guides and outfitters who want to list their offers, with the same account."
+        "a": "Yes. {app} is free for people looking for a guide: you browse the map without an account, and you sign in with Google, or Apple on iPhone, only to send requests to guides. It is also free for guides and outfitters who want to list their offers, with the same account."
       },
       {
         "q": "Why do I watch an ad before contacting a guide?",
@@ -1015,7 +1015,7 @@
       },
       {
         "q": "I'm a guide or an outfitter. How do I get listed?",
-        "a": "Listing is free and done in the app. Sign in with Google, choose \"I'm a guide\" (or switch to guide mode in Settings), fill in your profile and add as many offers as you like. Each offer is reviewed before it goes on the map, and the requests you receive show in the app."
+        "a": "Listing is free and done in the app. Sign in with Google, or Apple on iPhone, choose \"I'm a guide\" (or switch to guide mode in Settings), fill in your profile and add as many offers as you like. Each offer is reviewed before it goes on the map, and the requests you receive show in the app."
       },
       {
         "q": "Which regions does {app} cover?",
@@ -1025,7 +1025,7 @@
     "fr": [
       {
         "q": "L'application {app} est-elle gratuite?",
-        "a": "Oui. L'application est gratuite pour les personnes qui cherchent un guide : vous parcourez la carte sans compte, et vous vous connectez avec Google seulement pour envoyer des demandes aux guides. Elle l'est aussi pour les guides et les pourvoiries qui veulent y afficher leurs offres, avec le même compte."
+        "a": "Oui. L'application est gratuite pour les personnes qui cherchent un guide : vous parcourez la carte sans compte, et vous vous connectez avec Google, ou Apple sur iPhone, seulement pour envoyer des demandes aux guides. Elle l'est aussi pour les guides et les pourvoiries qui veulent y afficher leurs offres, avec le même compte."
       },
       {
         "q": "Pourquoi une publicité avant de contacter un guide?",
@@ -1049,7 +1049,7 @@
       },
       {
         "q": "Je suis guide ou pourvoyeur. Comment m'inscrire?",
-        "a": "L'inscription est gratuite et se fait dans l'application. Connectez-vous avec Google, choisissez « Je suis guide » (ou passez en mode guide dans les paramètres), remplissez votre profil et ajoutez autant d'offres que vous voulez. Chaque offre est révisée avant d'être publiée sur la carte, et les demandes reçues s'affichent dans l'application."
+        "a": "L'inscription est gratuite et se fait dans l'application. Connectez-vous avec Google, ou Apple sur iPhone, choisissez « Je suis guide » (ou passez en mode guide dans les paramètres), remplissez votre profil et ajoutez autant d'offres que vous voulez. Chaque offre est révisée avant d'être publiée sur la carte, et les demandes reçues s'affichent dans l'application."
       },
       {
         "q": "Quelles régions l'application {app} couvre-t-elle?",

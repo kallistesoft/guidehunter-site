@@ -141,7 +141,7 @@ export const HOME = {
       ['Choisissez vos espèces et vos dates', "Orignal, ours noir, doré, omble de fontaine… et quand vous êtes libre. La carte ne garde que les guides qui les offrent, avec un séjour qui entre dans vos dates. Vos espèces sont gardées pour la prochaine fois."],
       ['Repérez les guides sur la carte', 'Un repère par offre : orange pour la chasse, sarcelle pour la pêche. Les offres « En vedette » ressortent avec un anneau doré et une étoile. Partagez votre position et chaque guide affiche sa distance.'],
       ["Lisez l'offre et choisissez une date", "Ce qui est inclus, la durée, le prochain départ et les autres dates, la région et le prix par personne quand le guide l'indique."],
-      ['Dites au guide que vous êtes intéressé', "Après une courte publicité, touchez « Je suis intéressé » (connecté avec Google) : le guide reçoit votre nom, votre courriel, votre téléphone si vous le donnez, et la date choisie. Suivez la réponse dans « Mes demandes »; s'il accepte, vous voyez ses coordonnées. Pas d'intermédiaire, pas de frais."],
+      ['Dites au guide que vous êtes intéressé', "Après une courte publicité, touchez « Je suis intéressé » (connecté avec Google, ou Apple sur iPhone) : le guide reçoit votre nom, votre courriel, votre téléphone si vous le donnez, et la date choisie. Suivez la réponse dans « Mes demandes »; s'il accepte, vous voyez ses coordonnées. Pas d'intermédiaire, pas de frais."],
     ],
     shots: [
       ['fr/welcome.webp', "L'accueil : se connecter ou « Plus tard »"], ['fr/choose.webp', 'Un seul compte : je cherche un guide, ou je suis guide'],
@@ -187,7 +187,7 @@ export const HOME = {
       ['Pick your species and dates', 'Moose, black bear, walleye, brook trout… and when you are free. The map keeps only the guides who offer them, with a trip that fits your dates. Your species are kept for next time.'],
       ['Spot the guides on the map', 'One pin per offer: orange for hunting, teal for fishing. "Featured" offers stand out with a gold ring and a star. Share your location and each guide shows how far away it is.'],
       ['Read the offer and pick a date', "What's included, how long it lasts, the next departure and the other dates, the region and the price per person when the guide gives it."],
-      ['Tell the guide you\'re interested', 'After a short ad, tap "I\'m interested" (signed in with Google): the guide gets your name, your email, your phone if you give it, and the date you picked. Follow the answer in "My requests"; once they accept, you see their contact. No middleman, no fees.'],
+      ['Tell the guide you\'re interested', 'After a short ad, tap "I\'m interested" (signed in with Google, or Apple on iPhone): the guide gets your name, your email, your phone if you give it, and the date you picked. Follow the answer in "My requests"; once they accept, you see their contact. No middleman, no fees.'],
     ],
     shots: [
       ['welcome.webp', 'The welcome: sign in or "Later"'], ['choose.webp', 'One account: looking for a guide, or a guide'],
@@ -288,7 +288,7 @@ export const GUIDES = {
         "Vos coordonnées protégées : votre téléphone, votre courriel et votre site ne sont montrés qu'aux clients dont vous acceptez la demande, pas à n'importe quel robot qui parcourt la carte.",
       ] },
       { h: 'Comment vous inscrire', steps: [
-        ["Ouvrez {app} et choisissez « Je suis guide »", "Connectez-vous avec votre compte Google, le même qui sert à chercher un guide. À « Qu'est-ce qui vous amène? », choisissez « Je suis guide », ou passez en mode guide dans les paramètres."],
+        ["Ouvrez {app} et choisissez « Je suis guide »", "Connectez-vous avec votre compte Google, ou Apple sur iPhone : le même compte sert à chercher un guide. À « Qu'est-ce qui vous amène? », choisissez « Je suis guide », ou passez en mode guide dans les paramètres."],
         ['Remplissez votre profil', "Le nom de votre entreprise, votre courriel, et si vous voulez votre téléphone et votre site Web. Il est commun à toutes vos offres."],
         ['Ajoutez vos offres, en cinq étapes', 'Autant que vous voulez : une par séjour. Le formulaire vous guide une étape à la fois (détails ci-dessous).'],
         ['Nous vérifions, puis votre offre va sur la carte', "Chaque nouvelle offre et chaque modification est relue avant d'être publiée. Nous vous répondons par courriel."],
@@ -353,7 +353,7 @@ export const GUIDES = {
         'Your contact protected: your phone, email and website are shown only to clients whose request you accept, not to any robot crawling the map.',
       ] },
       { h: 'How to sign up', steps: [
-        ['Open {app} and choose "I\'m a guide"', 'Sign in with your Google account, the same one you use to look for a guide. At "What brings you here?", choose "I\'m a guide", or switch to guide mode in Settings.'],
+        ['Open {app} and choose "I\'m a guide"', 'Sign in with your Google account, or Apple on iPhone: the same account you use to look for a guide. At "What brings you here?", choose "I\'m a guide", or switch to guide mode in Settings.'],
         ['Fill in your profile', "Your business name, your email, and if you like your phone and website. It's shared by all your offers."],
         ['Add your offers, in five steps', 'As many as you like: one per trip. The form takes you through one step at a time (details below).'],
         ['We review it, then it goes on the map', 'Every new offer and every edit is read before it is published. We answer by email.'],
@@ -428,15 +428,15 @@ export const PRIVACY = {
     title: 'Politique de confidentialité de {app}',
     description: "Ce que l'application {app} recueille, pourquoi, avec qui c'est partagé, et comment supprimer votre compte et vos données.",
     h1: 'Politique de confidentialité',
-    updated: 'Mise à jour le 1er novembre 2026',
+    updated: 'Mise à jour le 2 novembre 2026',
     sections: [
       { h: 'Qui sommes-nous', p: ["{app} est une application de Kallistesoft, au Québec (Canada). Pour toute question sur vos données : {contact}."] },
       { h: 'Votre compte', p: [
         "**Facultatif.** Vous pouvez parcourir la carte et les offres sans compte : nous ne vous demandons alors ni nom ni courriel.",
-        "**Compte Google.** Tout le monde peut se connecter avec Google, pas seulement les guides. Un même compte sert à chercher un guide, à être guide, ou les deux. Nous conservons votre nom, l'adresse courriel de votre compte Google et un identifiant d'utilisateur Firebase.",
+        "**Compte Google ou Apple.** Tout le monde peut se connecter avec Google, ou avec Apple sur iPhone, pas seulement les guides. Un même compte sert à chercher un guide, à être guide, ou les deux. Nous conservons votre nom, l'adresse courriel de ce compte et un identifiant d'utilisateur Firebase. Avec Apple, vous pouvez ne pas donner votre nom et masquer votre courriel : nous recevons alors une adresse relais d'Apple, et c'est elle qui est transmise aux guides, qui pourraient ne pas pouvoir vous joindre à cette adresse.",
       ] },
       { h: 'Demandes aux guides', p: [
-        "Après une publicité vidéo que vous choisissez de regarder sur une offre, vous pouvez toucher « Je suis intéressé » si vous êtes connecté. Une demande est alors envoyée au guide de cette offre, avec votre nom, l'adresse courriel de votre compte Google, votre numéro de téléphone si vous l'avez entré dans « Mes coordonnées », l'offre et les dates de séjour choisies.",
+        "Après une publicité vidéo que vous choisissez de regarder sur une offre, vous pouvez toucher « Je suis intéressé » si vous êtes connecté. Une demande est alors envoyée au guide de cette offre, avec votre nom, l'adresse courriel de votre compte, votre numéro de téléphone si vous l'avez entré dans « Mes coordonnées », l'offre et les dates de séjour choisies.",
         "Le guide voit ces renseignements pour vous contacter, et accepte ou refuse la demande. Vous voyez où en est votre demande et pouvez l'annuler. Si le guide accepte, vous voyez le nom de son entreprise et ses coordonnées (téléphone, courriel, site Web).",
         "Vos coordonnées et vos demandes sont conservées dans Google Cloud Firestore. Elles ne sont partagées qu'avec le guide de l'offre visée, et les coordonnées d'un guide ne sont montrées qu'aux personnes dont il a accepté la demande. Elles ne sont ni vendues ni utilisées pour la publicité.",
       ] },
@@ -468,15 +468,15 @@ export const PRIVACY = {
     title: '{app} privacy policy',
     description: 'What the {app} app collects, why, who it is shared with, and how to delete your account and data.',
     h1: 'Privacy policy',
-    updated: 'Updated November 1, 2026',
+    updated: 'Updated November 2, 2026',
     sections: [
       { h: 'Who we are', p: ['{app} is an app by Kallistesoft, in Québec (Canada). For any question about your data: {contact}.'] },
       { h: 'Your account', p: [
         "**Optional.** You can browse the map and the offers without an account: we then don't ask for your name or email.",
-        "**Google account.** Anyone can sign in with Google, not only guides. One account can be used to look for a guide, to be a guide, or both. We keep your name, your Google account's email address and a Firebase user ID.",
+        "**Google or Apple account.** Anyone can sign in with Google, or with Apple on iPhone, not only guides. One account can be used to look for a guide, to be a guide, or both. We keep your name, that account's email address and a Firebase user ID. With Apple, you can choose not to give your name and to hide your email: we then receive an Apple relay address, and that is what guides get, so they may not be able to reach you at it.",
       ] },
       { h: 'Requests to guides', p: [
-        "After a video ad you choose to watch on an offer, you can tap \"I'm interested\" if you are signed in. This sends a request to that offer's guide, with your name, your Google account's email address, your phone number if you entered it in \"My contact info\", the offer and the trip dates you chose.",
+        "After a video ad you choose to watch on an offer, you can tap \"I'm interested\" if you are signed in. This sends a request to that offer's guide, with your name, your account's email address, your phone number if you entered it in \"My contact info\", the offer and the trip dates you chose.",
         "The guide sees these details to contact you, and accepts or declines the request. You see your request's status and can cancel it. If the guide accepts, you see their business name and contact (phone, email, website).",
         "Your contact info and your requests are stored in Google Cloud Firestore. They are shared only with the guide of that offer, and a guide's contact is shown only to people whose request they accepted. They are not sold and not used for advertising.",
       ] },
@@ -543,7 +543,7 @@ export const LEGAL = {
     title: 'Legal notice and disclaimers · {app}',
     description: "Information on {app} is general, may be inaccurate or out of date, and is not legal, immigration or firearms advice. Always confirm with guides and the authorities.",
     h1: 'Legal notice',
-    updated: 'Updated November 1, 2026',
+    updated: 'Updated November 2, 2026',
     sections: [
       { h: 'Who we are', p: ["{app} and this site are published by Kallistesoft. For any question, write to {contact}."] },
       { h: 'General information only', p: [
@@ -613,7 +613,7 @@ export const TERMS = {
     title: '{app} terms of use',
     description: 'The rules for using {app}: 18 and over, a directory of independent guides, what is not allowed, and how to report an offer.',
     h1: 'Terms of use',
-    updated: 'Updated November 1, 2026',
+    updated: 'Updated November 2, 2026',
     sections: [
       { h: 'Who we are', p: ['{app} is an app by Kallistesoft, in Québec (Canada). For any question: {contact}. By using {app} or signing in, you accept these terms.'] },
       { h: '18 and over', p: ['{app} is for people aged 18 and over.'] },
@@ -655,11 +655,11 @@ export const DELETION = {
     sections: [
       { h: 'Sans compte, rien à supprimer', p: ["Le compte est facultatif. Si vous parcourez la carte sans vous connecter, nous ne gardons ni compte ni coordonnées à votre sujet. Pour retirer votre consentement publicitaire, touchez « Options de confidentialité » dans l'application."] },
       { h: "Depuis l'application", steps: [
-        ['Ouvrez {app} et touchez « Paramètres »', 'Vous devez être connecté avec votre compte Google.'],
-        ['Touchez « Supprimer mon compte »', 'Google vous demande de confirmer votre compte.'],
+        ['Ouvrez {app} et touchez « Paramètres »', 'Vous devez être connecté à votre compte.'],
+        ['Touchez « Supprimer mon compte »', 'Google ou Apple vous demande de confirmer votre compte.'],
         ["C'est fait", "Vos coordonnées et les demandes que vous avez envoyées sont supprimées. Si vous êtes guide, vos offres quittent la carte, puis vos offres et votre profil sont supprimés. Votre compte est supprimé lui aussi. C’est définitif."],
       ] },
-      { h: "Sans l'application", p: ["Écrivez à {contact} depuis l'adresse de votre compte Google, avec pour objet « Supprimer mon compte ». Nous supprimons votre compte et vos données (coordonnées, demandes, et pour un guide son profil et ses offres) dans les 30 jours et vous le confirmons par courriel."] },
+      { h: "Sans l'application", p: ["Écrivez à {contact} depuis l'adresse de votre compte, avec pour objet « Supprimer mon compte ». Si vous avez masqué votre courriel avec Apple, supprimez plutôt le compte depuis l'application, ou donnez-nous votre adresse relais. Nous supprimons votre compte et vos données (coordonnées, demandes, et pour un guide son profil et ses offres) dans les 30 jours et vous le confirmons par courriel."] },
       { h: 'Ce qui est supprimé', list: [
         'Vos coordonnées (« Mes coordonnées ») : nom, courriel, téléphone',
         'Les demandes que vous avez envoyées aux guides',
@@ -677,11 +677,11 @@ export const DELETION = {
     sections: [
       { h: 'No account, nothing to delete', p: ["An account is optional. If you browse the map without signing in, we keep no account and no contact details about you. To withdraw your ad consent, tap \"Privacy options\" in the app."] },
       { h: 'In the app', steps: [
-        ['Open {app} and tap "Settings"', 'You need to be signed in with your Google account.'],
-        ['Tap "Delete my account"', 'Google asks you to confirm your account.'],
+        ['Open {app} and tap "Settings"', 'You need to be signed in to your account.'],
+        ['Tap "Delete my account"', 'Google or Apple asks you to confirm your account.'],
         ["That's it", "Your contact info and the requests you sent are deleted. If you are a guide, your offers come off the map, then your offers and profile are deleted. Your account is deleted too. This can't be undone."],
       ] },
-      { h: 'Without the app', p: ['Email {contact} from your Google account\'s address, with the subject "Delete my account". We delete your account and data (contact info, requests, and for a guide their profile and offers) within 30 days and confirm by email.'] },
+      { h: 'Without the app', p: ['Email {contact} from your account\'s address, with the subject "Delete my account". If you hid your email with Apple, delete the account from the app instead, or tell us your relay address. We delete your account and data (contact info, requests, and for a guide their profile and offers) within 30 days and confirm by email.'] },
       { h: 'What is deleted', list: [
         'Your contact info ("My contact info"): name, email, phone',
         'The requests you sent to guides',

@@ -13,18 +13,18 @@ How the app works (state only this, never invent features):
   under "Other dates", and the date the user picks goes with their request to the guide.
 - Map filters also include the dates the user is free: only trips that fit entirely within them show. Offers whose
   one-time dates are over leave the map.
-- One Google account for both roles, and optional: the map and the offers work signed out. First launch: sign in or
+- One account (Google, or Apple on iPhone) for both roles, and optional: the map and the offers work signed out. First launch: sign in or
   "Later", then "What brings you here?": looking for a guide, or "I'm a guide"; Settings switches anytime. The species
   filter (several species, on its own screen) is kept on the phone for next time, and is also in Settings.
 - Contacting a guide: after a short optional video ad, the signed-in user taps "I'm interested" (« Je suis intéressé »)
-  and the guide gets a request with their name, Google email, optional phone ("My contact info" / « Mes coordonnées »)
+  and the guide gets a request with their name, account email, optional phone ("My contact info" / « Mes coordonnées »)
   and the trip date picked. "My requests" (« Mes demandes ») shows each one: Pending, Accepted, Declined, Cancelled
   (send again) or "Offer removed" (« Offre retirée »). Once the guide accepts, the user sees the guide's business name,
   phone, email and website. The guide's contact is never shown before that. No fee for users, no bookings or payments.
 - Featured offers (« En vedette »): a guide boosts an offer on the map for 3 days after a rewarded ad (free); its pin
   gets a gold ring and star and a "Featured" badge; at most 3 show at a time in view, taking turns. Native ads appear in
   some lists (the guide's home). No push notifications (requests show when a screen opens).
-- Guides list themselves for free: sign in with Google, a profile, as many offers as they like, each in five steps
+- Guides list themselves for free: sign in with Google or Apple, a profile, as many offers as they like, each in five steps
   (the trip, species, where, when, price and send); dates are added one by one or weekly, on those dates only or every
   year; every offer is reviewed by us before it goes on the map. They answer requests in "Requests received"
   (« Demandes reçues »): call or email the person, Accept or Decline.
